@@ -1,0 +1,38 @@
+name: Claude Doc Review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  issue_comment:
+    types: [created]
+
+jobs:
+  review:
+    if: github.event_name == 'pull_request' || contains(github.event.comment.body, '@claude')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            You are reviewing documentation changes for ENAF (Enterprise
+            Network Architecture Framework), a methodology framework written
+            in markdown. Review the changed files in this PR for:
+            - Clarity and readability
+            - Consistent terminology across sections (e.g. don't mix
+              "Target State" and "Future State" for the same concept)
+            - Logical structure and whether headings/sections flow sensibly
+            - Any contradictions with other parts of the framework
+            - Typos and grammar
+
+            This is documentation, not code — do not comment on programming
+            style, syntax, or suggest code changes. Post your feedback as
+            comments on the relevant lines.
+        
