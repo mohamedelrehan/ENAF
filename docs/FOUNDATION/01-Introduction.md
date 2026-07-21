@@ -1,6 +1,6 @@
 # Introduction
 
-## 1. Purpose
+## Purpose
 
 The Enterprise Network Architecture Framework (ENAF) is a practical methodology for designing, transforming, governing, operating, and continuously improving enterprise network environments.
 
@@ -24,7 +24,7 @@ The framework provides a structured path from understanding business needs to op
 
 ---
 
-## 2. The Enterprise Network Challenge
+## The Enterprise Network Challenge
 
 Enterprise networks have become more complex than traditional data center and branch connectivity models.
 
@@ -64,7 +64,7 @@ ENAF addresses these challenges through one integrated enterprise network archit
 
 ---
 
-## 3. What ENAF Provides
+## What ENAF Provides
 
 ENAF provides a repeatable structure for moving from business intent to operational excellence.
 
@@ -97,7 +97,7 @@ This creates traceability from the original business need to the final operation
 
 ---
 
-## 4. ENAF Lifecycle
+## ENAF Lifecycle
 
 The ENAF lifecycle is:
 
