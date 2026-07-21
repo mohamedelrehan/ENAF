@@ -200,6 +200,8 @@ See **LICENSE**.
 
 ---
 
+**Author**
+
 # Author
 
 **Mohamed Elrehan**
