@@ -1,0 +1,45 @@
+Creative Commons Attribution 4.0 International
+
+Copyright (c) 2026 Mohamed Elrehan
+
+The Enterprise Network Architecture Framework (ENAF), including its
+methodology, documentation, architecture guidance, templates, checklists,
+decision patterns, reference architectures, diagrams, and case studies, is
+licensed under the Creative Commons Attribution 4.0 International License.
+
+You are free to:
+
+- Share — copy and redistribute the material in any medium or format.
+- Adapt — remix, transform, and build upon the material for any purpose,
+  including commercial purposes.
+
+Under the following terms:
+
+- Attribution — You must give appropriate credit to Mohamed Elrehan and the
+  Enterprise Network Architecture Framework (ENAF), provide a reference to
+  the applicable license, and indicate whether changes were made.
+
+- No additional restrictions — You may not apply legal terms or technological
+  measures that legally restrict others from doing anything permitted by this
+  license.
+
+Recommended attribution:
+
+"Based on the Enterprise Network Architecture Framework (ENAF), created by
+Mohamed Elrehan, licensed under CC BY 4.0."
+
+This license applies unless a specific file or directory states otherwise.
+
+Third-party names, trademarks, frameworks, standards, and referenced materials
+remain the property of their respective owners. Their inclusion within ENAF
+does not imply ownership, endorsement, sponsorship, or affiliation.
+
+ENAF is provided for educational, architectural, and professional guidance.
+It is provided without warranties or guarantees of any kind. Organizations
+remain responsible for validating architecture decisions, security controls,
+regulatory obligations, operational requirements, and implementation risks
+within their own environments.
+
+Full license terms:
+
+https://creativecommons.org/licenses/by/4.0/legalcode
