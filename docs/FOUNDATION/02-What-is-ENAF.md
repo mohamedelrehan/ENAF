@@ -1,6 +1,6 @@
 # What is ENAF?
 
-## 1. Introduction
+## Introduction
 
 The Enterprise Network Architecture Framework (ENAF) is a practical, vendor-neutral methodology for designing, transforming, governing, operating, and continuously improving enterprise network architectures.
 
@@ -10,7 +10,7 @@ ENAF is intended to bridge the gap between business vision and technical impleme
 
 ---
 
-# 2. Why ENAF Exists
+# Why ENAF Exists
 
 Modern enterprise environments have become significantly more complex.
 
@@ -44,7 +44,7 @@ ENAF was created to address these challenges through a structured enterprise arc
 
 ---
 
-# 3. What ENAF Is
+# What ENAF Is
 
 ENAF is:
 
@@ -63,7 +63,7 @@ It provides guidance for moving from business strategy to measurable operational
 
 ---
 
-# 4. What ENAF Is Not
+# What ENAF Is Not
 
 ENAF is not:
 
@@ -82,7 +82,7 @@ Instead, ENAF complements these disciplines by providing an enterprise network a
 
 ---
 
-# 5. The ENAF Philosophy
+# The ENAF Philosophy
 
 ENAF is based on a simple principle:
 
@@ -98,7 +98,7 @@ This philosophy influences every lifecycle stage.
 
 ---
 
-# 6. The ENAF Lifecycle
+# The ENAF Lifecycle
 
 ENAF organizes enterprise architecture into a continuous lifecycle.
 
@@ -129,7 +129,7 @@ Unlike traditional methodologies, ENAF treats architecture as a continuous capab
 
 ---
 
-# 7. Core Objectives
+# Core Objectives
 
 ENAF helps organizations:
 
@@ -147,7 +147,7 @@ ENAF helps organizations:
 
 ---
 
-# 8. Design Principles
+# Design Principles
 
 Every ENAF activity follows these principles:
 
@@ -166,24 +166,24 @@ These principles remain consistent regardless of technology vendors or deploymen
 
 ---
 
-# 9. Business Value
+# Business Value
 
 Organizations adopting ENAF should expect improvements in areas such as:
 
-## Strategic
+## 1. Strategic
 
 - Better alignment with business goals
 - Faster decision making
 - Clear transformation priorities
 
-## Financial
+## 2. Financial
 
 - Reduced operational cost
 - Better investment planning
 - Reduced duplication
 - Improved vendor management
 
-## Technical
+## 3. Technical
 
 - Consistent architecture
 - Improved scalability
@@ -191,7 +191,7 @@ Organizations adopting ENAF should expect improvements in areas such as:
 - Improved security posture
 - Reduced technical debt
 
-## Operational
+## 4. Operational
 
 - Improved service availability
 - Better operational visibility
@@ -200,7 +200,7 @@ Organizations adopting ENAF should expect improvements in areas such as:
 
 ---
 
-# 10. Intended Use
+# Intended Use
 
 ENAF can be applied to:
 
@@ -220,7 +220,7 @@ It is equally suitable for new environments and existing enterprise networks.
 
 ---
 
-# 11. Relationship with Other Frameworks
+# Relationship with Other Frameworks
 
 ENAF works alongside established industry frameworks.
 
@@ -244,7 +244,7 @@ ENAF provides the network architecture methodology that connects these framework
 
 ---
 
-# 12. The ENAF Mindset
+# The ENAF Mindset
 
 Successful architecture is not measured by:
 
@@ -268,7 +268,7 @@ ENAF promotes architecture that is understandable, governable, and sustainable.
 
 ---
 
-# 13. Summary
+# Summary
 
 ENAF is a practical framework that helps organizations design, govern, transform, and operate enterprise network architectures.
 
