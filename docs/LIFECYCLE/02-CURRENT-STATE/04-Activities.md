@@ -1,435 +1,86 @@
 # Activities
 
-The Activities document defines the work performed during the Current State stage.
+## Purpose
 
-The purpose of these activities is to answer the fundamental ENAF question:
+The activities performed during the Current State stage provide a structured and repeatable methodology for assessing the organization's existing business and technology environment.
 
-> **Where are we today?**
+These activities guide Enterprise Architects through the process of collecting information, validating findings, assessing architectural domains, and establishing an approved Current State Architecture.
 
-Each activity contributes to building a trusted architectural baseline by assessing one or more Enterprise Assessment Domains.
-
-The activities should be completed in sequence, although some may be performed in parallel depending on the size and complexity of the organization.
+By following a consistent assessment methodology, organizations can ensure that architectural decisions are based on objective evidence, stakeholder collaboration, and a comprehensive understanding of the enterprise.
 
 ---
 
-# ACT-CSA-01 Understand the Business
+# Assessment Methodology
 
-## Purpose
+The Current State Assessment is performed through a series of structured activities that progressively develop an accurate understanding of the enterprise.
 
-Develop a comprehensive understanding of how the organization creates value, delivers products and services, and achieves its strategic objectives.
+Each activity builds upon the previous one, ensuring that information is validated, architectural relationships are understood, and the resulting Current State Architecture accurately represents the organization's existing environment.
 
-## Why It Is Performed
+The methodology is collaborative, evidence-based, and aligned with enterprise architecture governance practices.
 
-Enterprise Architecture must begin with the business rather than the technology.
-
-Understanding the business ensures that every future architectural decision supports measurable business outcomes.
-
-## Key Tasks
-
-- Review the business model.
-- Understand products and services.
-- Identify business capabilities.
-- Review organizational structure.
-- Understand business processes.
-- Identify business stakeholders.
-- Understand strategic priorities.
-
-## Participants
-
-- Business Leadership
-- Business Owners
-- Enterprise Architect
-
-## Inputs
-
-- IN-CSA-01 Approved Strategy
-- IN-CSA-02 Business Documentation
-
-## Outputs
-
-Supports:
-
-- DEL-CSA-01 Current State Assessment
-- DEL-CSA-02 Business Capability Assessment
-
-## Success Criteria
-
-- Business model understood.
-- Business capabilities identified.
-- Major business processes documented.
-- Stakeholders identified.
-
-## Related Enterprise Domains
-
-- Business
+```text
+Prepare Assessment
+        │
+        ▼
+Collect Information
+        │
+        ▼
+Assess Enterprise Domains
+        │
+        ▼
+Validate Findings
+        │
+        ▼
+Identify Risks & Opportunities
+        │
+        ▼
+Establish Current State Architecture
+```
 
 ---
 
-# ACT-CSA-02 Assess the Application Landscape
+# Assessment Activities
 
-## Purpose
-
-Develop a complete understanding of the applications supporting the enterprise.
-
-## Why It Is Performed
-
-Applications enable business capabilities and often represent significant operational complexity and technical debt.
-
-## Key Tasks
-
-- Inventory applications.
-- Identify business owners.
-- Review integrations.
-- Understand dependencies.
-- Review application lifecycle.
-- Identify redundant applications.
-
-## Participants
-
-- Application Owners
-- Enterprise Applications Team
-- Enterprise Architect
-
-## Inputs
-
-- IN-CSA-03 Application Documentation
-
-## Outputs
-
-Supports:
-
-- DEL-CSA-03 Application Inventory
-
-## Success Criteria
-
-- Application inventory completed.
-- Critical integrations documented.
-- Major dependencies identified.
-
-## Related Enterprise Domains
-
-- Applications
+| Activity | Purpose | Primary Outcome |
+|-----------|---------|-----------------|
+| **Prepare the Assessment** | Define the scope, stakeholders, information sources, and assessment approach. | Assessment Plan |
+| **Collect Enterprise Information** | Gather business and technical information from approved enterprise sources. | Assessment Evidence |
+| **Assess Enterprise Domains** | Evaluate each architecture domain to understand the current environment. | Domain Assessments |
+| **Validate Assessment Findings** | Confirm findings through evidence and stakeholder engagement. | Validated Findings |
+| **Identify Risks and Opportunities** | Document strengths, weaknesses, constraints, technical debt, risks, and improvement opportunities. | Assessment Analysis |
+| **Establish the Current State Architecture** | Consolidate validated findings into an approved architectural baseline. | Current State Architecture |
 
 ---
 
-# ACT-CSA-03 Assess Infrastructure
+# Activity Details
 
-## Purpose
+## 1. Prepare the Assessment
 
-Understand the organization's existing infrastructure platforms and supporting technologies.
+The assessment begins by defining its scope, objectives, stakeholders, governance approach, and information sources.
 
-## Why It Is Performed
+Enterprise Architects identify the business units, technology teams, subject matter experts, documentation repositories, and enterprise platforms that will contribute to the assessment.
 
-Infrastructure provides the foundation for enterprise services and directly influences scalability, resilience, and operational efficiency.
-
-## Key Tasks
-
-- Assess compute platforms.
-- Assess storage.
-- Assess virtualization.
-- Review backup.
-- Review disaster recovery.
-- Identify infrastructure dependencies.
-
-## Participants
-
-- Infrastructure Team
-- Platform Engineering
-- Enterprise Architect
-
-## Inputs
-
-- IN-CSA-04 Infrastructure Documentation
-
-## Outputs
-
-Supports:
-
-- DEL-CSA-04 Infrastructure Assessment
-
-## Success Criteria
-
-- Infrastructure inventory completed.
-- Platform dependencies identified.
-- Major risks documented.
-
-## Related Enterprise Domains
-
-- Infrastructure
+The objective of this activity is to ensure that the assessment is properly planned before information collection begins.
 
 ---
 
-# ACT-CSA-04 Assess Network Architecture
+## 2. Collect Enterprise Information
 
-## Purpose
+Enterprise Architects gather information from approved enterprise sources, including business documentation, technical documentation, architecture repositories, operational systems, monitoring platforms, governance artifacts, and stakeholder interviews.
 
-Develop a complete understanding of the enterprise connectivity architecture.
+Information should be collected from multiple sources whenever possible to improve accuracy and completeness.
 
-## Why It Is Performed
-
-The network enables communication between users, applications, services, cloud platforms, and external partners.
-
-A clear understanding of the existing network is essential before designing future connectivity.
-
-## Key Tasks
-
-- Review WAN architecture.
-- Review LAN architecture.
-- Review wireless architecture.
-- Review Internet connectivity.
-- Review SD-WAN.
-- Review remote access.
-- Review DNS.
-- Review load balancing.
-- Review network resilience.
-- Identify dependencies.
-
-## Participants
-
-- Network Engineering
-- Network Operations
-- Enterprise Architect
-
-## Inputs
-
-- IN-CSA-05 Network Documentation
-
-## Outputs
-
-Supports:
-
-- DEL-CSA-05 Network Assessment
-
-## Success Criteria
-
-- Network topology understood.
-- Connectivity documented.
-- Network dependencies identified.
-- Risks documented.
-
-## Related Enterprise Domains
-
-- Network
+Every significant finding should be traceable to verifiable evidence.
 
 ---
 
-# ACT-CSA-05 Assess Cloud Platforms
+## 3. Assess Enterprise Domains
 
-## Purpose
+Each architecture domain is assessed independently while considering its relationships with the broader enterprise architecture.
 
-Understand the organization's cloud architecture and operational maturity.
+The assessment evaluates the current capabilities, maturity, dependencies, operational effectiveness, architectural alignment, and existing constraints within each domain.
 
-## Key Tasks
-
-- Assess cloud landing zones.
-- Assess subscriptions.
-- Assess networking.
-- Assess governance.
-- Assess identity integration.
-- Assess operational maturity.
-
-## Participants
-
-- Cloud Team
-- Cloud Operations
-- Enterprise Architect
-
-## Inputs
-
-- IN-CSA-06 Cloud Documentation
-
-## Outputs
-
-Supports:
-
-- DEL-CSA-06 Cloud Assessment
-
-## Success Criteria
-
-- Cloud environments understood.
-- Governance documented.
-- Risks identified.
-
-## Related Enterprise Domains
-
-- Cloud
-
----
-
-# ACT-CSA-06 Assess Security
-
-## Purpose
-
-Understand the organization's current security capabilities.
-
-## Key Tasks
-
-- Assess IAM.
-- Assess network security.
-- Assess endpoint protection.
-- Assess monitoring.
-- Assess compliance.
-- Review Zero Trust initiatives.
-- Review security operations.
-
-## Participants
-
-- Security Team
-- SOC
-- Enterprise Architect
-
-## Inputs
-
-- IN-CSA-07 Security Documentation
-
-## Outputs
-
-Supports:
-
-- DEL-CSA-07 Security Assessment
-
-## Success Criteria
-
-- Security architecture understood.
-- Security gaps identified.
-- Compliance posture documented.
-
-## Related Enterprise Domains
-
-- Security
-
----
-
-# ACT-CSA-07 Assess Operations
-
-## Purpose
-
-Understand how enterprise services are operated and supported.
-
-## Key Tasks
-
-- Review monitoring.
-- Review automation.
-- Review incident management.
-- Review problem management.
-- Review change management.
-- Review operational maturity.
-
-## Participants
-
-- Operations Team
-- Service Management
-- Enterprise Architect
-
-## Inputs
-
-- IN-CSA-08 Operational Documentation
-
-## Outputs
-
-Supports:
-
-- DEL-CSA-08 Operations Assessment
-
-## Success Criteria
-
-- Operational processes documented.
-- Service management maturity understood.
-- Automation opportunities identified.
-
-## Related Enterprise Domains
-
-- Operations
-
----
-
-# ACT-CSA-08 Assess Governance
-
-## Purpose
-
-Understand how technology decisions are governed across the enterprise.
-
-## Key Tasks
-
-- Review architecture standards.
-- Review policies.
-- Review governance boards.
-- Review decision processes.
-- Review compliance.
-- Review documentation standards.
-
-## Participants
-
-- Enterprise Architecture
-- Governance Board
-- Risk Management
-
-## Inputs
-
-- IN-CSA-09 Governance Documentation
-
-## Outputs
-
-Supports:
-
-- DEL-CSA-01 Current State Assessment
-
-## Success Criteria
-
-- Governance model understood.
-- Standards documented.
-- Decision-making process understood.
-
-## Related Enterprise Domains
-
-- Governance
-
----
-
-# ACT-CSA-09 Identify Risks and Technical Debt
-
-## Purpose
-
-Identify the business and technical factors that may affect the transformation.
-
-## Why It Is Performed
-
-Understanding risk early enables better architectural decisions and more realistic transformation planning.
-
-## Key Tasks
-
-- Identify business risks.
-- Identify technical risks.
-- Identify operational risks.
-- Identify architectural constraints.
-- Identify technical debt.
-- Document improvement opportunities.
-
-## Participants
-
-- Enterprise Architect
-- Domain Architects
-- Business Representatives
-- Technical SMEs
-
-## Inputs
-
-- Findings from ACT-CSA-01 through ACT-CSA-08
-
-## Outputs
-
-Supports:
-
-- DEL-CSA-09 Technical Debt Register
-- DEL-CSA-10 Current State Summary
-
-## Success Criteria
-
-- Risks documented.
-- Constraints identified.
-- Technical debt prioritized.
-
-## Related Enterprise Domains
+Typical assessment domains include:
 
 - Business
 - Applications
@@ -438,12 +89,114 @@ Supports:
 - Cloud
 - Security
 - Operations
-- Governance
+- Architecture Governance
 
 ---
 
-# Activity Summary
+## 4. Validate Assessment Findings
 
-The Current State activities establish the architectural baseline by systematically assessing every Enterprise Assessment Domain.
+Assessment findings should be validated before becoming part of the Current State Architecture.
 
-The outputs produced by these activities become the evidence used to create the Current State Assessment, validate the architectural baseline, and provide the foundation for the Target State stage.
+Validation includes:
+
+- Reviewing collected evidence.
+- Confirming findings with business stakeholders.
+- Confirming technical observations with engineering teams.
+- Resolving inconsistencies.
+- Verifying architectural relationships.
+
+The objective is to ensure that the architectural baseline accurately reflects the enterprise.
+
+---
+
+## 5. Identify Risks and Opportunities
+
+Following validation, Enterprise Architects analyse the assessment results to identify:
+
+- Architectural strengths
+- Operational challenges
+- Technology limitations
+- Technical debt
+- Security gaps
+- Compliance concerns
+- Business constraints
+- Improvement opportunities
+
+These findings provide important input for designing the Target State Architecture.
+
+---
+
+## 6. Establish the Current State Architecture
+
+The final activity consolidates all validated assessment findings into a single architectural baseline.
+
+The Current State Architecture represents the organization's approved view of its existing business and technology environment and becomes the primary reference for future architecture and transformation activities.
+
+The architectural baseline should be reviewed through the organization's governance process before progressing to the Decision Gate.
+
+---
+
+# Assessment Principles
+
+The Current State Assessment should be performed in accordance with the following principles.
+
+| Principle | Description |
+|-----------|-------------|
+| **Evidence-Based** | Findings should be supported by objective and verifiable information. |
+| **Business-Driven** | The assessment should focus on enabling business outcomes rather than documenting technology for its own sake. |
+| **Enterprise-Wide** | The assessment should consider the enterprise as an integrated ecosystem rather than isolated systems. |
+| **Collaborative** | Business and technology stakeholders should participate throughout the assessment process. |
+| **Objective** | Conclusions should remain independent of vendors, products, and personal preferences. |
+| **Traceable** | Significant findings should be traceable to approved enterprise sources. |
+| **Repeatable** | The methodology should produce consistent results when applied across different transformation initiatives. |
+
+---
+
+# Success Considerations
+
+The effectiveness of the Current State Assessment depends upon several critical success factors.
+
+| Success Factor | Description |
+|----------------|-------------|
+| **Executive Sponsorship** | Leadership support enables enterprise-wide participation and access to information. |
+| **Stakeholder Engagement** | Active involvement from business and technical stakeholders improves assessment quality. |
+| **Reliable Information** | Assessment findings depend on accurate, current, and validated enterprise information. |
+| **Cross-Domain Collaboration** | Collaboration across architecture domains provides a complete enterprise perspective. |
+| **Governance** | Regular architectural reviews ensure assessment quality and consistency. |
+
+---
+
+# Relationship to Other Lifecycle Stages
+
+The activities performed during the Current State stage establish the architectural baseline that supports all subsequent lifecycle stages.
+
+```text
+Strategy
+      │
+      ▼
+Current State Activities
+      │
+      ▼
+Current State Architecture
+      │
+      ▼
+Target State
+      │
+      ▼
+Architecture
+      │
+      ▼
+Roadmap
+```
+
+Every architecture decision made during subsequent stages should be informed by the approved Current State Architecture.
+
+---
+
+# Summary
+
+The activities of the Current State stage provide a structured methodology for understanding the enterprise as it exists today.
+
+By following a consistent process of planning, information collection, domain assessment, validation, analysis, and architectural consolidation, Enterprise Architects establish a trusted Current State Architecture that supports informed decision-making, effective governance, and the successful design of the Target State Architecture.
+
+The completion of these activities provides the evidence and confidence required to progress to **DG-CSA-01 Current State Decision Gate**, where the architectural baseline is formally reviewed and approved.
