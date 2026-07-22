@@ -1,130 +1,86 @@
 # Objectives
 
-The objective of the Current State stage is to establish a complete, accurate, and validated understanding of the organization's existing enterprise environment.
+## Overview
 
-By answering the question **"Where are we today?"**, Enterprise Architects create the architectural baseline required to design an achievable Target State and develop a realistic transformation roadmap.
+The Current State stage establishes the architectural baseline upon which all subsequent enterprise architecture and transformation activities depend.
 
-The assessment focuses on understanding the enterprise as it currently exists rather than defining future solutions or recommending technologies.
+The objectives of this stage define the expected outcomes of the assessment and provide a common understanding of what must be achieved before the organization can progress to the Target State stage.
 
-The outcomes of this stage provide the evidence required for informed architectural decision-making throughout the remainder of the ENAF lifecycle.
-
----
-
-# Primary Objective
-
-Establish a trusted architectural baseline that accurately represents the organization's current business and technology environment across all Enterprise Assessment Domains.
-
-This baseline becomes the reference point for every subsequent lifecycle stage.
+Collectively, these objectives ensure that the Current State Assessment produces a complete, accurate, and trusted representation of the enterprise, enabling informed architectural decision-making and reducing transformation risk.
 
 ---
 
 # Assessment Objectives
 
-The Current State stage has the following assessment objectives.
-
-## OBJ-CSA-01 Understand the Business
-
-Develop a clear understanding of the organization's business model, strategic capabilities, organizational structure, products, services, and business processes.
-
----
-
-## OBJ-CSA-02 Assess Business Capabilities
-
-Identify and evaluate the business capabilities that enable the organization to deliver value.
-
-Determine how effectively current capabilities support strategic business objectives.
+| ID | Objective | Description |
+|----|-----------|-------------|
+| **OBJ-CSA-01** | **Understand the Enterprise** | Develop a comprehensive understanding of the organization's current business and technology environment, including its operating model, capabilities, services, and supporting technologies. |
+| **OBJ-CSA-02** | **Establish the Architectural Baseline** | Produce an accurate and validated Current State Architecture that serves as the authoritative baseline for future architecture and transformation activities. |
+| **OBJ-CSA-03** | **Assess Enterprise Capabilities** | Evaluate the maturity, effectiveness, and alignment of business capabilities, applications, infrastructure, networks, cloud services, security, operations, and governance. |
+| **OBJ-CSA-04** | **Identify Strengths and Opportunities** | Identify architectural strengths that should be preserved, along with opportunities for optimization, modernization, simplification, and business improvement. |
+| **OBJ-CSA-05** | **Identify Risks and Constraints** | Discover architectural risks, operational challenges, technical debt, dependencies, compliance considerations, and other factors that may influence future transformation initiatives. |
+| **OBJ-CSA-06** | **Validate Assessment Findings** | Ensure that all assessment findings are supported by objective evidence and validated through collaboration with business stakeholders, technical teams, and subject matter experts. |
+| **OBJ-CSA-07** | **Enable Architectural Decision-Making** | Provide trusted information that supports architecture governance, investment planning, technology decisions, and enterprise transformation initiatives. |
+| **OBJ-CSA-08** | **Prepare for the Target State** | Establish the knowledge, architectural baseline, and governance approval required to design a realistic, achievable, and business-aligned Target State Architecture. |
 
 ---
 
-## OBJ-CSA-03 Assess the Application Landscape
+# Expected Outcomes
 
-Understand the applications currently supporting the business, including their purpose, ownership, integrations, lifecycle, and dependencies.
+The successful completion of the Current State stage should achieve the following outcomes.
 
----
-
-## OBJ-CSA-04 Assess the Infrastructure Environment
-
-Evaluate the existing infrastructure landscape, including compute, storage, virtualization, data centers, and supporting platforms.
-
----
-
-## OBJ-CSA-05 Assess the Network Architecture
-
-Understand the organization's current connectivity architecture, including WAN, LAN, wireless, Internet access, remote connectivity, cloud connectivity, resilience, and supporting network services.
-
----
-
-## OBJ-CSA-06 Assess Cloud Platforms
-
-Assess the organization's cloud environments, landing zones, connectivity models, governance, and operational maturity.
-
----
-
-## OBJ-CSA-07 Assess Security Capabilities
-
-Understand how security is currently implemented, including identity management, access control, network security, endpoint protection, monitoring, compliance, and risk management.
-
----
-
-## OBJ-CSA-08 Assess Operational Capabilities
-
-Evaluate operational processes, service management practices, monitoring capabilities, automation, support models, and operational maturity.
-
----
-
-## OBJ-CSA-09 Assess Governance
-
-Understand the organization's governance model, including architecture standards, policies, documentation, decision-making processes, lifecycle management, and compliance practices.
-
----
-
-## OBJ-CSA-10 Identify Risks and Technical Debt
-
-Identify existing business and technical risks, architectural constraints, operational challenges, and areas of technical debt that may affect the transformation.
-
----
-
-## OBJ-CSA-11 Establish the Architectural Baseline
-
-Consolidate assessment findings into a validated Current State Assessment that accurately represents the enterprise and serves as the foundation for the Target State.
+| Outcome | Description |
+|---------|-------------|
+| **Trusted Architectural Baseline** | An approved Current State Architecture accurately representing the organization's existing environment. |
+| **Shared Enterprise Understanding** | A common understanding of the enterprise across business and technology stakeholders. |
+| **Validated Assessment Findings** | Findings that have been verified through evidence, stakeholder engagement, and technical analysis. |
+| **Documented Risks and Constraints** | A clear understanding of architectural risks, technical debt, dependencies, and transformation constraints. |
+| **Improvement Opportunities** | Identified opportunities for modernization, optimization, standardization, and innovation. |
+| **Decision Support** | Reliable information to support architecture governance and strategic decision-making. |
+| **Target State Readiness** | A validated architectural baseline enabling the design of the future enterprise architecture. |
 
 ---
 
 # Success Criteria
 
-The Current State stage is considered successful when:
+The objectives of the Current State stage are considered achieved when:
 
-- The existing enterprise is fully understood.
-- Business capabilities have been assessed.
-- Technology assets have been identified.
-- Enterprise dependencies are documented.
-- Operational maturity is understood.
-- Governance maturity is understood.
-- Technical debt has been identified.
-- Risks and constraints have been documented.
-- The architectural baseline has been validated.
-- Stakeholders have confidence in the assessment findings.
+- The enterprise has been assessed across all applicable architecture domains.
+- Assessment findings have been validated through evidence and stakeholder engagement.
+- Risks, constraints, dependencies, and improvement opportunities have been documented.
+- The Current State Architecture has been completed and approved.
+- Business and technology stakeholders share a common understanding of the current environment.
+- The architectural baseline is considered sufficiently complete to support the design of the Target State Architecture.
+- **DG-CSA-01 Current State Decision Gate** has been successfully approved.
 
 ---
 
-# Relationship to the ENAF Lifecycle
+# Relationship to Other Lifecycle Stages
 
-The objectives of the Current State stage directly support the following lifecycle progression.
+The objectives of the Current State stage directly support the remainder of the ENAF lifecycle.
 
-| Lifecycle Stage | Primary Question |
-|-----------------|------------------|
-| Strategy | Why are we transforming? |
-| **Current State** | **Where are we today?** |
-| Target State | Where do we want to be? |
+```text
+Strategy
+    │
+    ▼
+Current State Objectives
+    │
+    ▼
+Current State Assessment
+    │
+    ▼
+Architectural Baseline
+    │
+    ▼
+Target State
+```
 
-By achieving these objectives, the Enterprise Architecture team creates the evidence required to design a realistic Target State that aligns with business strategy and reflects the organization's current capabilities and constraints.
+The successful achievement of these objectives provides the architectural knowledge and governance confidence required to transition from understanding the existing enterprise to designing its future state.
 
 ---
 
 # Summary
 
-The objective of the Current State stage is to develop a trusted understanding of the existing enterprise.
+The objectives of the Current State stage define the expected outcomes of the enterprise assessment and establish the criteria for a successful architectural baseline.
 
-Through a structured assessment of the Enterprise Assessment Domains, ENAF establishes the architectural baseline that enables informed decision-making throughout the remainder of the transformation lifecycle.
-
-A well-defined Current State reduces uncertainty, minimizes transformation risk, and provides the foundation for designing the future enterprise.
+By ensuring that the organization's current environment is comprehensively understood, objectively assessed, and formally validated, these objectives provide the foundation for informed decision-making, effective governance, and the successful design of the Target State Architecture.
