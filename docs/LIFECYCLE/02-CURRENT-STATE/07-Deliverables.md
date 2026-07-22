@@ -1,268 +1,143 @@
 # Deliverables
 
-The Deliverables document defines the architecture artifacts produced during the Current State stage.
+## Purpose
 
-These deliverables represent the validated outputs of the Current State Assessment and establish the architectural baseline for the organization.
+The purpose of the Deliverables document is to define the architectural artifacts produced during the Current State stage.
 
-Each deliverable is created through one or more Current State activities and serves as an input to the Target State stage.
+These deliverables provide a structured representation of the organization's existing business and technology environment and collectively establish the approved **Current State Architecture**.
 
-Collectively, these deliverables provide a comprehensive understanding of the organization's current business and technology landscape.
-
----
-
-# Primary Deliverable
-
-The primary deliverable of the Current State stage is the **Current State Assessment**.
-
-This assessment consolidates the findings from all Enterprise Assessment Domains into a single architectural baseline that accurately represents the organization as it exists today.
-
-The Current State Assessment becomes the official reference for all future architecture and transformation decisions.
+Each deliverable contributes to a comprehensive understanding of the enterprise and provides evidence to support architectural governance, decision-making, and the design of the Target State Architecture.
 
 ---
 
-# Deliverables
+# Deliverable Overview
 
-## DEL-CSA-01 Current State Assessment
+The Current State stage produces a set of architectural deliverables that collectively establish the enterprise architectural baseline.
 
-### Purpose
-
-Provides a consolidated view of the organization's current enterprise architecture across all Enterprise Assessment Domains.
-
-### Produced By
-
-- ACT-CSA-01 through ACT-CSA-09
-
-### Owner
-
-Enterprise Architect
-
-### Consumed By
-
-Target State Stage
+| Deliverable | Purpose | Primary Consumer |
+|-------------|---------|------------------|
+| **Current State Architecture** | Represents the approved baseline of the existing enterprise architecture. | Target State |
+| **Architecture Assessment Report** | Summarizes assessment findings, observations, and recommendations. | Architecture Governance |
+| **Capability Assessment** | Documents the maturity and effectiveness of business and technology capabilities. | Enterprise Architects |
+| **Risk and Constraint Register** | Identifies architectural risks, dependencies, technical debt, and constraints. | Transformation Program |
+| **Improvement Opportunities Register** | Captures opportunities for modernization, optimization, and standardization. | Portfolio & Transformation Teams |
+| **Stakeholder Assessment Summary** | Documents stakeholder feedback and validated business requirements. | Business & IT Leadership |
 
 ---
 
-## DEL-CSA-02 Business Capability Assessment
+# Deliverable Descriptions
 
-### Purpose
+## Current State Architecture
 
-Documents the current business capabilities, business processes, organizational structure, and business maturity.
+The Current State Architecture is the primary deliverable of the Current State stage.
 
-### Produced By
-
-- ACT-CSA-01 Understand the Business
-
-### Owner
-
-Enterprise Architect
-
-### Consumed By
-
-Target State Stage
+It provides a validated representation of the organization's existing architecture across all assessed domains and serves as the authoritative baseline for the remainder of the ENAF lifecycle.
 
 ---
 
-## DEL-CSA-03 Application Assessment
+## Architecture Assessment Report
 
-### Purpose
+The Architecture Assessment Report consolidates the findings from the assessment activities.
 
-Documents the current application landscape, business ownership, integrations, lifecycle, and dependencies.
-
-### Produced By
-
-- ACT-CSA-02 Assess the Application Landscape
-
-### Owner
-
-Enterprise Applications Team
-
-### Consumed By
-
-Target State Stage
+It summarizes observations, key findings, architectural strengths, weaknesses, dependencies, and areas requiring further attention.
 
 ---
 
-## DEL-CSA-04 Infrastructure Assessment
+## Capability Assessment
 
-### Purpose
+The Capability Assessment evaluates the current maturity and effectiveness of business and technology capabilities.
 
-Documents the existing infrastructure environment, including compute, storage, virtualization, backup, resilience, and platform dependencies.
-
-### Produced By
-
-- ACT-CSA-03 Assess Infrastructure
-
-### Owner
-
-Infrastructure Team
-
-### Consumed By
-
-Target State Stage
+The assessment identifies areas that support business objectives effectively as well as capabilities that require enhancement or modernization.
 
 ---
 
-## DEL-CSA-05 Network Assessment
+## Risk and Constraint Register
 
-### Purpose
+The Risk and Constraint Register documents factors that may influence future architecture decisions, including:
 
-Documents the organization's current network architecture, connectivity services, resilience, dependencies, and operational characteristics.
+- Technical debt
+- Legacy technologies
+- Operational limitations
+- Architectural dependencies
+- Security risks
+- Compliance considerations
+- Business constraints
 
-### Produced By
-
-- ACT-CSA-04 Assess Network Architecture
-
-### Owner
-
-Network Architecture Team
-
-### Consumed By
-
-Target State Stage
+These items provide important input for designing the Target State Architecture and developing the transformation roadmap.
 
 ---
 
-## DEL-CSA-06 Cloud Assessment
+## Improvement Opportunities Register
 
-### Purpose
+This deliverable identifies opportunities to improve the enterprise architecture through modernization, simplification, automation, standardization, cloud adoption, security enhancement, or operational optimization.
 
-Documents the current cloud platforms, landing zones, governance model, networking, identity integration, and operational maturity.
-
-### Produced By
-
-- ACT-CSA-05 Assess Cloud Platforms
-
-### Owner
-
-Cloud Architecture Team
-
-### Consumed By
-
-Target State Stage
+The register supports future prioritization and investment planning.
 
 ---
 
-## DEL-CSA-07 Security Assessment
+## Stakeholder Assessment Summary
 
-### Purpose
+The Stakeholder Assessment Summary captures the perspectives, concerns, priorities, and validation provided by business leaders, technical teams, operational staff, and subject matter experts throughout the assessment.
 
-Documents the current security architecture, security capabilities, compliance posture, and identified security gaps.
-
-### Produced By
-
-- ACT-CSA-06 Assess Security
-
-### Owner
-
-Security Architecture Team
-
-### Consumed By
-
-Target State Stage
+It ensures that the Current State Architecture reflects a shared understanding of the enterprise.
 
 ---
 
-## DEL-CSA-08 Operations Assessment
+# Deliverable Quality Principles
 
-### Purpose
+All Current State deliverables should demonstrate the following characteristics.
 
-Documents the operational model, service management capabilities, monitoring, automation, and operational maturity.
-
-### Produced By
-
-- ACT-CSA-07 Assess Operations
-
-### Owner
-
-Operations Team
-
-### Consumed By
-
-Target State Stage
-
----
-
-## DEL-CSA-09 Governance Assessment
-
-### Purpose
-
-Documents the current governance model, architecture standards, policies, decision-making processes, and governance maturity.
-
-### Produced By
-
-- ACT-CSA-08 Assess Governance
-
-### Owner
-
-Enterprise Architecture
-
-### Consumed By
-
-Target State Stage
-
----
-
-## DEL-CSA-10 Risk and Technical Debt Register
-
-### Purpose
-
-Documents identified business risks, technical risks, architectural constraints, and technical debt that may affect the transformation.
-
-### Produced By
-
-- ACT-CSA-09 Identify Risks and Technical Debt
-
-### Owner
-
-Enterprise Architect
-
-### Consumed By
-
-Target State Stage
+| Principle | Description |
+|-----------|-------------|
+| **Complete** | Covers all agreed assessment scope and architecture domains. |
+| **Accurate** | Represents the enterprise based on validated evidence. |
+| **Consistent** | Aligns with enterprise architecture standards and governance. |
+| **Traceable** | Supported by documented sources and assessment findings. |
+| **Understandable** | Communicates information clearly to both business and technical stakeholders. |
+| **Maintainable** | Can be updated as the enterprise evolves. |
 
 ---
 
 # Deliverable Relationships
 
-The Current State deliverables collectively establish the architectural baseline for the enterprise.
+The deliverables are not independent documents; together they establish the approved Current State Architecture.
 
-Each deliverable contributes to the overall Current State Assessment and provides domain-specific knowledge that will be used to design the future enterprise architecture.
-
-| Deliverable | Primary Consumer |
-|-------------|------------------|
-| DEL-CSA-01 Current State Assessment | Target State |
-| DEL-CSA-02 Business Capability Assessment | Target State |
-| DEL-CSA-03 Application Assessment | Target State |
-| DEL-CSA-04 Infrastructure Assessment | Target State |
-| DEL-CSA-05 Network Assessment | Target State |
-| DEL-CSA-06 Cloud Assessment | Target State |
-| DEL-CSA-07 Security Assessment | Target State |
-| DEL-CSA-08 Operations Assessment | Target State |
-| DEL-CSA-09 Governance Assessment | Target State |
-| DEL-CSA-10 Risk and Technical Debt Register | Target State |
+```text
+Assessment Activities
+        │
+        ▼
+Assessment Findings
+        │
+        ▼
+Current State Deliverables
+        │
+        ▼
+Current State Architecture
+        │
+        ▼
+Target State Architecture
+```
 
 ---
 
-# Relationship to the ENAF Lifecycle
+# Governance and Approval
 
-The deliverables produced during the Current State stage provide the validated baseline required to design the future enterprise.
+Before the Current State stage can be completed, all deliverables should:
 
-Within the ENAF lifecycle:
+- Be reviewed for completeness and quality.
+- Be validated by the appropriate stakeholders.
+- Be aligned with enterprise architecture governance.
+- Support the objectives of the Current State stage.
+- Be approved through **DG-CSA-01 Current State Decision Gate**.
 
-- Objectives define what should be achieved.
-- Inputs provide the information required.
-- Activities perform the assessment.
-- Frameworks guide the assessment.
-- Compliance ensures regulatory alignment.
-- Deliverables capture the assessment results.
-- Decision Gates verify readiness before progressing to the Target State stage.
+Approval confirms that the Current State Architecture is complete and suitable for use as the baseline for the Target State stage.
 
 ---
 
 # Summary
 
-The Current State deliverables represent the official architectural baseline of the organization.
+The deliverables produced during the Current State stage collectively establish the approved architectural baseline of the enterprise.
 
-They provide a structured and validated view of the enterprise across all Enterprise Assessment Domains, enabling informed decision-making during the Target State stage.
+Through validated assessment findings, documented capabilities, identified risks, improvement opportunities, and stakeholder input, these deliverables provide a trusted foundation for architectural governance, informed decision-making, and the successful design of the Target State Architecture.
 
-By producing consistent and traceable architecture artifacts, ENAF ensures that every transformation initiative is based on a clear understanding of the existing environment.
+The successful approval of these deliverables marks the formal completion of the Current State stage and authorizes progression to the Target State stage.
