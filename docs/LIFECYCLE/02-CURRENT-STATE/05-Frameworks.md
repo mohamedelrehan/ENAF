@@ -1,137 +1,108 @@
 # Frameworks
 
-The Frameworks document identifies the industry standards and best practice frameworks that support the Current State stage.
+## Purpose
 
-ENAF is not intended to replace existing frameworks. Instead, it provides a practical methodology that incorporates proven practices from multiple industry standards.
+The Current State stage is supported by established enterprise architecture frameworks, industry standards, and recognized best practices that provide guidance for assessing the existing business and technology environment.
 
-Each framework contributes to specific activities performed during the Current State Assessment.
+Rather than replacing these frameworks, ENAF integrates their relevant practices into a single, structured methodology for establishing the Current State Architecture.
 
-The Enterprise Architect should apply the frameworks that are appropriate for the organization's business, regulatory, and technology environment.
-
----
-
-# Framework Mapping
-
-| ENAF Activity | TOGAF | COBIT | ITIL | NIST CSF | ISO 27001 | SABSA | Microsoft CAF | AWS Well-Architected |
-|---------------|--------|--------|------|-----------|------------|--------|----------------|----------------------|
-| ACT-CSA-01 Understand the Business | ✓ | ✓ | | | | | | |
-| ACT-CSA-02 Assess the Application Landscape | ✓ | ✓ | | | | | | |
-| ACT-CSA-03 Assess Infrastructure | ✓ | | ✓ | | | | ✓ | ✓ |
-| ACT-CSA-04 Assess Network Architecture | ✓ | | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ACT-CSA-05 Assess Cloud Platforms | ✓ | | | | | | ✓ | ✓ |
-| ACT-CSA-06 Assess Security | ✓ | ✓ | | ✓ | ✓ | ✓ | | |
-| ACT-CSA-07 Assess Operations | | ✓ | ✓ | | | | | |
-| ACT-CSA-08 Assess Governance | ✓ | ✓ | ✓ | | ✓ | | | |
-| ACT-CSA-09 Identify Risks and Technical Debt | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+The selection and application of supporting frameworks should reflect the organization's business objectives, regulatory obligations, operational maturity, and technology landscape.
 
 ---
 
 # Framework Overview
 
-## TOGAF
+The following frameworks and standards commonly support the Current State Assessment.
 
-TOGAF provides the overall enterprise architecture methodology and supports the assessment of business, information systems, technology architecture, and governance.
-
-Within the Current State stage, TOGAF is primarily used to establish the baseline architecture that will support the Target State.
-
----
-
-## COBIT
-
-COBIT provides governance and management practices for enterprise IT.
-
-It supports the assessment of governance structures, decision-making processes, controls, and organizational maturity.
-
----
-
-## ITIL
-
-ITIL provides guidance for IT service management.
-
-Within the Current State stage, ITIL supports the assessment of operational processes including Incident Management, Problem Management, Change Enablement, Configuration Management, Monitoring, and Service Operations.
+| Framework / Standard | Primary Focus | Typical Use within Current State |
+|----------------------|---------------|----------------------------------|
+| **TOGAF** | Enterprise Architecture | Architecture development, capability assessment, architecture repository, governance. |
+| **ArchiMate** | Architecture Modeling | Visual representation of business, application, and technology architecture. |
+| **ITIL** | IT Service Management | Operational processes, service lifecycle, support capabilities, service maturity. |
+| **COBIT** | IT Governance | Governance, controls, risk management, compliance, decision-making. |
+| **ISO/IEC 27001** | Information Security | Information security controls, governance, risk assessment, security maturity. |
+| **NIST Cybersecurity Framework** | Cybersecurity | Security capability assessment and cybersecurity maturity. |
+| **Microsoft Cloud Adoption Framework** | Cloud Adoption | Cloud governance, landing zones, cloud operating model. |
+| **Azure Well-Architected Framework** | Cloud Architecture | Workload assessment and architecture quality. |
+| **AWS Well-Architected Framework** | Cloud Architecture | Assessment of AWS workloads and operational excellence. |
+| **Google Cloud Architecture Framework** | Cloud Architecture | Assessment of Google Cloud environments. |
 
 ---
 
-## NIST Cybersecurity Framework (CSF)
+# Framework Application
 
-The NIST Cybersecurity Framework provides guidance for assessing cybersecurity capabilities.
+Supporting frameworks provide guidance throughout the Current State Assessment.
 
-Within the Current State stage, it supports the evaluation of:
+| Assessment Area | Supporting Frameworks |
+|-----------------|-----------------------|
+| Business Assessment | TOGAF, ArchiMate |
+| Application Assessment | TOGAF, ArchiMate |
+| Infrastructure Assessment | TOGAF |
+| Network Assessment | TOGAF, Vendor Best Practices |
+| Cloud Assessment | Microsoft CAF, Azure WAF, AWS WAF, Google CAF |
+| Security Assessment | ISO 27001, NIST CSF |
+| Operations Assessment | ITIL |
+| Governance Assessment | COBIT, TOGAF |
 
-- Identify
-- Protect
-- Detect
-- Respond
-- Recover
-
----
-
-## ISO/IEC 27001
-
-ISO/IEC 27001 supports the assessment of the organization's Information Security Management System (ISMS), security controls, policies, and compliance obligations.
-
----
-
-## SABSA
-
-SABSA provides an enterprise security architecture methodology that aligns business requirements with security architecture.
-
-It supports the assessment of security capabilities and business-driven security requirements.
+The Enterprise Architect should select the frameworks that best support the organization's operating model while maintaining consistency with enterprise architecture governance.
 
 ---
 
-## Microsoft Cloud Adoption Framework (CAF)
+# ENAF Framework Principles
 
-Microsoft CAF supports the assessment of Azure environments, cloud governance, landing zones, identity, networking, and operational readiness.
+ENAF adopts the following principles when applying external frameworks.
 
----
-
-## AWS Well-Architected Framework
-
-The AWS Well-Architected Framework supports the assessment of AWS environments using six design pillars:
-
-- Operational Excellence
-- Security
-- Reliability
-- Performance Efficiency
-- Cost Optimization
-- Sustainability
+| Principle | Description |
+|-----------|-------------|
+| **Framework Agnostic** | ENAF integrates with recognized frameworks without depending on a single methodology. |
+| **Business Driven** | Framework selection should support business outcomes rather than compliance alone. |
+| **Practical Application** | Frameworks should provide practical guidance rather than unnecessary complexity. |
+| **Evidence Based** | Assessment findings should be supported by objective evidence regardless of framework. |
+| **Scalable** | Framework usage should be proportionate to the size and complexity of the organization. |
+| **Governed** | Framework adoption should align with enterprise architecture governance and standards. |
 
 ---
 
-# Applying Frameworks in ENAF
+# Framework Selection Considerations
 
-ENAF does not require every framework to be used in every engagement.
+The selection of supporting frameworks should consider:
 
-Enterprise Architects should select the frameworks that best align with:
+- Organizational maturity.
+- Regulatory requirements.
+- Industry sector.
+- Enterprise architecture maturity.
+- Cloud adoption strategy.
+- Security requirements.
+- Operational complexity.
+- Existing governance practices.
 
-- Business objectives
-- Regulatory requirements
-- Technology platforms
-- Industry standards
-- Organizational maturity
-
-The selected frameworks should complement the ENAF methodology rather than replace it.
+No single framework addresses every aspect of enterprise architecture. Enterprise Architects should apply the combination of frameworks that best supports the objectives of the Current State Assessment.
 
 ---
 
-# Relationship to the ENAF Lifecycle
+# Relationship to Current State Activities
 
-Frameworks provide guidance for performing the Current State activities but do not define the ENAF lifecycle.
+Supporting frameworks provide guidance throughout the assessment lifecycle.
 
-Within ENAF:
+```text
+Frameworks
+      │
+      ▼
+Assessment Activities
+      │
+      ▼
+Validated Findings
+      │
+      ▼
+Current State Architecture
+```
 
-- Objectives define what should be achieved.
-- Inputs define what information is required.
-- Activities define the work to be performed.
-- Frameworks provide industry best practices for performing that work.
-- Deliverables capture the assessment results.
-- Decision Gates ensure governance before progressing to the next stage.
+Frameworks improve consistency, traceability, and governance but do not replace architectural judgement.
 
 ---
 
 # Summary
 
-The Current State stage is supported by internationally recognized architecture, governance, service management, cybersecurity, and cloud frameworks.
+The Current State stage leverages established enterprise architecture frameworks and industry standards to support a structured, repeatable, and evidence-based assessment methodology.
 
-By combining these frameworks within a single methodology, ENAF enables Enterprise Architects to perform comprehensive and consistent assessments while remaining flexible enough to meet the needs of different organizations, industries, and technology environments.
+By integrating recognized best practices into the ENAF lifecycle, Enterprise Architects can perform consistent assessments, improve governance, strengthen architectural decision-making, and establish a trusted Current State Architecture that serves as the foundation for the Target State stage.
