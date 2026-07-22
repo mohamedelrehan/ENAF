@@ -1,221 +1,146 @@
 # NorthStar Case Study
 
-The NorthStar case study demonstrates how the Current State stage is applied within a realistic enterprise transformation program.
+# Current State Assessment
 
-Rather than presenting theory alone, this case study illustrates how Enterprise Architects gather information, analyze the existing environment, identify risks, and establish a trusted architectural baseline before designing the future state.
+## Purpose
 
-The purpose is not to provide a complete solution, but to demonstrate how the ENAF methodology is applied in practice.
+This case study demonstrates how the Current State stage of the Enterprise Network Architecture Framework (ENAF) is applied within a real enterprise transformation programme.
+
+Following the approval of the Strategy stage, NorthStar Retail Group begins a structured assessment of its existing business and technology environment to establish a trusted architectural baseline.
+
+The purpose of this assessment is to understand how the organization currently operates, identify architectural strengths and limitations, validate existing capabilities, and provide the evidence required to design the future enterprise architecture.
 
 ---
 
 # Company Overview
 
-NorthStar Retail Group is a global fashion retailer operating across Europe, North America, Asia, and Australia.
+NorthStar Retail Group is a global retail organization operating across Europe, North America, and Asia-Pacific.
 
-The company manages:
+The company has grown through acquisition over the past fifteen years, resulting in a complex technology landscape consisting of multiple business systems, regional infrastructure platforms, different network architectures, and varying operational practices.
 
-- Over 2,000 retail stores
-- Regional distribution centers
-- Global e-commerce platforms
-- Corporate offices
-- Manufacturing partners
-- Public cloud platforms
-- Multiple data centers
+To support future growth, NorthStar has initiated a multi-year Enterprise Transformation Programme focused on simplifying operations, modernizing technology, improving cybersecurity, and migrating its ERP platform to SAP RISE.
 
-During the last decade, NorthStar expanded rapidly through acquisitions, resulting in a diverse technology landscape with varying standards, duplicated platforms, and inconsistent governance.
-
-To remain competitive, the executive leadership launched a multi-year Enterprise Transformation Program focused on modernization, cloud adoption, security, operational efficiency, and business agility.
-
-Before defining the future architecture, the Enterprise Architecture team was asked a simple question:
-
-> **"Where are we today?"**
-
-Answering that question became the objective of the Current State stage.
+| Attribute | Value |
+|-----------|-------|
+| Industry | Global Retail |
+| Headquarters | Amsterdam, Netherlands |
+| Countries | 41 |
+| Retail Stores | 2,430 |
+| Distribution Centres | 38 |
+| Employees | 95,000 |
+| ERP Platform | SAP ECC |
+| Cloud Platforms | Microsoft Azure & AWS |
 
 ---
 
-# The Engagement Begins
+# Current Business Context
 
-The Enterprise Architecture team starts by meeting key business and technology stakeholders.
+The Strategy stage established NorthStar's transformation vision and defined the strategic objectives for the programme.
 
-Instead of discussing future technologies or solution designs, the team focuses on understanding the organization as it currently operates.
+Before future architectures can be designed, the Enterprise Architecture team must establish a clear understanding of the organization's current environment.
 
-Over several weeks, architects conduct interviews, workshops, document reviews, and technical assessments across the enterprise.
+The Current State Assessment focuses on answering questions such as:
 
-Their objective is to establish facts rather than assumptions.
-
----
-
-# Assessing the Enterprise
-
-The assessment is organized using the ENAF Enterprise Assessment Domains.
-
-## Business
-
-The architects identify NorthStar's core business capabilities, strategic objectives, operating model, and organizational structure.
-
-They discover that many business capabilities are duplicated across regions following previous acquisitions.
-
-Several departments perform similar functions using different operating models.
+- How does the business operate today?
+- What technologies support business operations?
+- Which capabilities perform effectively?
+- Where are the architectural constraints?
+- What risks may affect the transformation?
+- Which opportunities should influence the Target State Architecture?
 
 ---
 
-## Applications
+# Assessment Scope
 
-More than 600 business applications are identified.
+The Enterprise Architecture team agreed to assess the following architecture domains.
 
-Many applications provide overlapping functionality.
-
-Several critical systems have reached end-of-life but remain in production because of business dependencies.
-
-Application ownership is inconsistent, and integration documentation is incomplete.
-
----
-
-## Infrastructure
-
-Infrastructure assessments reveal a mixture of traditional data centers, virtualized environments, and public cloud platforms.
-
-Hardware standards vary between regions.
-
-Disaster recovery capabilities differ significantly across business units.
+| Domain | Assessment Focus |
+|---------|------------------|
+| Business | Business capabilities, operating model and processes |
+| Applications | Enterprise applications and integrations |
+| Infrastructure | Compute, storage, virtualization and data centres |
+| Network | LAN, WAN, SD-WAN, Internet and connectivity |
+| Cloud | Azure, AWS and cloud governance |
+| Security | Identity, Zero Trust, cybersecurity and compliance |
+| Operations | IT service management, monitoring and automation |
+| Governance | Architecture standards, policies and decision processes |
 
 ---
 
-## Network
+# Assessment Activities
 
-The global network consists of MPLS, SD-WAN, Internet VPN, regional hubs, cloud connectivity, and multiple security platforms.
+The Current State Assessment was performed using the methodology defined within ENAF.
 
-Different regions have adopted different network standards.
+The assessment included:
 
-Network visibility and documentation are inconsistent.
-
-Several critical dependencies are discovered during workshops.
-
----
-
-## Cloud
-
-NorthStar operates workloads across Microsoft Azure and AWS.
-
-Cloud adoption has accelerated without consistent governance.
-
-Different business units have implemented their own landing zones, identity models, and networking approaches.
-
-Cloud costs are increasing, while operational visibility remains limited.
-
----
-
-## Security
-
-Security controls differ across acquired companies.
-
-Identity platforms are fragmented.
-
-Network segmentation is inconsistent.
-
-Several legacy authentication mechanisms remain in use.
-
-Compliance requirements are understood but implemented differently across regions.
-
----
-
-## Operations
-
-Monitoring platforms, ITSM processes, and operational procedures vary significantly.
-
-Automation maturity differs between teams.
-
-Incident management is well established, but proactive monitoring remains inconsistent.
-
----
-
-## Governance
-
-Architecture governance exists but is not applied consistently.
-
-Technology standards differ between business units.
-
-Decision records are difficult to locate, making previous architectural decisions challenging to understand.
+- Reviewing existing enterprise documentation.
+- Conducting workshops with business stakeholders.
+- Interviewing technical teams.
+- Assessing each architecture domain.
+- Validating findings with subject matter experts.
+- Identifying risks, constraints and improvement opportunities.
+- Establishing the Current State Architecture.
 
 ---
 
 # Key Findings
 
-After completing the assessment, the Enterprise Architecture team identifies several common themes.
+The assessment identified several strengths together with opportunities for improvement.
 
-## Strengths
-
-- Strong executive sponsorship
-- Experienced engineering teams
-- Mature cloud adoption in several business units
-- Well-established global operations
-- Clear business transformation objectives
-
----
-
-## Challenges
-
-- Technology duplication following acquisitions
-- Inconsistent architecture standards
-- Legacy applications and infrastructure
-- Fragmented identity platforms
-- Multiple cloud operating models
-- Limited enterprise-wide visibility
-- Technical debt across several domains
+| Assessment Area | Key Findings |
+|-----------------|--------------|
+| Business | Strong retail operations but inconsistent business processes across acquired companies. |
+| Applications | Large application portfolio with overlapping capabilities and duplicated functionality. |
+| Infrastructure | Stable infrastructure but ageing workloads remain in regional data centres. |
+| Network | Global connectivity is reliable but network standards differ between regions. |
+| Cloud | Azure and AWS are both in use with inconsistent governance and landing zone maturity. |
+| Security | Strong identity platform but inconsistent security policies and network segmentation. |
+| Operations | Mature IT operations with opportunities for increased automation and observability. |
+| Governance | Enterprise architecture governance exists but standards are not consistently applied across all business units. |
 
 ---
 
-# Current State Baseline
+# Assessment Outcome
 
-The findings are consolidated into the Current State Assessment.
+The Current State Assessment established a trusted architectural baseline describing NorthStar's existing business and technology environment.
 
-This architectural baseline provides a trusted view of the enterprise across all assessment domains.
+The assessment confirmed that the organization possesses stable operational capabilities while identifying several areas requiring modernization before the strategic objectives defined during the Strategy stage can be achieved.
 
-For the first time, executives, architects, and engineering teams share a common understanding of the organization's current environment.
+The architectural baseline will now be used as the primary reference for designing the Target State Architecture.
 
-The baseline becomes the foundation for all future architecture decisions.
+---
+
+# Deliverables Produced
+
+The following deliverables were completed during the Current State stage.
+
+| Deliverable | Status |
+|-------------|--------|
+| Current State Architecture | Approved |
+| Architecture Assessment Report | Approved |
+| Capability Assessment | Approved |
+| Risk and Constraint Register | Approved |
+| Improvement Opportunities Register | Approved |
+| Stakeholder Assessment Summary | Approved |
 
 ---
 
 # Decision Gate
 
-The Enterprise Architecture team presents the assessment to the Architecture Governance Board.
+The Current State stage concluded with the successful approval of **DG-CSA-01 Current State Decision Gate**.
 
-The Board reviews:
+The Architecture Governance Board confirmed that:
 
-- Assessment findings
-- Risks
-- Technical debt
-- Domain assessments
-- Current State deliverables
-
-Following review, the Board approves **DG-CSA-01** and authorizes the team to begin the Target State stage.
+- The assessment had been completed.
+- Assessment findings were validated.
+- Deliverables had been approved.
+- The architectural baseline accurately represented the enterprise.
+- The programme was authorized to proceed to the Target State stage.
 
 ---
 
-# Lessons Learned
+# Transition to the Target State Stage
 
-The NorthStar case study demonstrates several important principles.
+With the Current State Architecture approved, NorthStar now has a comprehensive understanding of its existing enterprise environment.
 
-- Architects should understand the current environment before designing the future.
-- Decisions should be based on validated information rather than assumptions.
-- Every Enterprise Assessment Domain contributes to the architectural baseline.
-- Governance provides confidence that the assessment is complete.
-- A well-executed Current State Assessment reduces transformation risk and improves the quality of future architecture decisions.
-
----
-
-# Transition to the Next Stage
-
-With the Current State Assessment approved, the Enterprise Architecture team now understands the organization's existing business and technology landscape.
-
-The next question is no longer:
-
-> **"Where are we today?"**
-
-Instead, the transformation program moves to the next stage of the ENAF lifecycle:
-
-> **"Where do we want to be?"**
-
-The answer begins in the **Target State** stage.
+The next stage of ENAF focuses on designing the Target State Architecture that will enable NorthStar to achieve the strategic objectives established during the Strategy stage while addressing the risks, constraints and opportunities identified during the Current State Assessment.
