@@ -1,131 +1,132 @@
 # Compliance
 
-The Compliance document identifies the regulatory, industry, organizational, and technology compliance requirements that should be considered during the Current State stage.
+## Purpose
 
-During the Current State Assessment, Enterprise Architects should understand the organization's existing compliance obligations and evaluate how they are currently addressed across the Enterprise Assessment Domains.
+The purpose of the Compliance document is to ensure that regulatory, legal, contractual, organizational, and enterprise governance requirements are identified and considered during the Current State Assessment.
 
-Compliance requirements vary by industry, geography, and business sector. ENAF does not mandate specific regulations but provides a framework for identifying and documenting applicable obligations.
+Enterprise transformation extends beyond technology. Existing compliance obligations influence architectural decisions, technology selection, operational processes, and transformation planning. Understanding these obligations during the Current State stage enables Enterprise Architects to identify constraints, reduce risk, and ensure that future architectures remain aligned with business and regulatory requirements.
 
----
-
-# Compliance Objectives
-
-The Current State Assessment should:
-
-- Identify applicable regulatory requirements.
-- Understand existing compliance controls.
-- Assess current compliance maturity.
-- Identify compliance gaps.
-- Document compliance risks.
-- Ensure compliance requirements are considered during future architecture decisions.
+The Current State Assessment should therefore evaluate the organization's existing compliance posture as part of establishing the architectural baseline.
 
 ---
 
-# Compliance Mapping
+# Compliance Overview
 
-| Enterprise Domain | Typical Compliance Considerations |
-|-------------------|-----------------------------------|
-| Business | Corporate governance, legal obligations, industry regulations |
-| Applications | Software licensing, data handling, audit requirements |
-| Infrastructure | Physical security, resilience, disaster recovery |
-| Network | Network security, segmentation, remote access, encryption |
-| Cloud | Cloud governance, shared responsibility, data residency |
-| Security | Information security controls, identity management, risk management |
-| Operations | Service management, operational procedures, audit readiness |
-| Governance | Policies, standards, architecture governance, decision records |
+Compliance requirements vary between organizations, industries, and geographical regions. The Current State Assessment should identify the compliance obligations that influence the existing enterprise architecture.
+
+| Compliance Area | Assessment Focus |
+|-----------------|------------------|
+| **Regulatory Compliance** | Applicable laws and industry regulations. |
+| **Security Compliance** | Information security policies, standards, and controls. |
+| **Privacy Compliance** | Protection of personal and sensitive information. |
+| **Architecture Governance** | Enterprise architecture principles, standards, and governance processes. |
+| **Operational Compliance** | Operational procedures, service management, and organizational policies. |
+| **Technology Standards** | Approved technologies, platforms, and architectural standards. |
+| **Vendor & Contractual Obligations** | Technology agreements, licensing, and third-party commitments. |
 
 ---
 
-# Common Regulatory Requirements
+# Assessment Considerations
 
-The following regulations may apply depending on the organization's industry and operating locations.
+During the Current State Assessment, Enterprise Architects should evaluate whether existing architectures comply with organizational requirements.
 
-## Data Privacy
+Typical assessment considerations include:
+
+| Assessment Area | Typical Considerations |
+|-----------------|------------------------|
+| **Business** | Regulatory obligations, business policies, governance requirements. |
+| **Applications** | Licensing, ownership, lifecycle, data handling. |
+| **Infrastructure** | Platform standards, operational controls, resilience requirements. |
+| **Network** | Connectivity standards, segmentation, resilience, operational policies. |
+| **Cloud** | Cloud governance, landing zone standards, identity integration, resource governance. |
+| **Security** | Identity, access management, encryption, monitoring, vulnerability management. |
+| **Operations** | Change management, incident management, operational procedures. |
+
+The objective is not to perform a formal audit, but to understand how compliance obligations influence the existing architecture.
+
+---
+
+# Compliance Principles
+
+The Current State Assessment should be performed according to the following principles.
+
+| Principle | Description |
+|-----------|-------------|
+| **Business Alignment** | Compliance should support business objectives while protecting enterprise assets. |
+| **Risk Awareness** | Compliance obligations should be understood as architectural constraints and risk considerations. |
+| **Evidence-Based Assessment** | Compliance findings should be supported by documented evidence. |
+| **Enterprise-Wide Perspective** | Compliance should be evaluated across all relevant architecture domains. |
+| **Governance Integration** | Compliance should align with enterprise governance and architecture standards. |
+| **Continuous Improvement** | Assessment findings should identify opportunities to strengthen governance and compliance maturity. |
+
+---
+
+# Reference Standards
+
+Organizations may adopt different standards depending on their industry and operating model.
+
+Common references include:
+
+| Standard / Framework | Typical Purpose |
+|----------------------|-----------------|
+| **ISO/IEC 27001** | Information security management. |
+| **ISO 22301** | Business continuity management. |
+| **NIST Cybersecurity Framework** | Cybersecurity capability assessment. |
+| **GDPR** | Protection of personal data. |
+| **PCI DSS** | Payment card security. |
+| **SOC 2** | Service organization controls. |
+| **COBIT** | Governance and management of enterprise IT. |
+| **ITIL** | IT service management practices. |
+
+Organizations should apply the standards relevant to their regulatory environment and business objectives.
+
+---
+
+# Governance Considerations
+
+Enterprise Architects should identify governance mechanisms that influence the current architecture.
 
 Examples include:
 
-- General Data Protection Regulation (GDPR)
-- UK GDPR
-- Local privacy legislation
-- Customer data protection requirements
+- Enterprise architecture principles.
+- Technology standards.
+- Approved reference architectures.
+- Security policies.
+- Design authorities.
+- Architecture review boards.
+- Change governance processes.
+- Risk management practices.
 
-Assessment activities should identify how personal and sensitive information is currently collected, processed, stored, and protected.
-
----
-
-## Information Security
-
-Organizations may operate under information security standards such as:
-
-- ISO/IEC 27001
-- NIST Cybersecurity Framework
-- CIS Controls
-
-The assessment should determine the current security posture and the maturity of implemented controls.
+These governance mechanisms form part of the Current State Architecture and should be considered when designing the Target State.
 
 ---
 
-## Industry Regulations
+# Relationship to Current State Assessment
 
-Industry-specific regulations may include:
+```text
+Compliance Requirements
+          │
+          ▼
+Current State Assessment
+          │
+          ▼
+Compliance Findings
+          │
+          ▼
+Current State Architecture
+          │
+          ▼
+Target State Architecture
+```
 
-- PCI DSS
-- HIPAA
-- SOX
-- NIS2
-- DORA
-
-Enterprise Architects should identify which regulations are applicable to the organization and understand their architectural implications.
-
----
-
-# Organizational Requirements
-
-In addition to external regulations, organizations often define internal governance requirements.
-
-These may include:
-
-- Enterprise Architecture Principles
-- Technology Standards
-- Security Policies
-- Cloud Standards
-- Network Standards
-- Infrastructure Standards
-- Operational Standards
-- Documentation Standards
-
-The Current State Assessment should identify how these standards are currently applied across the enterprise.
-
----
-
-# Compliance Activities
-
-During the Current State stage, Enterprise Architects should:
-
-- Identify applicable regulations.
-- Review existing compliance controls.
-- Understand audit requirements.
-- Assess compliance maturity.
-- Identify compliance gaps.
-- Document regulatory risks.
-- Capture findings for future architecture decisions.
-
----
-
-# Relationship to the ENAF Lifecycle
-
-Compliance is considered throughout the ENAF lifecycle.
-
-During the Current State stage, the focus is on understanding existing compliance obligations and assessing the organization's current level of compliance.
-
-The findings produced during this stage become key inputs for the Target State, Architecture, and Governance stages, ensuring that future designs continue to meet business, regulatory, and security requirements.
+Understanding existing compliance obligations helps ensure that future architectures remain aligned with business, regulatory, and governance requirements.
 
 ---
 
 # Summary
 
-Compliance is an essential component of the Current State Assessment.
+Compliance is an integral component of the Current State Assessment.
 
-By identifying applicable regulations, organizational standards, and existing compliance controls, Enterprise Architects establish a clear understanding of the organization's compliance landscape.
+By identifying regulatory obligations, governance requirements, organizational policies, and applicable standards, Enterprise Architects gain a comprehensive understanding of the constraints and responsibilities that shape the existing enterprise architecture.
 
-This enables future architecture decisions to align with both business objectives and regulatory obligations while reducing transformation risk.
+This understanding strengthens architectural governance, supports informed decision-making, reduces transformation risk, and provides a reliable foundation for designing a compliant and business-aligned Target State Architecture.
