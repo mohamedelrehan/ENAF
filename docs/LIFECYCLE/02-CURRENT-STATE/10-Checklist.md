@@ -1,229 +1,203 @@
-# Checklist
+# Current State Checklist
 
-The Current State Checklist is the final validation activity of the Current State stage.
+## Purpose
 
-Its purpose is to confirm that:
+The purpose of this checklist is to verify that all required activities, deliverables, validations, and governance requirements for the Current State stage have been completed.
 
-- The required outputs from the previous stage have been received.
-- All Current State activities have been successfully completed.
-- All required deliverables have been produced and validated.
-- The outputs are ready to be handed over to the Target State stage.
+The checklist supports consistent execution of the Enterprise Network Architecture Framework (ENAF) and provides a structured mechanism for confirming readiness before the **DG-CSA-01 Current State Decision Gate**.
 
-Completion of this checklist provides confidence that the organization is ready to proceed to the next stage of the ENAF lifecycle.
+The checklist may be used throughout the assessment as a progress tracker and as a final validation before governance approval.
 
 ---
 
-# How to Use This Checklist
+# Checklist Overview
 
-Each item should be reviewed and marked as:
-
-| Status | Meaning |
-|----------|----------|
-| ☐ | Not Started |
-| ◐ | In Progress |
-| ☑ | Completed |
-| N/A | Not Applicable |
-
-Supporting evidence should be available for every completed item.
+| Information | Value |
+|-------------|-------|
+| Lifecycle Stage | Current State |
+| Checklist ID | CSA-CHK-01 |
+| Related Decision Gate | DG-CSA-01 |
+| Primary Owner | Enterprise Architect |
+| Reviewers | Architecture Governance Board |
+| Outcome | Ready for Target State |
 
 ---
 
-# Part 1 – Stage Prerequisites
+# Assessment Preparation
 
-Before the Current State Assessment can begin, the outputs from the Strategy stage must be available and approved.
-
-## CHK-CSA-P01 Strategy Outputs Received
-
-| Status | Verification |
-|---------|--------------|
-| ☐ | Vision has been approved. |
-| ☐ | Business Drivers have been approved. |
-| ☐ | Business Objectives have been approved. |
-| ☐ | Transformation Scope has been approved. |
-| ☐ | Stakeholder Register is available. |
-| ☐ | Financial Assessment is available. |
-| ☐ | Organizational Readiness Assessment is available. |
-| ☐ | Strategy Risk Register is available. |
-| ☐ | Strategy Summary has been approved. |
-| ☐ | Strategy Decision Gate (DG-STR-01) has been approved. |
+| Item | Status | Comments |
+|------|--------|----------|
+| Assessment scope approved | ☐ | |
+| Assessment objectives agreed | ☐ | |
+| Stakeholders identified | ☐ | |
+| Assessment schedule completed | ☐ | |
+| Required documentation collected | ☐ | |
+| Assessment methodology communicated | ☐ | |
 
 ---
 
-# Part 2 – Current State Execution
+# Business Assessment
 
-The following activities and assessments should be completed before the stage can be closed.
-
-## CHK-CSA-E01 Business Assessment
-
-| Status | Verification |
-|---------|--------------|
-| ☐ | Business capabilities have been assessed. |
-| ☐ | Business processes have been reviewed. |
-| ☐ | Organizational structure has been documented. |
-| ☐ | Business capability gaps have been identified. |
+| Item | Status | Comments |
+|------|--------|----------|
+| Business capabilities documented | ☐ | |
+| Business processes reviewed | ☐ | |
+| Organizational structure understood | ☐ | |
+| Business pain points identified | ☐ | |
+| Strategic dependencies documented | ☐ | |
 
 ---
 
-## CHK-CSA-E02 Application Assessment
+# Application Assessment
 
-| Status | Verification |
-|---------|--------------|
-| ☐ | Application inventory is complete. |
-| ☐ | Application ownership has been identified. |
-| ☐ | Major integrations have been documented. |
-| ☐ | Critical application dependencies are understood. |
-
----
-
-## CHK-CSA-E03 Infrastructure Assessment
-
-| Status | Verification |
-|---------|--------------|
-| ☐ | Infrastructure platforms have been documented. |
-| ☐ | Infrastructure risks have been identified. |
-| ☐ | High availability and disaster recovery capabilities have been reviewed. |
+| Item | Status | Comments |
+|------|--------|----------|
+| Enterprise applications inventoried | ☐ | |
+| Integration landscape reviewed | ☐ | |
+| Application dependencies identified | ☐ | |
+| Legacy systems documented | ☐ | |
+| Application risks identified | ☐ | |
 
 ---
 
-## CHK-CSA-E04 Network Assessment
+# Infrastructure Assessment
 
-| Status | Verification |
-|---------|--------------|
-| ☐ | Network topology has been documented. |
-| ☐ | Connectivity architecture has been assessed. |
-| ☐ | Network security controls have been reviewed. |
-| ☐ | Network risks have been identified. |
-
----
-
-## CHK-CSA-E05 Cloud Assessment
-
-| Status | Verification |
-|---------|--------------|
-| ☐ | Cloud platforms have been assessed. |
-| ☐ | Landing zones have been reviewed. |
-| ☐ | Cloud governance has been evaluated. |
+| Item | Status | Comments |
+|------|--------|----------|
+| Data centres assessed | ☐ | |
+| Compute platforms documented | ☐ | |
+| Storage platforms documented | ☐ | |
+| Virtualization platforms reviewed | ☐ | |
+| Infrastructure constraints identified | ☐ | |
 
 ---
 
-## CHK-CSA-E06 Security Assessment
+# Network Assessment
 
-| Status | Verification |
-|---------|--------------|
-| ☐ | Security architecture has been assessed. |
-| ☐ | Compliance requirements have been reviewed. |
-| ☐ | Security risks have been documented. |
-
----
-
-## CHK-CSA-E07 Operations Assessment
-
-| Status | Verification |
-|---------|--------------|
-| ☐ | Operational processes have been reviewed. |
-| ☐ | Monitoring capabilities have been assessed. |
-| ☐ | Automation maturity has been evaluated. |
+| Item | Status | Comments |
+|------|--------|----------|
+| WAN architecture documented | ☐ | |
+| LAN architecture documented | ☐ | |
+| Internet connectivity reviewed | ☐ | |
+| Cloud connectivity assessed | ☐ | |
+| Network standards evaluated | ☐ | |
+| Network risks identified | ☐ | |
 
 ---
 
-## CHK-CSA-E08 Governance Assessment
+# Cloud Assessment
 
-| Status | Verification |
-|---------|--------------|
-| ☐ | Governance processes have been reviewed. |
-| ☐ | Standards and policies have been documented. |
-| ☐ | Governance risks have been identified. |
-
----
-
-## CHK-CSA-E09 Deliverables Completed
-
-| Status | Verification |
-|---------|--------------|
-| ☐ | All Current State deliverables have been completed. |
-| ☐ | Deliverables have been validated with stakeholders. |
-| ☐ | Risks and Technical Debt have been documented. |
-| ☐ | Supporting evidence has been collected. |
+| Item | Status | Comments |
+|------|--------|----------|
+| Azure environment reviewed | ☐ | |
+| AWS environment reviewed | ☐ | |
+| Landing zones assessed | ☐ | |
+| Governance model reviewed | ☐ | |
+| Cloud networking documented | ☐ | |
 
 ---
 
-## CHK-CSA-E10 Decision Gate Readiness
+# Security Assessment
 
-| Status | Verification |
-|---------|--------------|
-| ☐ | Entry criteria for DG-CSA-01 have been satisfied. |
-| ☐ | Assessment findings have been reviewed. |
-| ☐ | Stakeholders agree with the Current State Baseline. |
-| ☐ | The stage is ready for Architecture Governance Board review. |
-
----
-
-# Part 3 – Outputs for the Target State Stage
-
-The following outputs should be available before the Target State stage begins.
-
-## CHK-CSA-H01 Current State Outputs Ready
-
-| Status | Deliverable |
-|---------|-------------|
-| ☐ | DEL-CSA-01 Current State Assessment |
-| ☐ | DEL-CSA-02 Business Capability Assessment |
-| ☐ | DEL-CSA-03 Application Assessment |
-| ☐ | DEL-CSA-04 Infrastructure Assessment |
-| ☐ | DEL-CSA-05 Network Assessment |
-| ☐ | DEL-CSA-06 Cloud Assessment |
-| ☐ | DEL-CSA-07 Security Assessment |
-| ☐ | DEL-CSA-08 Operations Assessment |
-| ☐ | DEL-CSA-09 Governance Assessment |
-| ☐ | DEL-CSA-10 Risk and Technical Debt Register |
-| ☐ | Approved Current State Baseline |
-| ☐ | DG-CSA-01 Approved |
+| Item | Status | Comments |
+|------|--------|----------|
+| Identity platform assessed | ☐ | |
+| Access management reviewed | ☐ | |
+| Network segmentation assessed | ☐ | |
+| Security controls documented | ☐ | |
+| Compliance requirements identified | ☐ | |
 
 ---
 
-# Stage Readiness Summary
+# Operations Assessment
 
-| Area | Status |
+| Item | Status | Comments |
+|------|--------|----------|
+| ITSM processes reviewed | ☐ | |
+| Monitoring platforms documented | ☐ | |
+| Automation capabilities assessed | ☐ | |
+| Operational challenges identified | ☐ | |
+| Support model reviewed | ☐ | |
+
+---
+
+# Governance Assessment
+
+| Item | Status | Comments |
+|------|--------|----------|
+| Architecture standards reviewed | ☐ | |
+| Existing principles assessed | ☐ | |
+| Governance processes documented | ☐ | |
+| Decision authorities identified | ☐ | |
+| Architecture compliance evaluated | ☐ | |
+
+---
+
+# Deliverables Validation
+
+| Item | Status | Comments |
+|------|--------|----------|
+| Current State Architecture completed | ☐ | |
+| Architecture Assessment Report completed | ☐ | |
+| Capability Assessment completed | ☐ | |
+| Risk and Constraint Register completed | ☐ | |
+| Improvement Opportunities Register completed | ☐ | |
+| Stakeholder Assessment Summary completed | ☐ | |
+
+---
+
+# Quality Review
+
+| Item | Status | Comments |
+|------|--------|----------|
+| Assessment evidence validated | ☐ | |
+| Findings reviewed with stakeholders | ☐ | |
+| Architecture documentation is complete | ☐ | |
+| Deliverables follow ENAF standards | ☐ | |
+| Traceability confirmed | ☐ | |
+
+---
+
+# Decision Gate Readiness
+
+The Current State stage is considered ready for **DG-CSA-01 Current State Decision Gate** when the following conditions have been satisfied.
+
+| Requirement | Status |
+|-------------|--------|
+| Assessment completed | ☐ |
+| Findings validated | ☐ |
+| Deliverables approved | ☐ |
+| Risks documented | ☐ |
+| Stakeholder review completed | ☐ |
+| Architecture baseline approved | ☐ |
+
+---
+
+# Completion Summary
+
+| Item | Status |
 |------|--------|
-| Stage Prerequisites | ☐ |
-| Business Assessment | ☐ |
-| Application Assessment | ☐ |
-| Infrastructure Assessment | ☐ |
-| Network Assessment | ☐ |
-| Cloud Assessment | ☐ |
-| Security Assessment | ☐ |
-| Operations Assessment | ☐ |
-| Governance Assessment | ☐ |
-| Deliverables | ☐ |
-| Decision Gate | ☐ |
-| Handover to Target State | ☐ |
+| Current State Activities | ☐ Complete |
+| Deliverables | ☐ Approved |
+| Governance Review | ☐ Completed |
+| Decision Gate | ☐ Approved |
+| Ready for Target State | ☐ Yes |
 
 ---
 
-# Final Recommendation
+# Sign-Off
 
-| Recommendation | Select |
-|----------------|--------|
-| ☐ Ready to Proceed to the Target State Stage |
-| ☐ Proceed with Minor Actions |
-| ☐ Additional Assessment Required Before Proceeding |
-
----
-
-# Approval
-
-| Role | Name | Signature | Date |
-|------|------|-----------|------|
-| Lead Enterprise Architect | | | |
+| Role | Name | Date | Signature |
+|------|------|------|-----------|
+| Enterprise Architect | | | |
 | Business Sponsor | | | |
 | Architecture Governance Board | | | |
+| Transformation Sponsor | | | |
 
 ---
 
 # Summary
 
-The Current State Checklist confirms that the ENAF lifecycle remains fully traceable from one stage to the next.
+This checklist provides a structured validation of the Current State stage and ensures that all assessment activities, deliverables, governance requirements, and quality standards have been completed before progressing to the Target State stage.
 
-It verifies that the approved outputs from the Strategy stage have been received, confirms that all Current State activities have been completed, and ensures that the required deliverables are ready to be handed over to the Target State stage.
-
-By validating prerequisites, execution, and handover, ENAF establishes a controlled and repeatable lifecycle where every stage is built upon approved outputs from the previous stage and produces trusted inputs for the next stage.
+Successful completion of this checklist supports approval through **DG-CSA-01 Current State Decision Gate** and confirms that the organization has established a trusted architectural baseline for the remainder of the ENAF lifecycle.
