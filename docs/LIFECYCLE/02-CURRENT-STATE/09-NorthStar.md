@@ -6,19 +6,53 @@
 
 This case study demonstrates how the Current State stage of the Enterprise Network Architecture Framework (ENAF) is applied within a real enterprise transformation programme.
 
-Following the approval of the Strategy stage, NorthStar Retail Group begins a structured assessment of its existing business and technology environment to establish a trusted architectural baseline.
+The Current State Assessment begins immediately after the successful completion of the Strategy stage.
 
-The purpose of this assessment is to understand how the organization currently operates, identify architectural strengths and limitations, validate existing capabilities, and provide the evidence required to design the future enterprise architecture.
+During the Strategy stage, NorthStar's Executive Board approved the enterprise transformation vision, business drivers, strategic objectives, programme scope and governance approach. The organization established why transformation is required and what business outcomes it expects to achieve over the coming years.
+
+With the strategic direction now agreed, the Enterprise Architecture team must answer the next fundamental question.
+
+> **Where are we today?**
+
+Before designing the future enterprise, the architecture team must first understand the existing one.
+
+The Architecture Governance Board therefore authorizes the Enterprise Architecture team to perform a comprehensive Current State Assessment across the business and technology landscape.
+
+Rather than designing solutions or selecting technologies, this stage focuses on establishing a trusted architectural baseline that accurately represents NorthStar's current enterprise.
+
+The knowledge gathered during this assessment will become the foundation for designing the future Target State Architecture.
+
+---
+
+# Inputs from the Strategy Stage
+
+The Current State Assessment is initiated using the approved deliverables produced during the Strategy stage.
+
+These include:
+
+- Business Context Document
+- Business Drivers Register
+- Business Objectives Document
+- Scope Statement
+- Stakeholder Register
+- Financial Assessment
+- Organizational Readiness Assessment
+- Initial Risk and Constraints Register
+- Strategy Summary
+
+These deliverables define **why** the organization is transforming.
+
+The Current State Assessment now establishes **where the enterprise is today** before determining **where it needs to go next**.
 
 ---
 
 # Company Overview
 
-NorthStar Retail Group is a global retail organization operating across Europe, North America, and Asia-Pacific.
+NorthStar Retail Group is a global retail organization operating across Europe, North America and Asia-Pacific.
 
-The company has grown through acquisition over the past fifteen years, resulting in a complex technology landscape consisting of multiple business systems, regional infrastructure platforms, different network architectures, and varying operational practices.
+The company has grown significantly through acquisition over the past fifteen years, resulting in a complex enterprise landscape consisting of multiple business systems, regional infrastructure platforms, different network architectures and varying operational practices.
 
-To support future growth, NorthStar has initiated a multi-year Enterprise Transformation Programme focused on simplifying operations, modernizing technology, improving cybersecurity, and migrating its ERP platform to SAP RISE.
+To support future growth, NorthStar has initiated a multi-year Enterprise Transformation Programme focused on simplifying operations, modernizing technology, improving cybersecurity and migrating its ERP platform to SAP RISE.
 
 | Attribute | Value |
 |-----------|-------|
@@ -35,24 +69,29 @@ To support future growth, NorthStar has initiated a multi-year Enterprise Transf
 
 # Current Business Context
 
-The Strategy stage established NorthStar's transformation vision and defined the strategic objectives for the programme.
+The Strategy stage established the business vision and strategic objectives.
 
-Before future architectures can be designed, the Enterprise Architecture team must establish a clear understanding of the organization's current environment.
+The Current State stage now focuses on understanding the enterprise that must be transformed.
 
-The Current State Assessment focuses on answering questions such as:
+The Enterprise Architecture team conducts a structured assessment to validate the organization's current business capabilities, technology landscape, operational maturity and governance practices.
+
+The assessment seeks to answer the following questions:
 
 - How does the business operate today?
-- What technologies support business operations?
-- Which capabilities perform effectively?
-- Where are the architectural constraints?
-- What risks may affect the transformation?
-- Which opportunities should influence the Target State Architecture?
+- Which business capabilities currently exist?
+- Which technologies support business operations?
+- Where are the architectural strengths?
+- Where are the architectural weaknesses?
+- Which risks and constraints may affect the transformation?
+- Which opportunities should influence the future Target State?
+
+The outcome of this assessment provides the factual evidence required for all subsequent lifecycle stages.
 
 ---
 
 # Assessment Scope
 
-The Enterprise Architecture team agreed to assess the following architecture domains.
+The Enterprise Architecture team agrees to assess the following architecture domains.
 
 | Domain | Assessment Focus |
 |---------|------------------|
@@ -69,9 +108,9 @@ The Enterprise Architecture team agreed to assess the following architecture dom
 
 # Assessment Activities
 
-The Current State Assessment was performed using the methodology defined within ENAF.
+The Current State Assessment is performed using the methodology defined within ENAF.
 
-The assessment included:
+The assessment includes:
 
 - Reviewing existing enterprise documentation.
 - Conducting workshops with business stakeholders.
@@ -81,11 +120,13 @@ The assessment included:
 - Identifying risks, constraints and improvement opportunities.
 - Establishing the Current State Architecture.
 
+Throughout the assessment, findings are validated with both business stakeholders and technical subject matter experts to ensure the architectural baseline accurately represents the enterprise before progressing to the Target State stage.
+
 ---
 
 # Key Findings
 
-The assessment identified several strengths together with opportunities for improvement.
+The assessment identifies several strengths together with opportunities for improvement.
 
 | Assessment Area | Key Findings |
 |-----------------|--------------|
@@ -102,17 +143,19 @@ The assessment identified several strengths together with opportunities for impr
 
 # Assessment Outcome
 
-The Current State Assessment established a trusted architectural baseline describing NorthStar's existing business and technology environment.
+The Current State Assessment establishes a trusted architectural baseline describing NorthStar's existing business and technology environment.
 
-The assessment confirmed that the organization possesses stable operational capabilities while identifying several areas requiring modernization before the strategic objectives defined during the Strategy stage can be achieved.
+The assessment confirms that the organization possesses stable operational capabilities while identifying architectural gaps, operational inefficiencies, technology inconsistencies and governance improvements that must be addressed to achieve the strategic objectives established during the Strategy stage.
 
-The architectural baseline will now be used as the primary reference for designing the Target State Architecture.
+Rather than recommending solutions, the assessment provides the factual evidence required to design the future Target State Architecture.
+
+The approved Current State Architecture now becomes the baseline reference for all remaining lifecycle stages.
 
 ---
 
 # Deliverables Produced
 
-The following deliverables were completed during the Current State stage.
+The following deliverables are completed during the Current State stage.
 
 | Deliverable | Status |
 |-------------|--------|
@@ -125,22 +168,59 @@ The following deliverables were completed during the Current State stage.
 
 ---
 
+# Knowledge Passed to the Target State Stage
+
+The Current State Assessment creates the architectural knowledge required to begin designing the future enterprise.
+
+The following knowledge assets are carried forward into the Target State stage:
+
+- Current State Architecture
+- Business Capability Assessment
+- Architecture Assessment Report
+- Technology Baseline
+- Risk Register
+- Constraint Register
+- Improvement Opportunities Register
+- Stakeholder Assessment Summary
+
+These knowledge assets provide the evidence required to define the future enterprise while maintaining complete traceability throughout the ENAF lifecycle.
+
+---
+
 # Decision Gate
 
-The Current State stage concluded with the successful approval of **DG-CSA-01 Current State Decision Gate**.
+The Current State stage concludes with the successful approval of **DG-CSA-01 Current State Decision Gate**.
 
-The Architecture Governance Board confirmed that:
+The Architecture Governance Board confirms that:
 
-- The assessment had been completed.
-- Assessment findings were validated.
-- Deliverables had been approved.
-- The architectural baseline accurately represented the enterprise.
-- The programme was authorized to proceed to the Target State stage.
+- The assessment has been completed.
+- Assessment findings have been validated.
+- Deliverables have been approved.
+- The architectural baseline accurately represents the enterprise.
+- The programme is authorized to proceed to the Target State stage.
 
 ---
 
 # Transition to the Target State Stage
 
-With the Current State Architecture approved, NorthStar now has a comprehensive understanding of its existing enterprise environment.
+With the Current State Architecture approved, NorthStar now possesses two critical foundations for the transformation.
 
-The next stage of ENAF focuses on designing the Target State Architecture that will enable NorthStar to achieve the strategic objectives established during the Strategy stage while addressing the risks, constraints and opportunities identified during the Current State Assessment.
+The first is a clear business direction established during the Strategy stage.
+
+The second is a trusted understanding of the existing enterprise established during the Current State Assessment.
+
+For the first time, the Enterprise Architecture team can compare where the organization is today with where the business intends to be.
+
+The next stage of the ENAF lifecycle focuses on designing the Target State by translating NorthStar's business objectives into the future business capabilities, operating model and enterprise architecture required to achieve its long-term strategic vision.
+
+The transformation journey now moves from understanding the enterprise to designing its future.
+
+---
+
+# Summary
+
+The Current State Assessment provides NorthStar with a validated architectural baseline describing its existing business and technology environment.
+
+By completing the assessment, validating the findings and successfully passing Decision Gate **DG-CSA-01**, the Enterprise Architecture team establishes the knowledge required to design the Target State Architecture.
+
+The transformation can now progress with confidence, supported by a clear business strategy and a trusted understanding of the current enterprise.
