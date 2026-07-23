@@ -1,12 +1,12 @@
 # How to Use ENAF
 
-The Enterprise Network Architecture Framework (ENAF) provides a structured, governed, and repeatable approach for planning, designing, implementing, operating, and continuously improving enterprise network architecture.
+The Enterprise Network Architecture Framework (ENAF) provides a structured, governed, and repeatable approach for planning, designing, implementing, operating, governing, and continuously improving enterprise network architecture.
 
-Unlike traditional architecture frameworks that primarily define methodology, ENAF provides an end-to-end execution model that combines enterprise strategy, architecture governance, transformation delivery, and continuous knowledge evolution into a single framework.
+Unlike traditional architecture frameworks that primarily focus on methodology, ENAF combines enterprise strategy, architecture governance, transformation delivery, and continuous knowledge evolution into a single practical framework.
 
-ENAF is designed to support initiatives ranging from small technology improvements to enterprise-wide transformation programs while maintaining consistent governance, traceability, and architectural quality.
+ENAF is designed to support initiatives of every size, from a single branch office deployment to a global enterprise transformation program, while maintaining consistent governance, traceability, and architectural quality.
 
-Every transformation performed using ENAF should contribute not only to business success but also to the continuous improvement of the organization's architectural knowledge.
+Rather than viewing each transformation as an isolated project, ENAF treats every initiative as an opportunity to strengthen the organization's enterprise architecture capability and increase its reusable architectural knowledge.
 
 ---
 
@@ -14,16 +14,18 @@ Every transformation performed using ENAF should contribute not only to business
 
 The purpose of this document is to explain how ENAF should be applied throughout an enterprise transformation initiative.
 
-It provides guidance on:
+It provides guidance for architects, transformation teams, governance boards, project managers, and business stakeholders on how to execute every stage of the ENAF lifecycle while maintaining consistency, governance, and business alignment.
 
-- Applying the ENAF lifecycle
-- Understanding the relationship between lifecycle stages
-- Maintaining governance and traceability
-- Applying enterprise architecture standards
-- Reusing existing architectural knowledge
-- Capturing lessons learned for future transformations
+This document explains:
 
-This document serves as the primary operational guide for architects, transformation teams, governance boards, and project stakeholders responsible for delivering enterprise architecture initiatives.
+- How the ENAF lifecycle is applied
+- How architectural decisions remain traceable
+- How governance is integrated into every stage
+- How Enterprise Standards and Reference Architectures are used
+- How architectural knowledge evolves throughout the lifecycle
+- How every transformation contributes to future initiatives
+
+This document serves as the primary execution guide for the Enterprise Network Architecture Framework.
 
 ---
 
@@ -33,43 +35,45 @@ Before beginning any transformation initiative, sufficient business, technical, 
 
 ## Business Information
 
-- Business vision
-- Business drivers
-- Strategic objectives
-- Business capabilities
-- Executive sponsorship
-- Success measures
-- Transformation scope
+- Business Vision
+- Business Drivers
+- Strategic Objectives
+- Business Capabilities
+- Executive Sponsor
+- Business Stakeholders
+- Success Measures
+- Transformation Scope
 
 ## Technical Information
 
-- Existing architecture documentation
-- Network topology
-- Cloud architecture
-- Security architecture
-- Operational documentation
-- Technology inventory
-- Existing standards
+- Existing Architecture Documentation
+- Network Topology
+- Cloud Architecture
+- Security Architecture
+- Existing Standards
+- Operational Documentation
+- Technology Inventory
 
 ## Organizational Information
 
-- Business stakeholders
-- Enterprise Architecture team
-- Security team
-- Operations team
-- Delivery teams
-- Governance model
-- Decision-making process
+- Enterprise Architecture Team
+- Security Team
+- Operations Team
+- Delivery Teams
+- Governance Board
+- Decision-Making Process
 
-Beginning a transformation without understanding these inputs significantly increases project risk, architectural rework, implementation delays, and long-term operational complexity.
+Beginning a transformation without understanding these inputs significantly increases architectural risk, project complexity, implementation delays, operational challenges, and long-term technical debt.
 
 ---
 
 # ENAF Core Principles
 
-Every transformation executed using ENAF follows a common set of architectural principles regardless of technology, project size, or business domain.
+Every transformation performed using ENAF follows a common set of architectural principles.
 
-These principles ensure consistency, governance, quality, and long-term sustainability across all transformation initiatives.
+These principles provide consistency across every lifecycle stage regardless of project size, technology, or business domain.
+
+---
 
 ## Principle 1 — Business Before Technology
 
@@ -89,15 +93,7 @@ Every Target State, Architecture, Roadmap, and Implementation should align with 
 
 ## Principle 3 — Architecture Must Be Traceable
 
-Every architectural decision should be traceable to one or more of the following:
-
-- Business Driver
-- Strategic Objective
-- Business Requirement
-- Compliance Requirement
-- Operational Requirement
-- Risk
-- Opportunity
+Every architectural decision should be traceable to one or more approved business drivers, strategic objectives, business requirements, compliance requirements, operational requirements, risks, or opportunities.
 
 Traceability enables governance, accountability, and informed decision-making throughout the transformation lifecycle.
 
@@ -105,17 +101,17 @@ Traceability enables governance, accountability, and informed decision-making th
 
 ## Principle 4 — Governance Enables Consistency
 
-Enterprise Architecture Governance ensures that architectural decisions remain consistent, reusable, secure, and aligned with enterprise standards.
+Architecture governance ensures that architectural decisions remain consistent, reusable, secure, compliant, and aligned with enterprise principles.
 
-Governance is an enabler of quality rather than an approval process alone.
+Governance is a continuous activity throughout the lifecycle rather than a single approval event.
 
 ---
 
 ## Principle 5 — Validate Before Progressing
 
-Each lifecycle stage concludes with validation and a formal Decision Gate.
+Every lifecycle stage concludes with validation and a formal Decision Gate.
 
-Projects should not proceed to the next stage until the required outputs have been reviewed and approved.
+Projects should only progress when the required deliverables have been reviewed and approved.
 
 ---
 
@@ -123,7 +119,7 @@ Projects should not proceed to the next stage until the required outputs have be
 
 Architects should first evaluate existing Enterprise Standards, Reference Architectures, and Architecture Building Blocks before creating new Target States.
 
-Reuse improves consistency, reduces delivery effort, and accelerates implementation.
+Reusing proven architectural assets reduces risk, accelerates delivery, and improves consistency.
 
 ---
 
@@ -131,7 +127,7 @@ Reuse improves consistency, reduces delivery effort, and accelerates implementat
 
 Operational experience should continuously improve enterprise architecture.
 
-Every transformation should produce lessons learned that contribute to future initiatives.
+Every transformation should capture lessons learned and contribute to future initiatives.
 
 ---
 
@@ -139,7 +135,172 @@ Every transformation should produce lessons learned that contribute to future in
 
 Every successful transformation should strengthen the organization's architectural knowledge.
 
-Validated architectural solutions should evolve into reusable enterprise assets that support future transformation initiatives.
+Validated architectural solutions should evolve into reusable Enterprise Standards, Reference Architectures, and Architecture Building Blocks.
+
+---
+
+# Enterprise Transformation Lifecycle
+
+Every transformation performed using ENAF follows the same lifecycle regardless of size or complexity.
+
+The lifecycle provides a governed sequence of activities that transforms business strategy into measurable business outcomes.
+
+```text
+Strategy
+      │
+      ▼
+Current State
+      │
+      ▼
+Target State
+      │
+      ▼
+Architecture
+      │
+      ▼
+Roadmap
+      │
+      ▼
+Implementation
+      │
+      ▼
+Operations
+      │
+      ▼
+Governance
+      │
+      ▼
+Optimization
+```
+
+The lifecycle remains consistent across all initiatives.
+
+What changes is the level of detail, governance effort, stakeholder involvement, documentation, and architectural depth required to support each transformation.
+
+---
+
+# Enterprise Traceability Model (ETM)
+
+One of the fundamental principles of ENAF is complete architectural traceability.
+
+Every architectural activity should be linked to an approved business need and ultimately demonstrate measurable business value.
+
+```text
+Business Vision
+      │
+      ▼
+Business Drivers
+      │
+      ▼
+Strategic Objectives
+      │
+      ▼
+Current State Findings
+      │
+      ▼
+Target State Decisions
+      │
+      ▼
+Architecture Decisions
+      │
+      ▼
+Implementation
+      │
+      ▼
+Business Outcomes
+      │
+      ▼
+Success Measures
+```
+
+The Enterprise Traceability Model ensures that every architectural decision contributes directly to business value while supporting transparent governance and informed decision-making.
+
+---
+
+# Enterprise Architecture Knowledge Model (EAKM)
+
+ENAF is designed not only to deliver successful transformation initiatives but also to continuously increase the organization's architectural knowledge.
+
+Rather than treating every project as an isolated activity, ENAF promotes the capture, validation, reuse, and continuous improvement of enterprise architecture assets.
+
+Each successful implementation contributes reusable knowledge that improves future transformations, reduces design effort, strengthens governance, and accelerates delivery.
+
+The Enterprise Architecture Knowledge Model ensures that enterprise architecture continuously evolves through operational experience.
+
+```text
+Business Need
+      │
+      ▼
+Target State
+      │
+      ▼
+Architecture
+      │
+      ▼
+Implementation
+      │
+      ▼
+Operations
+      │
+      ▼
+Business Value Validation
+      │
+      ▼
+Reference Architecture
+      │
+      ▼
+Enterprise Standard
+      │
+      ▼
+Architecture Building Block
+      │
+      ▼
+Future Projects
+```
+
+This continuous feedback loop enables the organization to improve architectural quality while reducing implementation risk across future transformation initiatives.
+
+---
+
+# Enterprise Architecture Assets
+
+ENAF manages four primary architecture assets that evolve throughout the transformation lifecycle.
+
+| Architecture Asset | Purpose |
+|--------------------|---------|
+| **Target State** | Defines the desired future architecture required to satisfy a specific business need. |
+| **Reference Architecture** | A validated architectural solution that has demonstrated successful implementation and can be reused by future initiatives. |
+| **Enterprise Standard** | An organizationally approved architecture baseline that has demonstrated consistent success across multiple implementations. |
+| **Architecture Building Block** | A reusable capability, component, service, template, or pattern that supports multiple Enterprise Standards and Reference Architectures. |
+
+These architecture assets continuously evolve as enterprise knowledge increases.
+
+```text
+Business Requirement
+        │
+        ▼
+Target State
+        │
+        ▼
+Implementation
+        │
+        ▼
+Operational Validation
+        │
+        ▼
+Reference Architecture
+        │
+        ▼
+Repeated Enterprise Adoption
+        │
+        ▼
+Enterprise Standard
+        │
+        ▼
+Architecture Building Block
+```
+
+This maturity model enables ENAF to transform individual project experience into reusable organizational knowledge, ensuring that every successful transformation strengthens future initiatives.
 
 ---
 
