@@ -440,29 +440,51 @@ ENAF manages four primary architecture assets that evolve throughout the transfo
 
 These assets evolve over time as organizational knowledge increases and architectural maturity improves.
 
-```
-New Business Requirement
+## Enterprise Architecture Knowledge Assets
+
+ENAF manages a set of architecture knowledge assets that evolve throughout the transformation lifecycle. These assets represent the organization's accumulated architectural knowledge and enable successful solutions to be reused, standardized, and continuously improved.
+
+Rather than treating each transformation as an isolated project, ENAF captures proven architectural practices and promotes them into reusable enterprise assets. This enables future initiatives to build upon validated experience instead of starting from scratch.
+
+The following diagram illustrates how architectural knowledge matures over time.
+
+```text
+Business Requirement
           │
           ▼
 Target State
           │
           ▼
-Implemented Solution
+Architecture Design
+          │
+          ▼
+Implementation
           │
           ▼
 Operational Validation
           │
           ▼
-Reference Architecture
+Business Value Demonstrated
           │
           ▼
-Repeated Enterprise Adoption
+Reference Architecture
           │
           ▼
 Enterprise Standard
           │
           ▼
-Architecture Building Block
+Architecture Building Blocks
+          │
+          ▼
+Future Transformation Initiatives
 ```
 
-This evolution ensures that enterprise knowledge is continuously captured, validated, governed, and reused across future transformation initiatives.
+The lifecycle begins with a business requirement that drives the definition of a Target State and the development of the supporting architecture. Once implemented, the solution enters operational use where its technical performance, business outcomes, and operational effectiveness are validated.
+
+Only solutions that consistently demonstrate measurable business value should be considered candidates for a **Reference Architecture**. A Reference Architecture represents a proven and reusable solution that has been successfully implemented and validated in a real business environment.
+
+As the same architectural approach is adopted across multiple initiatives and approved through the enterprise architecture governance process, it may become an **Enterprise Standard**. Enterprise Standards establish the organization's preferred architectural approach for delivering similar business capabilities.
+
+Over time, common capabilities, components, templates, services, and design approaches are extracted from Enterprise Standards and maintained as **Architecture Building Blocks**. These reusable building blocks accelerate future projects, improve architectural consistency, and reduce implementation risk across the enterprise.
+
+This continuous knowledge evolution transforms individual project experience into long-term organizational capability. Every successful transformation not only delivers business value but also strengthens the enterprise architecture knowledge base, enabling future initiatives to be delivered more efficiently, consistently, and with greater confidence.
