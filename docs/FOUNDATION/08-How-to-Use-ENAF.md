@@ -1,411 +1,307 @@
 # How to Use ENAF
 
-The Enterprise Network Architecture Framework (ENAF) provides a structured approach for designing, governing, implementing, and continuously improving enterprise network architectures.
+The Enterprise Network Architecture Framework (ENAF) provides a structured, governed, and repeatable approach for planning, designing, implementing, operating, and continuously improving enterprise network architecture.
 
-Unlike traditional frameworks that focus primarily on methodology, ENAF provides a practical lifecycle that can be applied to projects of different sizes, technologies, and business objectives.
+Unlike traditional architecture frameworks that primarily define methodology, ENAF provides an end-to-end execution model that combines enterprise strategy, architecture governance, transformation delivery, and continuous knowledge evolution into a single framework.
 
-This document explains how to apply ENAF from the initial business request through implementation and continuous improvement.
+ENAF is designed to support initiatives ranging from small technology improvements to enterprise-wide transformation programs while maintaining consistent governance, traceability, and architectural quality.
 
----
-
-## Purpose
-
-The purpose of this document is to provide practical guidance for applying ENAF throughout an enterprise transformation initiative.
-
-It describes the recommended sequence of activities, expected outcomes, governance checkpoints, and responsibilities for each stage of the lifecycle.
+Every transformation performed using ENAF should contribute not only to business success but also to the continuous improvement of the organization's architectural knowledge.
 
 ---
 
-## Before You Start
+# Purpose
 
-Before applying ENAF, ensure the following information is available.
+The purpose of this document is to explain how ENAF should be applied throughout an enterprise transformation initiative.
 
-### Business Information
+It provides guidance on:
 
-- Business objectives
-- Project scope
-- Executive sponsor
-- Business stakeholders
-- Success criteria
+- Applying the ENAF lifecycle
+- Understanding the relationship between lifecycle stages
+- Maintaining governance and traceability
+- Applying enterprise architecture standards
+- Reusing existing architectural knowledge
+- Capturing lessons learned for future transformations
 
-### Technical Information
+This document serves as the primary operational guide for architects, transformation teams, governance boards, and project stakeholders responsible for delivering enterprise architecture initiatives.
+
+---
+
+# Before You Start
+
+Before beginning any transformation initiative, sufficient business, technical, and organizational information should be available to support informed architectural decision-making.
+
+## Business Information
+
+- Business vision
+- Business drivers
+- Strategic objectives
+- Business capabilities
+- Executive sponsorship
+- Success measures
+- Transformation scope
+
+## Technical Information
 
 - Existing architecture documentation
-- Network diagrams
+- Network topology
 - Cloud architecture
-- Security documentation
+- Security architecture
 - Operational documentation
 - Technology inventory
+- Existing standards
 
-### Organizational Information
+## Organizational Information
 
-- Project team
-- Architecture team
+- Business stakeholders
+- Enterprise Architecture team
 - Security team
 - Operations team
-- Governance process
+- Delivery teams
+- Governance model
+- Decision-making process
 
-Starting without understanding these inputs often leads to unnecessary redesign, delays, and increased project risk.
-
----
-
-# Applying the ENAF Lifecycle
-
-Every transformation should follow the ENAF lifecycle.
-
-Although activities may vary depending on project size, the overall sequence remains the same.
+Beginning a transformation without understanding these inputs significantly increases project risk, architectural rework, implementation delays, and long-term operational complexity.
 
 ---
 
-# Step 1 — Understand the Business
+# ENAF Core Principles
 
-## Objective
+Every transformation executed using ENAF follows a common set of architectural principles regardless of technology, project size, or business domain.
 
-Understand why the project exists before discussing technology.
+These principles ensure consistency, governance, quality, and long-term sustainability across all transformation initiatives.
 
-## Activities
+## Principle 1 — Business Before Technology
 
-- Meet business stakeholders
-- Identify business drivers
-- Define business goals
-- Understand risks
-- Define success criteria
+Architecture exists to enable business outcomes.
 
-## Inputs
-
-- Business strategy
-- Executive direction
-- Existing business capabilities
-
-## Outputs
-
-- Business requirements
-- Stakeholder map
-- Business objectives
-
-## Decision Gate
-
-Business stakeholders agree that the problem is clearly understood.
+Technology decisions should always support approved business objectives and strategic priorities.
 
 ---
 
-# Step 2 — Assess the Current State
+## Principle 2 — Strategy Drives Architecture
 
-## Objective
+Enterprise Strategy provides the direction for every architectural decision.
 
-Understand the existing environment.
-
-## Activities
-
-- Review documentation
-- Interview technical teams
-- Assess current architecture
-- Identify risks
-- Identify technical debt
-
-## Inputs
-
-- Existing environment
-- Network diagrams
-- Security documentation
-
-## Outputs
-
-- Current State Assessment
-- Gap Analysis
-- Risk Assessment
-
-## Decision Gate
-
-Current environment is sufficiently documented.
+Every Target State, Architecture, Roadmap, and Implementation should align with approved business strategy.
 
 ---
 
-# Step 3 — Define the Target State
+## Principle 3 — Architecture Must Be Traceable
 
-## Objective
+Every architectural decision should be traceable to one or more of the following:
 
-Describe the desired future architecture.
+- Business Driver
+- Strategic Objective
+- Business Requirement
+- Compliance Requirement
+- Operational Requirement
+- Risk
+- Opportunity
 
-## Activities
-
-- Define target capabilities
-- Identify architectural improvements
-- Define operating model
-- Validate business alignment
-
-## Outputs
-
-- Target Architecture
-- Future Capabilities
-- Success Criteria
-
-## Decision Gate
-
-Business and architecture teams approve the target state.
+Traceability enables governance, accountability, and informed decision-making throughout the transformation lifecycle.
 
 ---
 
-# Step 4 — Design the Architecture
+## Principle 4 — Governance Enables Consistency
 
-## Objective
+Enterprise Architecture Governance ensures that architectural decisions remain consistent, reusable, secure, and aligned with enterprise standards.
 
-Translate the target state into implementable architecture.
-
-## Activities
-
-- Produce architecture diagrams
-- Define standards
-- Create reference architectures
-- Define security architecture
-- Produce Architecture Decision Records (ADR)
-
-## Outputs
-
-- High-Level Design
-- Low-Level Design
-- Reference Architecture
-- Architecture Standards
-
-## Decision Gate
-
-Architecture Review Board approves the solution.
+Governance is an enabler of quality rather than an approval process alone.
 
 ---
 
-# Step 5 — Build the Roadmap
+## Principle 5 — Validate Before Progressing
 
-## Objective
+Each lifecycle stage concludes with validation and a formal Decision Gate.
 
-Plan the transformation journey.
-
-## Activities
-
-- Prioritize initiatives
-- Define implementation phases
-- Identify dependencies
-- Estimate effort
-- Identify risks
-
-## Outputs
-
-- Transformation Roadmap
-- Migration Plan
-- Investment Plan
-
-## Decision Gate
-
-Roadmap approved for implementation.
+Projects should not proceed to the next stage until the required outputs have been reviewed and approved.
 
 ---
 
-# Step 6 — Implement
+## Principle 6 — Reuse Before Creating
 
-## Objective
+Architects should first evaluate existing Enterprise Standards, Reference Architectures, and Architecture Building Blocks before creating new Target States.
 
-Deploy the approved architecture.
-
-## Activities
-
-- Build infrastructure
-- Configure services
-- Automate deployments
-- Validate functionality
-- Perform testing
-
-## Outputs
-
-- Production Environment
-- Automation Code
-- Test Reports
-- Deployment Documentation
-
-## Decision Gate
-
-Implementation successfully completed.
+Reuse improves consistency, reduces delivery effort, and accelerates implementation.
 
 ---
 
-# Step 7 — Operate
+## Principle 7 — Continuous Improvement
 
-## Objective
+Operational experience should continuously improve enterprise architecture.
 
-Operate and support the architecture.
-
-## Activities
-
-- Monitor services
-- Manage incidents
-- Perform maintenance
-- Measure performance
-- Review operational metrics
-
-## Outputs
-
-- Operational Dashboards
-- Runbooks
-- Service Reports
-- Operational KPIs
-
-## Decision Gate
-
-Operational teams formally accept ownership.
+Every transformation should produce lessons learned that contribute to future initiatives.
 
 ---
 
-# Step 8 — Govern
+## Principle 8 — Enterprise Knowledge Growth
 
-## Objective
+Every successful transformation should strengthen the organization's architectural knowledge.
 
-Ensure long-term architectural consistency.
-
-## Activities
-
-- Review compliance
-- Review standards
-- Assess risks
-- Manage exceptions
-- Conduct architecture reviews
-
-## Outputs
-
-- Compliance Reports
-- Review Records
-- Exception Register
-- Updated Standards
-
-## Decision Gate
-
-Architecture remains aligned with business objectives.
+Validated architectural solutions should evolve into reusable enterprise assets that support future transformation initiatives.
 
 ---
 
-# Step 9 — Optimize
+# Enterprise Transformation Lifecycle
 
-## Objective
+Every transformation follows the same lifecycle regardless of size or complexity.
 
-Continuously improve the architecture.
+The lifecycle provides a governed sequence of activities that transforms business strategy into measurable business outcomes.
 
-## Activities
+```
+Strategy
+      │
+      ▼
+Current State
+      │
+      ▼
+Target State
+      │
+      ▼
+Architecture
+      │
+      ▼
+Roadmap
+      │
+      ▼
+Implementation
+      │
+      ▼
+Operations
+      │
+      ▼
+Governance
+      │
+      ▼
+Optimization
+```
 
-- Analyze metrics
-- Review lessons learned
-- Improve automation
-- Modernize technologies
-- Reduce operational complexity
+The lifecycle itself remains consistent across all initiatives.
 
-## Outputs
-
-- Optimization Roadmap
-- Improvement Backlog
-- Updated Architecture
-
-## Decision Gate
-
-Improvement opportunities become inputs for the next lifecycle.
-
----
-
-# Choosing the Right ENAF Scope
-
-Not every project requires the complete ENAF lifecycle.
-
-The framework should be scaled according to the complexity and impact of the initiative.
-
-| Project | Recommended Lifecycle |
-|----------|----------------------|
-| New Branch Office | Current State → Architecture → Implementation |
-| Firewall Refresh | Current State → Architecture → Implementation |
-| SD-WAN Deployment | Current State → Target State → Architecture → Roadmap → Implementation |
-| Cloud Migration | Full Lifecycle |
-| Zero Trust Program | Full Lifecycle |
-| Enterprise Modernization | Full Lifecycle |
-| Network Optimization | Operations → Governance → Optimization |
+The level of detail, documentation, governance effort, and stakeholder involvement are scaled according to the complexity and business impact of the transformation.
 
 ---
 
-# Roles and Responsibilities
+# Enterprise Traceability Model (ETM)
 
-Successful architecture requires collaboration across multiple teams.
+One of the core principles of ENAF is complete traceability throughout the transformation lifecycle.
 
-| Role | Primary Responsibility |
-|------|-------------------------|
-| Executive Sponsor | Business direction and funding |
-| Enterprise Architect | Overall architecture governance |
-| Network Architect | Network architecture and connectivity |
-| Security Architect | Security architecture |
-| Cloud Architect | Cloud architecture |
-| Engineering Teams | Implementation |
-| Operations Teams | Service operations |
-| Architecture Review Board | Governance and approvals |
+Every architectural decision should be linked back to an approved business need and forward to measurable business outcomes.
 
----
+```
+Business Vision
+      │
+      ▼
+Business Drivers
+      │
+      ▼
+Strategic Objectives
+      │
+      ▼
+Current State Findings
+      │
+      ▼
+Target State Decisions
+      │
+      ▼
+Architecture Decisions
+      │
+      ▼
+Implementation
+      │
+      ▼
+Business Outcomes
+      │
+      ▼
+Success Measures
+```
 
-# Typical Governance Checkpoints
-
-Each major stage should conclude with a governance review.
-
-Typical checkpoints include:
-
-- Business Approval
-- Current State Validation
-- Target State Approval
-- Architecture Approval
-- Roadmap Approval
-- Implementation Validation
-- Operational Acceptance
-- Optimization Review
-
-These checkpoints reduce project risk and improve decision quality.
-
----
-
-# Common Mistakes
-
-Organizations often encounter similar challenges during transformation.
-
-Common mistakes include:
-
-- Starting with technology instead of business requirements
-- Skipping the current state assessment
-- Designing without standards
-- Ignoring governance
-- Implementing without automation
-- Delaying documentation
-- Failing to involve operations early
-- Treating architecture as a one-time activity
-
-Avoiding these mistakes significantly improves project outcomes.
+The Enterprise Traceability Model ensures that every architectural activity contributes directly to organizational value and supports transparent governance.
 
 ---
 
-# Success Checklist
+# Enterprise Architecture Knowledge Model (EAKM)
 
-Before closing an initiative, verify that:
+ENAF is designed not only to deliver successful transformation initiatives but also to continuously increase the organization's architectural knowledge.
 
-- Business objectives have been achieved
-- Architecture has been approved
-- Security requirements have been validated
-- Documentation is complete
-- Monitoring is operational
-- Operational teams have accepted ownership
-- Lessons learned have been documented
-- Improvement opportunities have been identified
+Rather than treating every project as an isolated activity, ENAF promotes the capture, validation, reuse, and continuous improvement of architectural knowledge.
+
+Each successful implementation contributes reusable architecture assets that improve future initiatives, reduce delivery effort, increase consistency, and strengthen enterprise governance.
+
+The Enterprise Architecture Knowledge Model transforms individual project experience into long-term organizational capability.
+
+```
+Business Need
+      │
+      ▼
+Target State
+      │
+      ▼
+Architecture
+      │
+      ▼
+Implementation
+      │
+      ▼
+Operations
+      │
+      ▼
+Business Value Validation
+      │
+      ▼
+Reference Architecture
+      │
+      ▼
+Enterprise Standard
+      │
+      ▼
+Architecture Building Block
+      │
+      ▼
+Future Projects
+```
+
+This continuous feedback loop enables the enterprise to mature its architecture over time while reducing risk and accelerating future transformation initiatives.
 
 ---
 
-## Summary
+# Enterprise Architecture Assets
 
-ENAF provides a practical and repeatable methodology for enterprise network architecture.
+ENAF manages four primary architecture assets that evolve throughout the transformation lifecycle.
 
-By following the lifecycle, producing the expected deliverables, and applying governance throughout the transformation journey, organizations can consistently deliver secure, resilient, scalable, and business-aligned network architectures.
+| Architecture Asset | Purpose |
+|--------------------|---------|
+| **Target State** | Defines the desired future architecture required to satisfy a specific business need. |
+| **Reference Architecture** | A validated architectural solution that has demonstrated successful implementation and can be reused by future initiatives. |
+| **Enterprise Standard** | An organizationally approved architecture baseline that has demonstrated consistent success across multiple implementations. |
+| **Architecture Building Block** | A reusable capability, component, pattern, template, or service that supports multiple Enterprise Standards and Reference Architectures. |
 
-The framework is designed to support organizations of all sizes while remaining flexible enough to adapt to different technologies, operating models, and business priorities.
+These assets evolve over time as organizational knowledge increases and architectural maturity improves.
 
----
+```
+New Business Requirement
+          │
+          ▼
+Target State
+          │
+          ▼
+Implemented Solution
+          │
+          ▼
+Operational Validation
+          │
+          ▼
+Reference Architecture
+          │
+          ▼
+Repeated Enterprise Adoption
+          │
+          ▼
+Enterprise Standard
+          │
+          ▼
+Architecture Building Block
+```
 
-## Related Documents
-
-- 04-Architecture-Lifecycle.md
-- 06-Governance-Model.md
-- 07-Architecture-Deliverables.md
+This evolution ensures that enterprise knowledge is continuously captured, validated, governed, and reused across future transformation initiatives.
