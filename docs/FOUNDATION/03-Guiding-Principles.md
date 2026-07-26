@@ -1,161 +1,168 @@
 # Guiding Principles
 
-The Enterprise Network Architecture Framework (ENAF) is founded on a set of guiding principles that influence every architecture decision throughout the lifecycle.
-
-These principles provide consistency across strategy, architecture, implementation, operations, governance, and continuous improvement.
-
-Regardless of the technologies, vendors, or deployment models used, every architectural decision should align with these principles.
-
----
-
 ## Purpose
 
-The purpose of the ENAF Guiding Principles is to establish a common foundation for enterprise network architecture decisions.
+The Enterprise Network Architecture Framework (ENAF) is founded on a set of guiding principles that shape every decision made throughout the enterprise transformation lifecycle.
 
-They ensure that architecture remains aligned with business objectives, follows consistent standards, and delivers long-term value across the entire transformation lifecycle.
+These principles establish a common foundation for planning, designing, delivering, operating, governing, and continuously improving enterprise network architectures.
 
----
+Regardless of the technologies, vendors, deployment models, or organisational structures involved, every strategic, architectural, and operational decision should align with these principles.
 
-## Why Principles Matter
-
-Enterprise architecture is fundamentally about making decisions.
-
-Every day, architects are faced with questions such as:
-
-- Should we move this application to the cloud?
-- Should we implement SD-WAN or MPLS?
-- How should we segment the network?
-- Which Zero Trust model should we adopt?
-- Should this service be centralized or distributed?
-
-Without a consistent set of principles, these decisions often become subjective and influenced by individual preferences or vendor recommendations.
-
-Architecture principles provide a common decision-making foundation.
+The principles ensure that enterprise transformation remains business-driven, architecturally consistent, operationally sustainable, and focused on delivering measurable business value.
 
 ---
 
-# The ENAF Principles
+# Why Guiding Principles Matter
 
-## Principle 1 — Business Before Technology
+Enterprise architecture is fundamentally about making informed decisions.
 
-Technology exists to enable business capabilities.
+Every day, organisations face decisions such as:
 
-Every architecture decision should support one or more business objectives.
+- Which business capabilities should be prioritised?
+- How should enterprise connectivity evolve?
+- Which technologies best support the target operating model?
+- How should security be integrated into the architecture?
+- Which transformation initiatives should be delivered first?
+- How should governance balance innovation with risk?
 
-Before selecting a technology, architects should ask:
+Without agreed principles, these decisions often become inconsistent, subjective, or influenced by short-term priorities, individual preferences, or vendor recommendations.
 
-- What business problem are we solving?
-- Which business capability does this enable?
-- What measurable value will this deliver?
-
-Technology should never become the objective.
+Guiding principles provide a consistent decision-making framework that enables architects, programme managers, project teams, and technology leaders to make decisions aligned with long-term business objectives.
 
 ---
 
-## Principle 2 — Architecture Before Implementation
+# ENAF Guiding Principles
 
-Implementation should always follow architecture.
+## Principle 1 — Business Value First
 
-Projects should not begin with product selection or technical deployment.
+Enterprise networks exist to enable business capabilities and create measurable business value.
 
-Instead, organizations should first define:
+Every decision should contribute to one or more approved business objectives.
 
-- Business requirements
-- Architecture principles
+Before making any architectural decision, organisations should ask:
+
+- What business capability does this enable?
+- Which strategic objective does this support?
+- What measurable value will be delivered?
+- How will success be measured?
+
+Technology should always remain an enabler—not the objective.
+
+---
+
+## Principle 2 — Strategy Before Architecture
+
+Architecture exists to realise business strategy.
+
+Strategic objectives should define architectural priorities, transformation initiatives, and investment decisions.
+
+Architecture should never evolve independently of business direction.
+
+Every architectural capability should support an approved strategic outcome.
+
+---
+
+## Principle 3 — Architecture Before Delivery
+
+Enterprise architecture provides the blueprint for transformation.
+
+Programmes, projects, and implementation activities should deliver approved architectures rather than create them.
+
+Before delivery begins, organisations should establish:
+
+- Business objectives
 - Target architecture
-- Standards
-- Governance
-- Success criteria
+- Enterprise standards
+- Governance requirements
+- Success measures
+- Delivery priorities
 
-Only then should implementation begin.
+Implementation follows architecture—not the other way around.
 
 ---
 
-## Principle 3 — Simplicity
+## Principle 4 — Enterprise Thinking
 
-The simplest architecture that satisfies the business requirements is usually the best architecture.
+Enterprise architecture should optimise the organisation as a whole rather than individual technologies, projects, or business units.
 
-Complexity increases:
+Every decision should consider its impact across:
+
+- Business operations
+- Enterprise architecture
+- Security
+- Operational support
+- Financial investment
+- User experience
+- Regulatory compliance
+- Long-term sustainability
+
+Local optimisation should never compromise enterprise objectives.
+
+---
+
+## Principle 5 — Simplicity by Design
+
+The simplest architecture that satisfies business requirements is usually the most effective.
+
+Unnecessary complexity increases:
 
 - Operational cost
 - Security risk
-- Training requirements
-- Support effort
 - Technical debt
+- Support effort
+- Training requirements
+- Delivery risk
 
-Architects should continuously remove unnecessary complexity.
+Architects should continuously simplify the enterprise wherever practical.
 
 ---
 
-## Principle 4 — Standardization
+## Principle 6 — Standardisation with Controlled Flexibility
 
-Enterprise environments should adopt common standards whenever practical.
+Enterprise standards improve consistency, governance, and operational efficiency.
 
-Standardization improves:
+Standardisation supports:
 
-- Operational consistency
 - Automation
+- Operational excellence
 - Security
 - Documentation
 - Supportability
 - Procurement
-- Training
+- Skills development
 
-Exceptions should be documented, reviewed, and approved through architecture governance.
+Where exceptions are necessary, they should be documented, assessed, approved, and governed through formal architecture processes.
+
+Consistency should be the default, while flexibility remains available where justified.
 
 ---
 
-## Principle 5 — Security by Design
+## Principle 7 — Security and Resilience by Design
 
-Security should be designed into the architecture from the beginning.
+Security and resilience are architectural capabilities—not implementation activities.
 
-It should never be treated as a separate implementation activity.
+They should be embedded throughout the entire lifecycle rather than added after delivery.
 
-Architecture should consider:
+Architectures should address:
 
-- Identity
-- Authentication
-- Authorization
+- Identity and access management
+- Zero Trust principles
+- Network segmentation
 - Encryption
-- Segmentation
-- Least privilege
-- Monitoring
-- Logging
-- Compliance
-
-Security is an architectural capability, not an optional feature.
-
----
-
-## Principle 6 — Resilience by Design
-
-Enterprise connectivity should continue operating despite failures.
-
-Architecture should consider:
-
 - High availability
 - Disaster recovery
-- Geographic diversity
-- Redundancy
-- Capacity planning
-- Service continuity
+- Business continuity
+- Monitoring and logging
+- Risk management
+- Regulatory compliance
 
-Resilience should be intentionally designed rather than added later.
+Security and resilience should enable business continuity while protecting enterprise assets.
 
 ---
 
-## Principle 7 — Automation First
+## Principle 8 — Automation Where It Creates Value
 
-Manual operations should be minimized wherever possible.
-
-Automation improves:
-
-- Speed
-- Accuracy
-- Consistency
-- Scalability
-- Compliance
-- Operational efficiency
+Automation should be adopted wherever it improves quality, consistency, governance, scalability, or operational efficiency.
 
 Examples include:
 
@@ -164,152 +171,178 @@ Examples include:
 - CI/CD pipelines
 - Automated testing
 - Compliance validation
-- Monitoring and alerting
+- Observability
+- Self-service provisioning
+- Operational workflows
 
-Automation should become part of the architecture rather than an operational afterthought.
-
----
-
-## Principle 8 — Cloud-Aware Design
-
-Modern enterprise networks should assume that cloud services are part of the operating model.
-
-Architectures should support:
-
-- Public cloud
-- Private cloud
-- Hybrid cloud
-- Multi-cloud
-- SaaS integration
-- Cloud-native networking
-
-Cloud should be considered during architecture design rather than integrated later.
+Automation should simplify operations rather than introduce unnecessary complexity.
 
 ---
 
-## Principle 9 — Vendor Neutrality
+## Principle 9 — Technology Agnostic
 
-Architecture decisions should be based on required capabilities rather than vendor marketing.
+Technology decisions should be driven by business capabilities rather than products or vendors.
 
-Architects should evaluate technologies based on:
+Architectures should be evaluated based on:
 
 - Business fit
-- Technical fit
-- Operational fit
-- Security capabilities
-- Cost
+- Architectural fit
+- Operational suitability
+- Security
 - Scalability
 - Integration
-- Supportability
+- Cost
+- Sustainability
 
-Vendor products should support the architecture—not define it.
+Enterprise architecture should define required capabilities.
+
+Technology should be selected to fulfil those capabilities.
 
 ---
 
 ## Principle 10 — Governance Throughout the Lifecycle
 
-Governance should be continuous rather than limited to project approval.
+Governance is a continuous activity that spans the entire transformation lifecycle.
 
-Architecture governance includes:
+It includes:
 
+- Architecture governance
+- Programme governance
 - Design reviews
-- Architecture approvals
 - Standards compliance
-- Risk assessment
-- Documentation
+- Risk management
 - Change control
 - Exception management
-- Lifecycle reviews
+- Operational governance
+- Benefits realisation
 
-Governance ensures long-term consistency and accountability.
+Governance provides accountability while ensuring long-term consistency.
 
 ---
 
-## Principle 11 — Measurable Outcomes
+## Principle 11 — End-to-End Traceability
 
-Architecture success should be measurable.
+Every activity within ENAF should be traceable to an approved business objective.
 
-Examples include:
+Traceability ensures that organisations understand why work is being performed, how it supports strategy, and what value it delivers.
 
+The complete traceability chain should be maintained throughout the lifecycle.
+
+```text
+Business Strategy
+        │
+        ▼
+Business Objectives
+        │
+        ▼
+Transformation Initiatives
+        │
+        ▼
+Transformation Programmes
+        │
+        ▼
+Projects
+        │
+        ▼
+Architecture
+        │
+        ▼
+Implementation
+        │
+        ▼
+Operational Services
+        │
+        ▼
+Business Outcomes
+```
+
+No transformation activity should exist without a clear business purpose.
+
+---
+
+## Principle 12 — Measurable Outcomes
+
+Enterprise transformation should always deliver measurable results.
+
+Success should be evaluated using agreed performance indicators such as:
+
+- Business value delivered
 - Service availability
-- Network performance
 - Security posture
 - User experience
 - Operational efficiency
+- Cost optimisation
+- Compliance
 - Recovery objectives
-- Cost optimization
-- Business enablement
+- Customer satisfaction
 
-Every major architecture initiative should define measurable success criteria before implementation begins.
+Every initiative should define measurable success criteria before implementation begins.
 
 ---
 
-## Principle 12 — Continuous Improvement
+## Principle 13 — Continuous Learning and Improvement
 
-Enterprise architecture is never complete.
+Enterprise architecture is an ongoing capability rather than a one-time project.
 
-Business requirements evolve.
+Business priorities, technologies, risks, and operating models continually evolve.
 
-Technology evolves.
-
-Security threats evolve.
-
-Operational practices evolve.
-
-Architecture should continuously improve based on:
+Organisations should continuously improve based on:
 
 - Operational metrics
 - Lessons learned
-- Incidents
-- Business feedback
 - Governance reviews
+- Business feedback
+- Security assessments
 - Technology innovation
+- Industry best practice
+- Performance measurements
 
-Continuous improvement ensures that the architecture remains relevant and continues to support the organization's objectives.
+Continuous learning ensures that enterprise architecture remains relevant, effective, and aligned with organisational goals.
 
 ---
 
-## Applying the Principles
+# Applying the Principles
 
-These principles should be applied throughout every stage of the ENAF lifecycle.
+These principles apply throughout every stage of the ENAF lifecycle.
 
-Although some principles become more visible during specific phases, all principles remain relevant across the entire lifecycle.
+Although some principles become more prominent during specific phases, they should all be considered when making enterprise decisions.
 
-| ENAF Lifecycle Stage | Primary Principles |
-|-----------------------|--------------------|
-| Business Strategy | Business Before Technology |
-| Current State | Measurable Outcomes |
-| Target State | Simplicity, Standardization |
-| Architecture | Security by Design, Resilience by Design, Vendor Neutrality |
-| Roadmap | Business Before Technology, Governance Throughout the Lifecycle |
-| Implementation | Architecture Before Implementation, Automation First |
-| Operations | Standardization, Automation First, Resilience by Design |
+| Lifecycle Stage | Primary Principles |
+|-----------------|--------------------|
+| Strategy | Business Value First, Strategy Before Architecture |
+| Current State | Enterprise Thinking, Measurable Outcomes |
+| Target State | Simplicity by Design, Standardisation |
+| Architecture | Security and Resilience by Design, Technology Agnostic |
+| Roadmap | Business Value First, Governance Throughout the Lifecycle |
+| Implementation | Architecture Before Delivery, End-to-End Traceability, Automation Where It Creates Value |
+| Operations | Standardisation, Security and Resilience, Continuous Learning |
 | Governance | Governance Throughout the Lifecycle |
-| Optimization | Continuous Improvement |
+| Optimisation | Continuous Learning and Improvement, Measurable Outcomes |
 
 ---
 
-## Summary
+# Summary
 
-The ENAF Guiding Principles establish the foundation for every architecture decision made throughout the framework.
+The ENAF Guiding Principles establish the foundation for every decision made throughout the enterprise transformation lifecycle.
 
-By following these principles, organizations can develop enterprise network architectures that are:
+Together they ensure that enterprise network architecture remains:
 
 - Business-driven
+- Strategically aligned
+- Architecturally consistent
 - Secure
 - Resilient
-- Simple
 - Governed
 - Measurable
-- Scalable
 - Sustainable
+- Continuously improving
 
-These principles remain applicable regardless of technology choices, deployment models, or organizational size.
+By applying these principles consistently, organisations can deliver enterprise transformation in a structured, repeatable, and business-focused manner while maintaining complete traceability from strategic objectives to measurable operational outcomes.
 
 ---
 
-## Related Documents
+# Related Documents
 
-- 01-Introduction.md
-- 02-What-is-ENAF.md
-- 04-Architecture-Lifecycle.md
+- `01-Introduction.md`
+- `02-What-is-ENAF.md`
+- `04-Architecture-Lifecycle.md`
