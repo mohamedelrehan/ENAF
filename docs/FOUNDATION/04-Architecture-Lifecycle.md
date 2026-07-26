@@ -1,42 +1,42 @@
 # Architecture Lifecycle
 
-The Enterprise Network Architecture Framework (ENAF) organizes enterprise network architecture into a continuous lifecycle that transforms business strategy into measurable business outcomes.
-
-Rather than treating architecture as a one-time design activity, ENAF views architecture as an ongoing capability that continuously evolves alongside the business.
-
----
-
 ## Purpose
 
-The purpose of the ENAF Architecture Lifecycle is to provide a structured and repeatable approach for planning, designing, implementing, governing, operating, and continuously improving enterprise network architectures.
+The Enterprise Network Architecture Framework (ENAF) provides a structured lifecycle that guides organisations from business strategy to measurable business outcomes.
 
-The lifecycle ensures that every architecture initiative begins with business needs and concludes with measurable business value.
+Rather than treating architecture as a one-time project or a collection of technical designs, ENAF establishes enterprise architecture as a continuous business capability that enables transformation, governance, operational excellence, and continuous improvement.
+
+The lifecycle provides a repeatable approach that ensures every architectural decision contributes to approved business objectives while maintaining consistency, governance, and long-term sustainability.
 
 ---
 
-## Why a Lifecycle?
+# Why an Architecture Lifecycle?
 
-Enterprise architecture is not a single project.
+Enterprise architecture is not a single activity.
 
-Business priorities change.
+Successful enterprise transformation requires organisations to:
 
-Technology evolves.
+- Understand business strategy.
+- Assess the current environment.
+- Define the future operating model.
+- Design enterprise architectures.
+- Plan transformation.
+- Deliver approved solutions.
+- Operate enterprise services.
+- Govern the environment.
+- Continuously improve capabilities.
 
-Security threats emerge.
+Treating these activities as isolated projects often results in fragmented architectures, duplicated effort, inconsistent governance, and poor alignment with business priorities.
 
-Cloud platforms introduce new capabilities.
-
-Organizations grow through acquisitions and expansion.
-
-Without a structured lifecycle, architecture gradually becomes inconsistent, difficult to govern, and increasingly expensive to maintain.
-
-The ENAF lifecycle provides a repeatable process that supports continuous transformation rather than isolated technology projects.
+ENAF addresses these challenges by providing an integrated lifecycle that connects every stage of enterprise transformation.
 
 ---
 
 # The ENAF Lifecycle
 
-```
+The ENAF lifecycle consists of nine connected stages.
+
+```text
 Business Strategy
         │
         ▼
@@ -61,292 +61,252 @@ Operations
 Governance
         │
         ▼
-Optimization
+Optimisation
         │
         ▼
 Business Outcomes
         │
-        └───────────────► Continuous Improvement
-                           │
-                           ▼
-                     Business Strategy
+        └────────────────────► Continuous Improvement
 ```
 
-Every stage has defined objectives, activities, stakeholders, deliverables, and decision gates.
+Each stage builds upon the outputs of the previous stage while continuously supporting future improvements.
 
 ---
 
-# Stage 1 — Business Strategy
+# Lifecycle Overview
 
-Every transformation begins with understanding the business.
+## 1. Strategy
 
-The objective is not to select technologies.
+Defines why transformation is required.
 
-The objective is to understand:
+Outputs include:
 
 - Business vision
-- Business goals
-- Business capabilities
-- Growth plans
-- Risk appetite
-- Regulatory obligations
-- Financial constraints
-- Customer expectations
-
-### Key Deliverables
-
-- Business Drivers
-- Strategic Objectives
-- Business Requirements
-- Success Measures
+- Strategic objectives
+- Business drivers
+- Success measures
+- Transformation initiatives
 
 ---
 
-# Stage 2 — Current State
+## 2. Current State
 
-Before designing the future, the existing environment must be understood.
+Establishes the architectural baseline.
 
-This stage documents:
+Outputs include:
 
-- Current network architecture
-- Existing services
-- Cloud connectivity
-- Security posture
-- Operational processes
-- Technical debt
-- Risks
-- Constraints
-
-The objective is to establish an evidence-based baseline.
-
-### Key Deliverables
-
-- Current State Assessment
-- Architecture Inventory
-- Technology Landscape
-- Gap Analysis
-- Risk Assessment
+- Business assessment
+- Application landscape
+- Infrastructure assessment
+- Security assessment
+- Technology inventory
+- Risks and constraints
 
 ---
 
-# Stage 3 — Target State
+## 3. Target State
 
-The target state defines where the organization wants to be.
+Defines the desired future enterprise.
 
-It should describe future capabilities rather than specific products.
+Outputs include:
 
-Typical areas include:
-
-- Cloud networking
-- Security architecture
-- Connectivity model
-- Operating model
-- Automation
-- Observability
-- Governance
-
-### Key Deliverables
-
-- Target Architecture Vision
-- Future Capability Model
-- Design Principles
-- Success Criteria
+- Future operating model
+- Target capabilities
+- Target architecture
+- Target operating principles
+- Success criteria
 
 ---
 
-# Stage 4 — Architecture
+## 4. Architecture
 
-Once the target state is defined, detailed architecture can begin.
+Designs the enterprise architecture required to realise the target state.
 
-Architecture includes:
+Outputs include:
 
-- Logical architecture
-- Physical architecture
-- Security architecture
-- Cloud architecture
-- Integration architecture
-- Operational architecture
-
-Architecture should remain vendor-neutral and capability-driven.
-
-### Key Deliverables
-
-- Architecture Documents
+- Enterprise architecture
+- Domain architectures
+- Reference architectures
 - Standards
-- Design Patterns
-- Reference Architectures
-- Decision Records
+- Design principles
+- Architecture decisions
 
 ---
 
-# Stage 5 — Roadmap
+## 5. Roadmap
 
-Transformation cannot usually happen all at once.
+Plans the transformation journey.
 
-The roadmap converts architecture into manageable phases.
+Outputs include:
 
-It defines:
-
-- Priorities
+- Transition architectures
+- Transformation waves
+- Investment priorities
 - Dependencies
 - Milestones
-- Investment planning
-- Risks
-- Resource requirements
-
-### Key Deliverables
-
-- Transformation Roadmap
-- Migration Plan
-- Release Plan
-- Investment Plan
+- Delivery roadmap
 
 ---
 
-# Stage 6 — Implementation
+## 6. Implementation
 
-Implementation converts architecture into operational solutions.
+Delivers transformation through governed programmes and projects.
 
-Implementation should follow approved architecture rather than redefining it.
+Outputs include:
 
-Activities include:
-
-- Engineering
-- Automation
-- Testing
-- Validation
-- Deployment
-- Knowledge transfer
-
-### Key Deliverables
-
-- Production Deployments
-- Configuration Standards
-- Automation Code
-- Test Results
-- Operational Documentation
+- Transformation programmes
+- Projects
+- Releases
+- Delivered capabilities
+- Operational readiness
+- Benefits realisation
 
 ---
 
-# Stage 7 — Operations
+## 7. Operations
 
-Architecture continues after deployment.
+Operates and supports delivered enterprise capabilities.
 
-Operational excellence includes:
+Outputs include:
 
+- Operational services
+- Service management
 - Monitoring
 - Incident management
-- Capacity planning
 - Performance management
-- Service management
-- Maintenance
-- Continuous support
-
-Operations provide valuable feedback into future architecture decisions.
-
-### Key Deliverables
-
-- Operational Procedures
-- Monitoring Dashboards
-- Operational KPIs
-- Support Documentation
+- Operational reporting
 
 ---
 
-# Stage 8 — Governance
+## 8. Governance
 
-Governance ensures that architecture remains aligned with business objectives throughout its lifecycle.
+Ensures enterprise alignment throughout the lifecycle.
 
-Governance activities include:
+Outputs include:
 
-- Architecture reviews
-- Design approval
-- Exception management
-- Compliance validation
+- Architecture governance
+- Compliance assessments
+- Design reviews
 - Risk management
-- Standards management
-
-Governance is continuous rather than a single approval step.
-
-### Key Deliverables
-
-- Architecture Review Records
-- Compliance Reports
-- Risk Register
-- Decision Records
+- Exception management
+- Decision records
 
 ---
 
-# Stage 9 — Optimization
+## 9. Optimisation
 
-Optimization improves architecture after implementation.
+Continuously improves enterprise capabilities.
 
-Typical optimization activities include:
+Outputs include:
 
+- Lessons learned
+- Improvement initiatives
 - Performance improvements
-- Cost optimization
-- Security enhancements
-- Technology modernization
-- Automation expansion
-- Operational improvements
-
-Optimization ensures that enterprise architecture continues delivering value.
-
-### Key Deliverables
-
-- Optimization Plan
-- Improvement Backlog
-- Updated Architecture
-- Lessons Learned
+- Technology evolution
+- Updated roadmaps
+- Strategic recommendations
 
 ---
 
-# Business Outcomes
+# End-to-End Traceability
 
-The lifecycle concludes by measuring business value.
+Every activity within ENAF should support an approved business objective.
 
-Technology alone is not the objective.
+The lifecycle maintains complete traceability throughout enterprise transformation.
 
-Success should be evaluated using measurable outcomes such as:
+```text
+Business Strategy
+        │
+        ▼
+Business Objectives
+        │
+        ▼
+Transformation Initiatives
+        │
+        ▼
+Transformation Programmes
+        │
+        ▼
+Projects
+        │
+        ▼
+Architecture
+        │
+        ▼
+Implementation
+        │
+        ▼
+Operational Services
+        │
+        ▼
+Business Outcomes
+```
 
-- Business enablement
-- Service availability
-- Customer experience
-- Operational efficiency
-- Security improvements
-- Cost optimization
-- Compliance
-- Time-to-market
-
-These outcomes become inputs for the next business strategy cycle.
-
----
-
-## Continuous Improvement
-
-ENAF is intentionally cyclical.
-
-Every completed transformation produces new knowledge.
-
-Lessons learned from operations, governance, optimization, and business outcomes continuously improve future architecture initiatives.
-
-This ensures that enterprise architecture remains aligned with changing business priorities.
-
----
-
-## Summary
-
-The ENAF Architecture Lifecycle provides a structured methodology for transforming business strategy into operational excellence.
-
-Each lifecycle stage builds upon the previous one while continuously feeding improvements back into future strategy.
-
-The lifecycle enables organizations to deliver enterprise network architectures that are business-driven, secure, resilient, governed, and continuously evolving.
+This traceability enables organisations to understand why work is being performed, how it supports strategy, and what business value has been delivered.
 
 ---
 
-## Related Documents
+# Continuous Improvement
 
-- 01-Introduction.md
-- 02-What-is-ENAF.md
-- 03-Guiding-Principles.md
-- 05-Framework-Mapping.md
+Unlike traditional methodologies, ENAF does not end when implementation is complete.
+
+Operational experience, governance reviews, business feedback, technology innovation, and lessons learned continually influence future strategic planning.
+
+This creates a continuous improvement cycle that enables enterprise architecture to evolve alongside organisational needs.
+
+```text
+Strategy
+      │
+      ▼
+Architecture
+      │
+      ▼
+Transformation
+      │
+      ▼
+Operations
+      │
+      ▼
+Governance
+      │
+      ▼
+Optimisation
+      │
+      └──────────────► Strategy
+```
+
+Enterprise architecture therefore becomes a permanent organisational capability rather than a temporary project.
+
+---
+
+# Benefits of the Lifecycle
+
+Applying the ENAF lifecycle enables organisations to:
+
+- Align architecture with business strategy.
+- Maintain consistent enterprise standards.
+- Improve governance and decision-making.
+- Deliver transformation through structured programmes.
+- Reduce architectural complexity.
+- Improve operational resilience.
+- Strengthen security and compliance.
+- Measure business outcomes.
+- Continuously improve enterprise capabilities.
+
+---
+
+# Summary
+
+The ENAF Architecture Lifecycle provides a complete enterprise transformation lifecycle that connects business strategy, enterprise architecture, programme delivery, operations, governance, and continuous optimisation.
+
+Rather than treating architecture as a collection of technical deliverables, ENAF establishes architecture as a continuous business capability that guides enterprise transformation from strategic intent to measurable business value.
+
+---
+
+# Next Document
+
+```text
+docs/FOUNDATION/05-How-to-Use-ENAF.md
+```
+
+This document explains how organisations, architects, programme teams, and technology leaders apply ENAF in practice throughout enterprise transformation.
