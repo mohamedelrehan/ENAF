@@ -1,27 +1,27 @@
 # Decision Gate
 
-The Decision Gate is the formal governance checkpoint that concludes the Strategy stage of the Enterprise Network Architecture Framework (ENAF).
+The Strategy Decision Gate is the formal governance checkpoint that concludes the Strategy stage of the Enterprise Network Architecture Framework (ENAF).
 
-Its purpose is to verify that the Strategy stage has achieved its objectives, produced the required deliverables, and established a solid business foundation before the project progresses to the Current State stage.
+Its purpose is to verify that the Strategy stage has achieved its objectives, produced the required deliverables, and established a solid business foundation before the transformation progresses to the Current State stage.
 
-Passing the Decision Gate indicates that the organization has sufficient confidence in the strategic direction to continue investing time, resources, and budget into the transformation initiative.
+Successful approval confirms that the organization's business direction, transformation objectives, governance, and strategic planning have been completed and that the approved Strategy outputs may now be released for use by subsequent lifecycle stages.
 
 ---
 
-## Purpose
+# Purpose
 
 The Strategy Decision Gate provides executive and architectural governance by ensuring that:
 
 - The business need has been clearly defined.
-- Strategic objectives are understood.
-- Stakeholders are aligned.
-- Scope has been agreed.
-- Risks are understood.
+- Strategic objectives are approved.
+- Business stakeholders are aligned.
+- Transformation scope has been agreed.
+- Strategic risks and constraints are understood.
 - Financial considerations have been reviewed.
 - Organizational readiness has been assessed.
-- Required deliverables have been completed.
+- Required Strategy deliverables have been completed and reviewed.
 
-The Decision Gate protects the organization from progressing into architecture and implementation activities without a clear strategic foundation.
+The Decision Gate protects the organization from progressing into architecture activities without an approved strategic foundation.
 
 ---
 
@@ -29,18 +29,19 @@ The Decision Gate protects the organization from progressing into architecture a
 
 | Attribute | Value |
 |-----------|-------|
-| Decision Gate ID | DG-STR-01 |
+| Decision Gate ID | STR-DG-01 |
 | Lifecycle Stage | Strategy |
 | Gate Name | Strategy Approval Gate |
 | Gate Owner | Enterprise Architecture |
-| Approval Authority | Executive Sponsor / Architecture Review Board |
+| Approval Authority | Executive Sponsor / Architecture Governance Board |
 | Mandatory | Yes |
+| Primary Output | Approved Strategy Outputs |
 
 ---
 
 # Required Evidence
 
-Before requesting approval, the following deliverables should be available for review.
+Before requesting approval, the following Strategy deliverables shall be completed and available for governance review.
 
 | Deliverable ID | Deliverable |
 |---------------|-------------|
@@ -54,7 +55,7 @@ Before requesting approval, the following deliverables should be available for r
 | DEL-STR-08 | Initial Risk & Constraints Register |
 | DEL-STR-09 | Strategy Summary |
 
-Incomplete or unapproved deliverables should be resolved before requesting gate approval.
+Incomplete or unapproved deliverables shall be resolved before requesting approval.
 
 ---
 
@@ -107,7 +108,7 @@ The Strategy stage should only be approved when the following criteria have been
 
 ## Risk
 
-- Initial risks have been identified.
+- Strategic risks have been identified.
 - Major constraints are documented.
 - Compliance obligations are understood.
 
@@ -115,21 +116,40 @@ The Strategy stage should only be approved when the following criteria have been
 
 ## Governance
 
-- Strategy deliverables have been reviewed.
+- Strategy deliverables have been completed.
+- Deliverables have been reviewed.
 - Required approvals have been obtained.
 - Outstanding issues have been documented.
 
 ---
 
-# Decision Outcomes
+# Approved Strategy Outputs
 
-Following the review, one of the following outcomes should be recorded.
+Following successful approval through **STR-DG-01**, the Strategy deliverables become the official outputs of the Strategy stage.
+
+| Approved Output | Produced From |
+|-----------------|---------------|
+| STR-OUT-01 Approved Business Context Document | DEL-STR-01 |
+| STR-OUT-02 Approved Business Drivers Register | DEL-STR-02 |
+| STR-OUT-03 Approved Business Objectives Document | DEL-STR-03 |
+| STR-OUT-04 Approved Scope Statement | DEL-STR-04 |
+| STR-OUT-05 Approved Stakeholder Register | DEL-STR-05 |
+| STR-OUT-06 Approved Financial Assessment | DEL-STR-06 |
+| STR-OUT-07 Approved Organizational Readiness Assessment | DEL-STR-07 |
+| STR-OUT-08 Approved Initial Risk & Constraints Register | DEL-STR-08 |
+| STR-OUT-09 Approved Strategy Summary | DEL-STR-09 |
+
+These approved outputs become the mandatory business inputs to the Current State stage.
+
+---
+
+# Decision Outcomes
 
 ## Approved
 
-The Strategy stage has met all approval criteria.
+The Strategy stage has satisfied all governance requirements.
 
-The project may proceed to the Current State stage.
+The Strategy deliverables become the official approved outputs of the Strategy stage and are released to the Current State stage.
 
 ---
 
@@ -137,13 +157,13 @@ The project may proceed to the Current State stage.
 
 The Strategy stage is substantially complete, but specific actions must be completed within an agreed timeframe.
 
-Examples include:
+The approved outputs may be released subject to the agreed conditions.
 
-- Update stakeholder register.
+Typical actions include:
+
+- Update stakeholder information.
 - Clarify financial assumptions.
-- Complete organizational readiness assessment.
-
-These actions should be tracked until completed.
+- Complete readiness actions.
 
 ---
 
@@ -158,15 +178,15 @@ Typical reasons include:
 - Pending executive decisions.
 - Outstanding business dependencies.
 
-The Decision Gate should be reconvened once the required information becomes available.
+The Decision Gate shall be reconvened once the required information has been provided.
 
 ---
 
 ## Rejected
 
-The Strategy stage has not established a sufficient foundation for the transformation.
+The Strategy stage has not established a sufficient business foundation.
 
-Significant issues must be resolved before the project can proceed.
+Significant issues must be resolved before another approval request can be submitted.
 
 Examples include:
 
@@ -176,62 +196,61 @@ Examples include:
 - Major unresolved risks.
 - Insufficient organizational readiness.
 
-The Strategy stage should be revisited before another approval request is submitted.
-
 ---
 
 # Governance Participants
-
-The following roles typically participate in the Decision Gate.
 
 | Role | Responsibility |
 |------|----------------|
 | Executive Sponsor | Business approval |
 | Enterprise Architect | Presents Strategy outcomes |
 | Business Owner | Confirms business objectives |
-| Project Manager | Reviews project readiness |
+| Project Manager | Reviews programme readiness |
 | Security Architect | Reviews strategic security considerations |
 | Finance Representative | Reviews financial assumptions |
-| Risk and Compliance Representative | Reviews compliance obligations |
-| Architecture Review Board | Provides governance approval |
-
-Organizations may adapt participation based on their governance model.
+| Risk & Compliance Representative | Reviews governance and compliance |
+| Architecture Governance Board | Final governance approval |
 
 ---
 
-# Gate Deliverables
+# Governance Records
 
-Upon completion of the Decision Gate, the following records should be produced.
+Upon completion of STR-DG-01 the following governance records shall be produced.
 
 - Decision Gate Record
 - Approval Decision
-- Action Register (if required)
+- Approved Strategy Outputs Register
+- Action Register (if applicable)
 - Outstanding Issues Log
 - Decision Date
 - Approval Authority
-- Next Lifecycle Stage
+- Authorization to commence the Current State stage
 
-These records provide governance evidence and support future audits.
+These records provide governance evidence and support future audit activities.
 
 ---
 
-# Traceability
+# Lifecycle Traceability
 
-The Strategy Decision Gate validates the successful completion of the following ENAF activities.
+STR-DG-01 formally concludes the Strategy stage and authorizes the release of the approved Strategy outputs.
 
-| Activity | Description |
-|----------|-------------|
-| STR-01 | Understand the Business |
-| STR-02 | Identify Business Drivers |
-| STR-03 | Define Business Objectives |
-| STR-04 | Define Scope |
-| STR-05 | Identify Stakeholders |
-| STR-06 | Understand Financial Constraints |
-| STR-07 | Assess Organizational Readiness |
-| STR-08 | Identify Risks and Constraints |
-| STR-09 | Align Business and Architecture |
+```text
+Strategy Activities
+        │
+        ▼
+Strategy Deliverables
+        │
+        ▼
+STR-DG-01
+        │
+        ▼
+Approved Strategy Outputs
+        │
+        ▼
+Current State Inputs
+```
 
-The Decision Gate confirms that these activities have been completed to an acceptable standard before the lifecycle progresses.
+This governance model ensures that every lifecycle stage begins using approved outputs from the previous stage, providing complete governance, traceability, and continuity throughout ENAF.
 
 ---
 
@@ -239,26 +258,24 @@ The Decision Gate confirms that these activities have been completed to an accep
 
 The Strategy stage is formally complete when:
 
-- All mandatory deliverables have been completed.
-- Decision criteria have been satisfied.
-- Executive approval has been granted.
-- Governance records have been updated.
-- The Current State stage has been authorized to begin.
-
-Only after these conditions have been met should the organization proceed to the next stage of the ENAF lifecycle.
+- All Strategy activities have been completed.
+- All Strategy deliverables have been completed and reviewed.
+- STR-DG-01 has been successfully approved.
+- Approved Strategy Outputs have been released.
+- The Current State stage has been formally authorized.
 
 ---
 
-## Summary
+# Summary
 
-The Strategy Decision Gate is the formal governance mechanism that validates the completion of the Strategy stage.
+The Strategy Decision Gate is the formal governance mechanism that concludes the Strategy stage of ENAF.
 
-It ensures that business objectives, scope, stakeholders, financial considerations, organizational readiness, and governance requirements have all been adequately addressed before additional investment is made in the transformation initiative.
+It validates that the Strategy deliverables satisfy the required business, governance, financial, organizational, and architectural criteria before authorizing progression through the lifecycle.
 
-By enforcing a structured approval process, ENAF promotes disciplined decision-making, improves executive oversight, and reduces the risk of initiating architecture work without a clear strategic foundation.
+Following successful approval through **STR-DG-01**, the Strategy deliverables become the official approved outputs of the Strategy stage. These governance-controlled outputs provide the mandatory business inputs to the Current State stage and establish the strategic foundation for every subsequent stage of the ENAF lifecycle.
 
 ---
 
-## Next Step
+# Next Step
 
-Continue with **09-NorthStar.md** to see how the Strategy stage is applied in a practical enterprise transformation scenario using the NorthStar case study.
+Continue with **09-NorthStar.md** to see how the Strategy stage is applied within the NorthStar case study and how the approved Strategy outputs are used to initiate the Current State Assessment.
