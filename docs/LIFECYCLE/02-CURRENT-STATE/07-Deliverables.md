@@ -120,6 +120,25 @@ Target State Architecture
 
 ---
 
+# Approved Outputs
+
+Upon successful completion of the Current State Decision Gate (DG-CSA-01), the following deliverables become the official outputs of the Current State stage.
+
+These approved outputs provide the authoritative baseline for all subsequent lifecycle stages and serve as mandatory inputs to the Target State stage.
+
+| Output ID | Approved Output | Used By |
+|-----------|-----------------|---------|
+| CST-OUT-01 | Approved Current State Architecture | Target State |
+| CST-OUT-02 | Approved Architecture Assessment Report | Target State, Governance |
+| CST-OUT-03 | Approved Capability Assessment | Target State |
+| CST-OUT-04 | Approved Risk and Constraint Register | Target State, Roadmap |
+| CST-OUT-05 | Approved Improvement Opportunities Register | Target State, Roadmap |
+| CST-OUT-06 | Approved Stakeholder Assessment Summary | Target State |
+
+These outputs remain under architecture governance and provide full traceability throughout the remainder of the ENAF lifecycle.
+
+---
+
 # Governance and Approval
 
 Before the Current State stage can be completed, all deliverables should:
