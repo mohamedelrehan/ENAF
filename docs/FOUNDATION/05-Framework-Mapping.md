@@ -1,321 +1,158 @@
-# Industry Alignment
-
-The Enterprise Network Architecture Framework (ENAF) is designed to complement established enterprise architecture frameworks, governance models, security standards, cloud adoption methodologies, and operational best practices.
-
-ENAF does not replace existing industry frameworks. Instead, it provides a practical methodology focused on enterprise network architecture while integrating seamlessly with the frameworks and standards that organizations already use.
-
-Whether an organization is adopting cloud, modernizing its network, implementing Zero Trust, or driving digital transformation, ENAF provides the architecture lifecycle that connects strategy, design, implementation, operations, governance, and continuous improvement.
-
----
+# Framework Mapping
 
 ## Purpose
 
-The purpose of this document is to demonstrate how ENAF aligns with widely adopted industry frameworks and standards.
+The Enterprise Network Architecture Framework (ENAF) does not replace established industry frameworks.
 
-This alignment enables organizations to integrate ENAF into their existing architecture, governance, security, and operational practices without disrupting established methodologies.
+Instead, ENAF provides the enterprise transformation lifecycle that connects them into a single, practical methodology for planning, delivering, governing, operating, and continuously improving enterprise network architectures.
 
----
+Most organisations already use multiple frameworks across architecture, programme management, governance, service management, security, cloud, and project delivery.
 
-## Why Industry Alignment Matters
-
-Enterprise transformation is multidisciplinary.
-
-No single framework covers every aspect of enterprise architecture, governance, cybersecurity, cloud adoption, service management, and network design.
-
-Organizations typically combine multiple frameworks, each addressing a specific discipline.
-
-ENAF acts as the architectural integration layer that connects these disciplines into a single enterprise network architecture lifecycle.
+ENAF provides the structure that enables these frameworks to work together throughout a complete enterprise transformation lifecycle.
 
 ---
 
-# Enterprise Architecture
+# Why Framework Mapping Matters
 
-Enterprise architecture frameworks provide the structure for aligning technology with business strategy.
+Enterprise transformation rarely depends on a single framework.
 
-## TOGAF (The Open Group Architecture Framework)
+Large organisations commonly adopt multiple industry standards, each addressing a specific discipline.
 
-**Primary Focus**
+For example:
 
-Enterprise Architecture
+- Enterprise Architecture teams may use TOGAF.
+- Programme Management Offices (PMOs) may use MSP or PMI.
+- Project teams may use PRINCE2.
+- Delivery teams may follow Scrum or SAFe.
+- Operations teams may adopt ITIL.
+- Governance teams may use COBIT.
+- Security teams may implement NIST or ISO/IEC 27001.
+- Cloud teams may follow Microsoft CAF or AWS CAF.
 
-**How ENAF Aligns**
+Each framework provides value within its own domain.
 
-TOGAF provides a comprehensive methodology covering Business, Data, Application, and Technology Architecture.
+However, organisations often struggle to integrate them into a single transformation approach.
 
-ENAF complements TOGAF by providing detailed guidance for enterprise network architecture throughout the complete transformation lifecycle.
-
-Typical use:
-
-- TOGAF defines the enterprise architecture.
-- ENAF defines and governs the enterprise network architecture.
-
----
-
-## Zachman Framework
-
-**Primary Focus**
-
-Enterprise Architecture Classification
-
-**How ENAF Aligns**
-
-The Zachman Framework provides a taxonomy for organizing architectural artifacts.
-
-ENAF complements this by defining the activities, lifecycle, deliverables, and governance required to produce and manage those artifacts.
+ENAF addresses this challenge by providing an overarching lifecycle that aligns these disciplines from business strategy through to operational excellence.
 
 ---
 
-## ArchiMate
+# ENAF as the Integration Framework
 
-**Primary Focus**
+Rather than competing with existing methodologies, ENAF provides the enterprise transformation structure that connects them together.
 
-Enterprise Architecture Modeling
+```text
+                 Enterprise Strategy
+                         │
+                         ▼
+                      ENAF Lifecycle
+                         │
+ ┌──────────┬──────────┬──────────┬──────────┐
+ ▼          ▼          ▼          ▼          ▼
+TOGAF     MSP/PMI   PRINCE2    ITIL      COBIT
+ ▼          ▼          ▼          ▼          ▼
+Enterprise  Programme  Project   Service   Governance
+Architecture Management Delivery Management
+                         │
+                         ▼
+                 Business Outcomes
+```
 
-**How ENAF Aligns**
-
-ArchiMate provides a standardized modeling language for visualizing enterprise architecture.
-
-ENAF can use ArchiMate models to document business capabilities, applications, infrastructure, and network architecture throughout the lifecycle.
-
----
-
-# Governance
-
-Governance frameworks ensure that technology investments remain aligned with business objectives.
-
-## COBIT
-
-**Primary Focus**
-
-Enterprise IT Governance
-
-**How ENAF Aligns**
-
-COBIT defines governance objectives, decision-making processes, and management controls.
-
-ENAF ensures that enterprise network architecture supports these governance objectives throughout planning, implementation, and operations.
-
-Typical use:
-
-- COBIT governs.
-- ENAF architects.
+Each framework contributes specialist guidance while ENAF provides the end-to-end transformation lifecycle.
 
 ---
 
-# Security
+# Framework Mapping
 
-Security frameworks define how organizations manage cyber risk and protect business assets.
-
-## NIST Cybersecurity Framework (CSF)
-
-**Primary Focus**
-
-Cybersecurity Risk Management
-
-**How ENAF Aligns**
-
-ENAF integrates the NIST Cybersecurity Framework into network architecture by embedding security throughout every lifecycle stage.
-
-The NIST functions—Identify, Protect, Detect, Respond, and Recover—are reflected within ENAF's architecture and operational practices.
-
----
-
-## SABSA
-
-**Primary Focus**
-
-Business-Driven Security Architecture
-
-**How ENAF Aligns**
-
-SABSA provides a methodology for designing security architecture based on business requirements.
-
-ENAF incorporates these principles into enterprise network architecture to ensure security is integrated rather than added later.
+| Discipline | Common Frameworks | ENAF Role |
+|------------|-------------------|-----------|
+| Enterprise Architecture | TOGAF, Zachman, ArchiMate | Defines the enterprise architecture lifecycle and integrates architectural outputs into business transformation. |
+| Programme Management | MSP, PMI | Supports the delivery of transformation programmes aligned with enterprise strategy. |
+| Project Management | PRINCE2, PMBOK | Delivers approved initiatives and projects within the transformation roadmap. |
+| Agile Delivery | Scrum, Kanban, SAFe | Enables iterative and incremental delivery during implementation. |
+| IT Service Management | ITIL, ISO/IEC 20000 | Supports operational transition, service management, and continual service improvement. |
+| Governance | COBIT, ISO/IEC 38500 | Provides governance, decision-making, compliance, and oversight throughout the lifecycle. |
+| Information Security | ISO/IEC 27001, SABSA | Supports secure architecture, governance, and risk management. |
+| Cybersecurity | NIST Cybersecurity Framework | Provides security controls and cybersecurity capabilities throughout the lifecycle. |
+| Zero Trust | NIST SP 800-207 | Supports Zero Trust architecture principles within enterprise network design. |
+| Cloud Adoption | Microsoft CAF, AWS CAF, Google Cloud Framework | Supports cloud transformation and cloud operating models. |
+| Business Continuity | ISO 22301 | Supports resilience, disaster recovery, and operational continuity. |
+| Risk Management | ISO 31000 | Supports enterprise risk assessment and governance. |
 
 ---
 
-## ISO/IEC 27001
+# ENAF Lifecycle Mapping
 
-**Primary Focus**
+Each lifecycle stage naturally aligns with one or more established frameworks.
 
-Information Security Management
-
-**How ENAF Aligns**
-
-ISO 27001 defines management controls for protecting information assets.
-
-ENAF supports the implementation of these controls through secure network architecture, segmentation, identity integration, monitoring, and governance.
-
----
-
-# Service Management
-
-Operational excellence requires structured service management practices.
-
-## ITIL
-
-**Primary Focus**
-
-IT Service Management
-
-**How ENAF Aligns**
-
-ITIL focuses on delivering and operating IT services.
-
-ENAF focuses on designing the architecture that enables those services.
-
-Typical use:
-
-- ENAF designs.
-- ITIL operates.
+| ENAF Stage | Primary Supporting Frameworks |
+|------------|-------------------------------|
+| Strategy | TOGAF, COBIT, ISO/IEC 38500 |
+| Current State | TOGAF, ArchiMate |
+| Target State | TOGAF, Zachman |
+| Architecture | TOGAF, ArchiMate, SABSA |
+| Roadmap | MSP, PMI, PRINCE2 |
+| Implementation | MSP, PMBOK, PRINCE2, Scrum, SAFe |
+| Operations | ITIL, ISO/IEC 20000 |
+| Governance | COBIT, ISO/IEC 38500, ISO 31000 |
+| Optimisation | ITIL Continual Improvement, COBIT, TOGAF |
 
 ---
 
-# Cloud Adoption
+# Relationship Between ENAF and Other Frameworks
 
-Cloud adoption frameworks help organizations plan and manage cloud transformation.
+ENAF complements existing methodologies rather than replacing them.
 
-## Microsoft Cloud Adoption Framework
-
-**Primary Focus**
-
-Cloud Transformation
-
-**How ENAF Aligns**
-
-The Microsoft Cloud Adoption Framework provides guidance for planning, adopting, and governing Azure environments.
-
-ENAF complements this guidance by defining enterprise network architecture across cloud, data center, branch, and hybrid environments.
+| Framework | Primary Focus | ENAF Contribution |
+|-----------|---------------|-------------------|
+| TOGAF | Enterprise Architecture | Provides the transformation lifecycle in which architecture is developed and applied. |
+| MSP | Programme Management | Connects programmes to enterprise strategy and architecture. |
+| PRINCE2 | Project Management | Aligns projects with approved architecture and roadmap. |
+| Scrum / SAFe | Agile Delivery | Supports controlled implementation within enterprise governance. |
+| ITIL | Service Management | Integrates operational management into the overall transformation lifecycle. |
+| COBIT | Governance | Ensures governance remains active across every lifecycle stage. |
+| Microsoft CAF / AWS CAF | Cloud Adoption | Integrates cloud transformation into the broader enterprise architecture journey. |
 
 ---
 
-## Google Cloud Architecture Framework
+# Benefits of Framework Integration
 
-**Primary Focus**
+Using ENAF alongside recognised industry frameworks enables organisations to:
 
-Google Cloud Best Practices
-
-**How ENAF Aligns**
-
-The Google Cloud Architecture Framework provides architectural recommendations for workloads running on Google Cloud.
-
-ENAF incorporates these practices while maintaining a cloud-neutral enterprise architecture approach.
-
----
-
-# Cloud Architecture
-
-Cloud architecture frameworks focus on designing resilient and secure cloud workloads.
-
-## AWS Well-Architected Framework
-
-**Primary Focus**
-
-Cloud Workload Architecture
-
-**How ENAF Aligns**
-
-The AWS Well-Architected Framework provides best practices for designing secure, reliable, efficient, cost-optimized, and sustainable workloads on AWS.
-
-ENAF extends these principles across hybrid and multi-cloud enterprise environments.
+- Maintain consistency across transformation programmes.
+- Improve alignment between business strategy and delivery.
+- Reduce duplication between architecture and project teams.
+- Strengthen governance and compliance.
+- Improve operational readiness.
+- Support cloud and digital transformation.
+- Enable continuous improvement.
+- Deliver measurable business outcomes.
 
 ---
 
-## Azure Well-Architected Framework
+# Vendor Neutrality
 
-**Primary Focus**
+ENAF remains completely vendor-neutral.
 
-Cloud Workload Architecture
+The framework defines **what** organisations should achieve rather than prescribing **how** a specific technology or vendor solution should be implemented.
 
-**How ENAF Aligns**
-
-The Azure Well-Architected Framework provides design guidance for workloads deployed on Microsoft Azure.
-
-ENAF complements this guidance by integrating Azure architectures into the broader enterprise network architecture lifecycle.
+Technology vendors, cloud providers, and implementation partners can therefore operate within ENAF without changing the framework itself.
 
 ---
 
-# Network Architecture
+# Summary
 
-Enterprise network architecture also benefits from established vendor-neutral design patterns and reference architectures.
+ENAF is an enterprise transformation framework that integrates recognised industry frameworks into a single, business-driven lifecycle.
 
-## Cisco SAFE
+Rather than replacing established methodologies, ENAF provides the structure that connects strategy, architecture, programme delivery, project execution, operations, governance, and continuous optimisation into one coherent enterprise transformation approach.
 
-**Primary Focus**
-
-Secure Enterprise Network Design
-
-**How ENAF Aligns**
-
-Cisco SAFE provides validated security architecture patterns.
-
-ENAF can leverage these patterns while remaining independent of any single vendor technology.
+This enables organisations to leverage existing best practices while maintaining complete traceability from business strategy to measurable business outcomes.
 
 ---
 
-## Cisco Validated Designs (CVD)
+# Related Documents
 
-**Primary Focus**
-
-Reference Network Architectures
-
-**How ENAF Aligns**
-
-Cisco Validated Designs provide implementation guidance for enterprise networking technologies.
-
-ENAF uses these as implementation references rather than architectural standards.
-
----
-
-## Vendor Reference Architectures
-
-Examples include:
-
-- VMware
-- Palo Alto Networks
-- Fortinet
-- Juniper
-- HPE Aruba
-- Dell Technologies
-
-These reference architectures provide implementation guidance for specific technologies.
-
-ENAF remains vendor-neutral and uses these references where appropriate without becoming dependent on any individual vendor.
-
----
-
-# Positioning ENAF
-
-ENAF is not intended to compete with established frameworks.
-
-Instead, it integrates them into a practical enterprise network architecture methodology.
-
-| Discipline | Industry Frameworks | ENAF Contribution |
-|------------|---------------------|-------------------|
-| Enterprise Architecture | TOGAF, Zachman, ArchiMate | Enterprise Network Architecture Lifecycle |
-| Governance | COBIT | Architecture Governance |
-| Security | NIST CSF, SABSA, ISO 27001 | Security by Design |
-| Service Management | ITIL | Architecture supporting Service Delivery |
-| Cloud Adoption | Microsoft CAF, Google Cloud Architecture Framework | Cloud-Native Enterprise Network Architecture |
-| Cloud Architecture | AWS Well-Architected, Azure Well-Architected | Hybrid and Multi-Cloud Network Architecture |
-| Network Design | Cisco SAFE, CVD, Vendor Reference Architectures | Vendor-Neutral Enterprise Network Architecture |
-
----
-
-## Summary
-
-ENAF is intentionally vendor-neutral and framework-agnostic.
-
-Rather than replacing existing industry frameworks, ENAF integrates them into a cohesive enterprise network architecture methodology.
-
-By aligning with established best practices across enterprise architecture, governance, security, cloud, service management, and network design, ENAF enables organizations to accelerate transformation while maintaining consistency, security, and operational excellence.
-
----
-
-## Related Documents
-
-- 01-Introduction.md
-- 02-What-is-ENAF.md
-- 03-Guiding-Principles.md
-- 04-Architecture-Lifecycle.md
-- 06-Governance-Model.md
+- `01-Introduction.md`
+- `02-What-is-ENAF.md`
+- `03-Guiding-Principles.md`
+- `04-Architecture-Lifecycle.md`
