@@ -1,18 +1,20 @@
 # Activities
 
-The Strategy stage consists of a series of structured activities that establish the business foundation for the entire Enterprise Network Architecture Framework (ENAF) lifecycle.
+The Strategy stage consists of a structured set of activities that establish the business foundation for the Enterprise Network Architecture Framework (ENAF).
 
-These activities help architects understand the organization, identify business priorities, engage stakeholders, and define the strategic direction before any architectural or technical decisions are made.
+These activities enable Enterprise Architects to understand the organisation, identify business priorities, engage stakeholders, define the strategic direction, and establish the information required before any architectural or technology decisions are made.
 
-Although organizations may adapt these activities to their own governance processes, the overall sequence should remain consistent.
+Each activity contributes to one or more Strategy deliverables that collectively describe the business context, objectives, scope, stakeholders, financial considerations, organisational readiness, and strategic risks.
+
+Although organisations may adapt these activities to suit their governance model, the overall sequence should remain consistent to ensure a structured, repeatable, and traceable approach to enterprise transformation.
 
 ---
 
-## Purpose
+# Purpose
 
-The purpose of these activities is to establish a clear understanding of the business context and create a shared vision for the transformation initiative.
+The purpose of the Strategy activities is to establish a clear understanding of the business context and create a shared vision for the transformation initiative.
 
-Completing these activities ensures that future architectural work is driven by business value rather than technology preferences.
+By completing these activities, Enterprise Architects ensure that future architecture decisions are driven by business objectives rather than technology preferences while producing the Strategy deliverables required for governance review.
 
 ---
 
@@ -20,7 +22,7 @@ Completing these activities ensures that future architectural work is driven by 
 
 ## Objective
 
-Develop a clear understanding of the organization, its mission, strategic objectives, operating model, and business priorities.
+Develop a clear understanding of the organisation, its mission, strategic objectives, operating model, and business priorities.
 
 Technology should never be discussed before understanding the business.
 
@@ -28,14 +30,14 @@ Technology should never be discussed before understanding the business.
 
 ### Typical Activities
 
-- Review corporate strategy.
+- Review the corporate strategy.
 - Review annual business objectives.
-- Understand the organization's mission and vision.
+- Understand the organisation's mission and vision.
 - Understand the operating model.
 - Review digital transformation initiatives.
-- Understand current business challenges.
-- Identify future growth plans.
-- Review strategic programs already in progress.
+- Identify current business challenges.
+- Understand future growth plans.
+- Review strategic programmes already in progress.
 
 ---
 
@@ -44,7 +46,7 @@ Technology should never be discussed before understanding the business.
 - What business problem are we trying to solve?
 - Why is this initiative important?
 - What happens if we do nothing?
-- What are the organization's priorities over the next three to five years?
+- What are the organisation's priorities over the next three to five years?
 - Which strategic initiatives depend on this transformation?
 
 ---
@@ -57,11 +59,12 @@ Technology should never be discussed before understanding the business.
 
 ---
 
-### Outputs
+### Deliverables Produced
 
-- Business Context
-- Strategic Direction
-- Business Vision
+| Deliverable | Contribution |
+|-------------|--------------|
+| DEL-STR-01 Business Context Document | Primary deliverable produced by this activity. |
+| DEL-STR-09 Strategy Summary | Provides the executive summary of the business context and strategic direction. |
 
 ---
 
@@ -69,7 +72,7 @@ Technology should never be discussed before understanding the business.
 
 ## Objective
 
-Identify the reasons that are driving the transformation.
+Identify the business events, challenges, and opportunities that require transformation.
 
 Business drivers explain why change is necessary.
 
@@ -78,41 +81,37 @@ Business drivers explain why change is necessary.
 ### Typical Activities
 
 - Interview business stakeholders.
-- Review transformation programs.
+- Review transformation programmes.
 - Review business cases.
 - Review customer feedback.
 - Review operational reports.
-
----
-
-### Typical Business Drivers
-
-- Business growth
-- Digital transformation
-- Cloud migration
-- Security improvement
-- Cost optimization
-- Regulatory compliance
-- Technical debt reduction
-- Merger or acquisition
-- Global expansion
-- Operational efficiency
+- Review market and regulatory changes.
 
 ---
 
 ### Questions to Ask
 
-- Why now?
-- What business event initiated this request?
+- Why is change required now?
+- What business event initiated this transformation?
 - What risks exist if no action is taken?
 - What opportunities will this initiative create?
 
 ---
 
-### Outputs
+### Participants
 
-- Business Drivers
-- Transformation Drivers
+- Business Leadership
+- Enterprise Architect
+- Business Owners
+
+---
+
+### Deliverables Produced
+
+| Deliverable | Contribution |
+|-------------|--------------|
+| DEL-STR-02 Business Drivers Register | Primary deliverable produced by this activity. |
+| DEL-STR-09 Strategy Summary | Summarises the approved business drivers. |
 
 ---
 
@@ -120,7 +119,7 @@ Business drivers explain why change is necessary.
 
 ## Objective
 
-Convert business drivers into measurable objectives.
+Convert business drivers into measurable business objectives.
 
 Objectives should describe business outcomes rather than technology implementations.
 
@@ -130,36 +129,35 @@ Objectives should describe business outcomes rather than technology implementati
 
 - Facilitate business workshops.
 - Define measurable outcomes.
-- Agree on success criteria.
-- Prioritize objectives.
+- Agree success measures.
+- Prioritise business objectives.
+- Validate executive expectations.
 
 ---
 
-### Good Examples
+### Questions to Ask
 
-- Improve customer experience.
-- Reduce operational costs by 20%.
-- Increase service availability to 99.99%.
-- Enable cloud adoption.
-- Reduce deployment time.
-- Improve security posture.
+- What outcomes must be achieved?
+- How will success be measured?
+- Which objectives have the highest priority?
+- Which objectives are mandatory?
 
 ---
 
-### Avoid
+### Participants
 
-- Deploy SD-WAN.
-- Purchase new firewalls.
-- Upgrade switches.
-
-These are technical solutions—not business objectives.
+- Executive Sponsor
+- Business Owners
+- Enterprise Architect
 
 ---
 
-### Outputs
+### Deliverables Produced
 
-- Business Objectives
-- Success Criteria
+| Deliverable | Contribution |
+|-------------|--------------|
+| DEL-STR-03 Business Objectives Document | Primary deliverable produced by this activity. |
+| DEL-STR-09 Strategy Summary | Summarises the agreed business objectives. |
 
 ---
 
@@ -167,23 +165,17 @@ These are technical solutions—not business objectives.
 
 ## Objective
 
-Clearly define the boundaries of the initiative.
+Clearly define the boundaries of the transformation initiative.
 
 ---
 
 ### Typical Activities
 
-Identify:
-
-- Business units
-- Geographic regions
-- Applications
-- Data centers
-- Cloud environments
-- Business capabilities
-- Network domains
-
-Also identify what is explicitly out of scope.
+- Identify business units.
+- Identify geographic regions.
+- Identify technology domains.
+- Define in-scope and out-of-scope areas.
+- Record assumptions and dependencies.
 
 ---
 
@@ -196,11 +188,21 @@ Also identify what is explicitly out of scope.
 
 ---
 
-### Outputs
+### Participants
 
-- Project Scope
-- Scope Boundaries
-- Initial Assumptions
+- Enterprise Architect
+- Project Manager
+- Business Owners
+
+---
+
+### Deliverables Produced
+
+| Deliverable | Contribution |
+|-------------|--------------|
+| DEL-STR-04 Scope Statement | Primary deliverable produced by this activity. |
+| DEL-STR-08 Initial Risk & Constraints Register | Documents scope assumptions and dependencies. |
+| DEL-STR-09 Strategy Summary | Summarises the agreed transformation scope. |
 
 ---
 
@@ -208,55 +210,35 @@ Also identify what is explicitly out of scope.
 
 ## Objective
 
-Identify everyone who has an interest in the initiative.
+Identify everyone involved in, responsible for, or affected by the transformation.
 
 ---
 
 ### Typical Activities
 
-- Build stakeholder register.
-- Identify decision makers.
+- Build the stakeholder register.
+- Identify executive sponsors.
 - Identify business owners.
 - Identify technical owners.
 - Understand stakeholder expectations.
+- Define governance responsibilities.
 
 ---
 
-### Typical Stakeholders
-
-Business
-
-- CIO
-- Business Owners
-- Department Managers
-
-Architecture
+### Participants
 
 - Enterprise Architect
-- Network Architect
-- Security Architect
-- Cloud Architect
-
-Technology
-
-- Infrastructure Team
-- Operations Team
-- Service Management
-
-Business Support
-
-- Finance
-- Procurement
-- Risk
-- Compliance
+- Project Manager
+- Executive Sponsor
 
 ---
 
-### Outputs
+### Deliverables Produced
 
-- Stakeholder Register
-- RACI Draft
-- Communication Plan
+| Deliverable | Contribution |
+|-------------|--------------|
+| DEL-STR-05 Stakeholder Register | Primary deliverable produced by this activity. |
+| DEL-STR-09 Strategy Summary | Summarises stakeholder alignment. |
 
 ---
 
@@ -264,72 +246,87 @@ Business Support
 
 ## Objective
 
-Understand the financial expectations surrounding the initiative.
-
-Architecture decisions should consider affordability and long-term sustainability.
+Understand the financial expectations and investment boundaries that will influence the transformation.
 
 ---
 
 ### Typical Activities
 
 - Review available budget.
-- Review investment targets.
-- Review procurement plans.
-- Estimate operational costs.
-- Identify financial risks.
+- Review investment objectives.
+- Review procurement strategy.
+- Identify financial constraints.
+- Identify expected business value.
 
 ---
 
 ### Questions to Ask
 
-- What budget is available?
+- What investment is available?
 - What savings are expected?
-- What ROI is required?
-- What financial constraints exist?
+- What financial limitations exist?
+- What return on investment is required?
 
 ---
 
-### Outputs
+### Participants
 
-- Financial Constraints
-- Budget Assumptions
-- Investment Objectives
+- Finance
+- Executive Sponsor
+- Enterprise Architect
 
 ---
 
-# Activity 7 – Assess Organizational Readiness
+### Deliverables Produced
+
+| Deliverable | Contribution |
+|-------------|--------------|
+| DEL-STR-06 Financial Assessment | Primary deliverable produced by this activity. |
+| DEL-STR-09 Strategy Summary | Summarises the financial context. |
+
+---
+
+# Activity 7 – Assess Organisational Readiness
 
 ## Objective
 
-Determine whether the organization is prepared to execute the transformation.
+Determine whether the organisation is prepared to execute the transformation successfully.
 
 ---
 
 ### Typical Activities
 
-Evaluate:
-
-- Skills
-- Resources
-- Organizational maturity
-- Governance maturity
-- Change readiness
+- Assess organisational maturity.
+- Assess available skills.
+- Assess resource availability.
+- Assess governance maturity.
+- Assess change readiness.
 
 ---
 
 ### Questions to Ask
 
 - Do we have the required skills?
-- Do we need external partners?
-- Are teams prepared for change?
-- Are operational teams involved?
+- Are sufficient resources available?
+- Is additional training required?
+- Are external partners needed?
 
 ---
 
-### Outputs
+### Participants
 
-- Organizational Readiness Assessment
-- Skills Gap Assessment
+- HR
+- Enterprise Architect
+- Business Leadership
+
+---
+
+### Deliverables Produced
+
+| Deliverable | Contribution |
+|-------------|--------------|
+| DEL-STR-07 Organisational Readiness Assessment | Primary deliverable produced by this activity. |
+| DEL-STR-09 Strategy Summary | Summarises organisational readiness. |
 
 ---
 
@@ -337,37 +334,45 @@ Evaluate:
 
 ## Objective
 
-Identify factors that may influence the success of the initiative.
+Identify the strategic risks and constraints that could affect the success of the transformation.
 
 ---
 
 ### Typical Activities
 
-Review:
-
-- Business risks
-- Technology risks
-- Resource risks
-- Financial risks
-- Compliance risks
-
----
-
-### Examples
-
-- Budget limitations
-- Legacy technologies
-- Regulatory obligations
-- Vendor contracts
-- Resource shortages
-- Tight timelines
+- Review business risks.
+- Review financial risks.
+- Review technology constraints.
+- Review compliance obligations.
+- Document assumptions.
+- Define initial mitigation actions.
 
 ---
 
-### Outputs
+### Questions to Ask
 
-- Initial Risk Register
-- Constraints Register
+- What could prevent success?
+- What constraints already exist?
+- Which risks require immediate attention?
+- What assumptions have been made?
+
+---
+
+### Participants
+
+- Enterprise Architect
+- Risk Management
+- Compliance
+- Business Owners
+
+---
+
+### Deliverables Produced
+
+| Deliverable | Contribution |
+|-------------|--------------|
+| DEL-STR-08 Initial Risk & Constraints Register | Primary deliverable produced by this activity. |
+| DEL-STR-09 Strategy Summary | Summarises strategic risks and constraints. |
 
 ---
 
@@ -375,36 +380,62 @@ Review:
 
 ## Objective
 
-Confirm that architecture will directly support business priorities.
+Validate that all Strategy deliverables are complete, consistent, and aligned with the organisation's business priorities before requesting governance approval.
 
-This is the final activity before progressing to the Current State stage.
+This activity consolidates the outcomes of the previous Strategy activities and prepares the Strategy stage for the Strategy Decision Gate (STR-DG-01).
+
+---
+
+### Typical Activities
+
+- Review all Strategy deliverables.
+- Validate alignment with business objectives.
+- Confirm stakeholder agreement.
+- Confirm transformation scope.
+- Confirm organisational readiness.
+- Verify that strategic risks and constraints have been documented.
+- Prepare the Strategy deliverables for governance review.
 
 ---
 
 ### Validation Questions
 
-Before leaving the Strategy stage, confirm:
-
-- Do all objectives support business strategy?
+- Do all business objectives support the business strategy?
 - Is executive sponsorship confirmed?
 - Are stakeholders aligned?
-- Is the scope agreed?
-- Are risks understood?
-- Is funding understood?
-- Is organizational readiness acceptable?
+- Is the transformation scope agreed?
+- Are strategic risks and constraints understood?
+- Have financial considerations been documented?
+- Has organisational readiness been assessed?
+- Are all Strategy deliverables complete and ready for review?
 
-If the answer to any of these questions is "No", additional strategy work should be completed before continuing.
-
----
-
-## Summary
-
-The Strategy stage is complete when the business context, transformation objectives, stakeholders, financial considerations, organizational readiness, and strategic direction have all been clearly defined and agreed.
-
-These activities provide the foundation for the Current State stage, where the existing environment will be assessed against the agreed business objectives.
+If the answer to any of these questions is **No**, additional Strategy work should be completed before requesting governance approval.
 
 ---
 
-## Next Step
+### Participants
 
-Continue with **05-Frameworks.md** to understand which industry frameworks, methodologies, and best practices support the Strategy stage and how they complement the ENAF lifecycle.
+- Executive Sponsor
+- Enterprise Architect
+- Business Leadership
+- Project Manager
+
+---
+
+### Deliverables Produced
+
+| Deliverable | Contribution |
+|-------------|--------------|
+| DEL-STR-09 Strategy Summary | Final consolidated Strategy deliverable. |
+| All DEL-STR Deliverables | Reviewed for completeness and prepared for governance review through STR-DG-01. |
+---
+# Summary
+
+The Strategy stage is complete when all Strategy activities have been performed and the required Strategy deliverables have been produced.
+
+These deliverables provide the business and governance evidence required for the Strategy Decision Gate (STR-DG-01), where they are formally reviewed before progressing to the next stage of the ENAF lifecycle.
+
+---
+# Next Step
+
+Continue with **05-Frameworks.md** to understand the industry frameworks, methodologies, and best practices that support the Strategy stage and complement the ENAF lifecycle.
