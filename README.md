@@ -1,74 +1,101 @@
 # Enterprise Network Architecture Framework (ENAF)
 
-> **From Business Strategy to Operational Excellence**
+> **Transforming Business Strategy into Enterprise Network Excellence**
 
 ---
 
-## What is ENAF?
+# What is ENAF?
 
-The Enterprise Network Architecture Framework (ENAF) is a practical, vendor-neutral methodology for planning, designing, implementing, governing, operating, and continuously improving enterprise network architectures.
+The **Enterprise Network Architecture Framework (ENAF)** is a practical, vendor-neutral enterprise transformation framework that enables organisations to design, deliver, govern, operate, and continuously optimise enterprise network architectures aligned with business strategy.
 
-ENAF enables organizations to transform business strategy into secure, resilient, scalable, and operationally excellent enterprise connectivity.
+ENAF provides a structured lifecycle that connects business strategy, enterprise architecture, transformation planning, programme delivery, operations, governance, and continuous improvement into a single, integrated methodology.
 
-Rather than replacing existing industry frameworks, ENAF provides a structured methodology that orchestrates them into a single enterprise transformation lifecycle.
+Rather than replacing established industry frameworks, ENAF brings them together into a practical approach that helps organisations execute successful enterprise transformation while maintaining architectural integrity, operational excellence, and measurable business value.
 
 ---
 
 # Why ENAF?
 
-Modern enterprise organizations face increasing complexity driven by:
+Modern enterprises are transforming at an unprecedented pace.
 
-- Digital Transformation
-- Cloud Adoption
-- Hybrid and Multi-Cloud
-- Zero Trust Security
-- AI and Automation
-- Mergers & Acquisitions
-- Regulatory Compliance
-- Operational Resilience
+Cloud adoption, Zero Trust, AI, automation, digital business models, mergers and acquisitions, and increasing regulatory obligations have made enterprise networks significantly more complex than ever before.
 
-Although many architecture and governance frameworks already exist, organizations often struggle to apply them consistently across large-scale enterprise transformation programs.
+Although organisations have adopted mature frameworks for enterprise architecture, programme management, project delivery, governance, security, and service management, these disciplines are often applied independently.
 
-ENAF bridges this gap by providing a practical methodology that connects business strategy, architecture, implementation, governance, operations, and continuous improvement.
+This creates common challenges such as:
+
+- Business strategy disconnected from delivery
+- Architecture becoming documentation instead of implementation
+- Projects operating independently without enterprise alignment
+- Inconsistent governance across programmes
+- Limited traceability from business objectives to delivered capabilities
+- Difficulty measuring transformation success
+- Increased delivery risk and operational complexity
+
+ENAF addresses these challenges by providing a single enterprise transformation lifecycle that connects strategic planning with successful delivery and long-term operational excellence.
 
 ---
 
 # Vision
 
-> To become the leading practical methodology for designing, transforming, governing, and operating enterprise network architectures.
+> **To become the leading practical framework for enterprise network transformation, enabling organisations to align business strategy, enterprise architecture, programme delivery, governance, and operations through a single integrated lifecycle.**
 
 ---
 
 # Mission
 
-Enable enterprise organizations to transform business strategy into measurable operational excellence through structured, vendor-neutral enterprise network architecture.
+Enable organisations to transform business strategy into measurable business capabilities through structured enterprise architecture, governed transformation programmes, successful implementation, operational excellence, and continuous improvement.
+
+---
+
+# What Makes ENAF Different?
+
+Unlike traditional architecture frameworks, ENAF does not stop at producing architectures and design documents.
+
+ENAF provides complete traceability from strategic business objectives to operational outcomes by integrating:
+
+- Business Strategy
+- Enterprise Architecture
+- Transformation Roadmaps
+- Programme Management
+- Project Delivery
+- Agile Execution
+- Operations
+- Governance
+- Continuous Optimisation
+
+This enables organisations to transform ideas into measurable business value while maintaining governance, consistency, and architectural integrity throughout the entire transformation lifecycle.
 
 ---
 
 # Target Audience
 
-ENAF is designed for enterprise organizations including:
+ENAF is designed for medium and large enterprise organisations across industries, including:
 
-- Global Retail
+- Retail
 - Manufacturing
-- Logistics & Supply Chain
-- Healthcare
+- Logistics and Supply Chain
 - Financial Services
-- Energy & Utilities
+- Healthcare
+- Energy and Utilities
 - Telecommunications
 - Government
-- Large Multi-National Enterprises
+- Global Multi-National Enterprises
 
-Primary users include:
+Typical users include:
 
 - Enterprise Architects
 - Global Network Architects
-- Network Architects
+- Solution Architects
 - Cloud Architects
 - Security Architects
 - Infrastructure Architects
+- Programme Managers
+- Project Managers
+- PMO Teams
 - Technology Leaders
 - Enterprise Transformation Teams
+- CIOs and Technology Executives
 
 ---
 
@@ -99,59 +126,99 @@ Operations
 Governance
         │
         ▼
-Optimization
+Optimisation
         │
         ▼
 Business Outcomes
         │
-        └───────────────► Continuous Improvement
+        └────────────────────► Continuous Improvement
 ```
 
-Every phase answers a fundamental question.
+Every lifecycle stage answers a fundamental business question.
 
-| Phase | Question |
-|---------|----------|
+| Stage | Key Question |
+|--------|--------------|
 | Strategy | Why are we transforming? |
 | Current State | Where are we today? |
 | Target State | Where do we want to be? |
 | Architecture | What should we build? |
 | Roadmap | How will we get there? |
-| Implementation | How do we deliver it? |
-| Operations | How do we operate it? |
-| Governance | How do we govern it? |
-| Optimization | How do we improve it? |
+| Implementation | How do we deliver transformation? |
+| Operations | How do we operate the delivered capabilities? |
+| Governance | How do we ensure continued alignment and control? |
+| Optimisation | How do we continuously improve business value? |
+
+---
+
+# Enterprise Transformation Model
+
+Within ENAF, transformation is delivered through a governed execution model.
+
+```text
+Business Strategy
+        │
+        ▼
+Transformation Initiatives
+        │
+        ▼
+Transformation Programmes
+        │
+        ▼
+Projects
+        │
+        ▼
+Agile Delivery
+        │
+        ▼
+Releases
+        │
+        ▼
+Business Capabilities
+        │
+        ▼
+Operational Services
+        │
+        ▼
+Business Value
+```
+
+This model provides complete traceability from enterprise strategy to measurable operational outcomes.
 
 ---
 
 # ENAF Architectural Pillars
 
-ENAF is built upon six architectural pillars.
+ENAF is built upon six core principles that guide every lifecycle stage.
 
 - Business Alignment
 - Architecture Excellence
-- Security & Resilience
-- Cloud & Connectivity
-- Automation & Operations
-- Governance & Compliance
+- Security and Resilience
+- Cloud and Connectivity
+- Automation and Operational Excellence
+- Governance and Compliance
+
+These principles ensure consistency across planning, implementation, operations, and continuous improvement.
 
 ---
 
 # Framework Integration
 
-ENAF complements established industry frameworks including:
+ENAF integrates recognised industry frameworks into a single enterprise transformation lifecycle.
 
-- TOGAF
-- Zachman Framework
-- DoDAF
-- SABSA
-- COBIT
-- ITIL
-- Microsoft Cloud Adoption Framework
-- AWS Cloud Adoption Framework
-- NIST Cybersecurity Framework
-- ISO/IEC 27001
+Examples include:
 
-Detailed framework mappings are provided within the ENAF Foundation documentation.
+| Domain | Supporting Frameworks |
+|---------|-----------------------|
+| Enterprise Architecture | TOGAF, Zachman, ArchiMate |
+| Programme Management | MSP, PMI |
+| Project Management | PRINCE2, PMBOK |
+| Agile Delivery | Scrum, Kanban, SAFe |
+| Governance | COBIT, ISO/IEC 38500 |
+| Service Management | ITIL, ISO/IEC 20000 |
+| Security | NIST Cybersecurity Framework, SABSA, ISO/IEC 27001 |
+| Cloud Adoption | Microsoft CAF, AWS CAF |
+
+ENAF complements these frameworks by providing the overarching transformation lifecycle that connects them together.
 
 ---
 
@@ -173,15 +240,17 @@ docs/
 
 The ENAF roadmap includes:
 
-- Core Methodology
+- Enterprise Transformation Methodology
 - Lifecycle Documentation
 - Framework Mapping
 - Reference Architectures
 - Templates
+- Governance Models
 - Checklists
 - Decision Patterns
 - Enterprise Case Studies
 - Implementation Guides
+- Operational Playbooks
 - Training Material
 
 ---
@@ -196,11 +265,11 @@ Please refer to **CONTRIBUTING.md** before submitting changes.
 
 # License
 
-See **LICENSE**.
+See **LICENSE** for licensing information.
 
 ---
 
-# Author
+# Authors
 
 **Mohamed Elrehan**
 
