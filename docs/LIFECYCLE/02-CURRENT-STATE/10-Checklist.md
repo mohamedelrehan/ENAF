@@ -2,11 +2,11 @@
 
 ## Purpose
 
-The purpose of this checklist is to verify that all required activities, deliverables, validations, and governance requirements for the Current State stage have been completed.
+The purpose of this checklist is to verify that all required activities, deliverables, validations, governance requirements, and approval criteria for the Current State stage have been successfully completed.
 
-The checklist supports consistent execution of the Enterprise Network Architecture Framework (ENAF) and provides a structured mechanism for confirming readiness before the **DG-CSA-01 Current State Decision Gate**.
+The checklist provides a structured mechanism for monitoring assessment progress, validating architectural quality, and confirming readiness for governance approval through **CST-DG-01 Current State Decision Gate**.
 
-The checklist may be used throughout the assessment as a progress tracker and as a final validation before governance approval.
+Successful completion of this checklist confirms that the Current State stage is ready for formal approval and the release of its approved outputs to the Target State stage.
 
 ---
 
@@ -14,12 +14,12 @@ The checklist may be used throughout the assessment as a progress tracker and as
 
 | Information | Value |
 |-------------|-------|
-| Lifecycle Stage | Current State |
-| Checklist ID | CSA-CHK-01 |
-| Related Decision Gate | DG-CSA-01 |
-| Primary Owner | Enterprise Architect |
-| Reviewers | Architecture Governance Board |
-| Outcome | Ready for Target State |
+| **Lifecycle Stage** | Current State |
+| **Checklist ID** | CST-CHK-01 |
+| **Related Decision Gate** | CST-DG-01 Current State Decision Gate |
+| **Primary Owner** | Enterprise Architect |
+| **Reviewers** | Architecture Governance Board |
+| **Outcome** | Approved Current State Outputs released to Target State |
 
 ---
 
@@ -42,7 +42,7 @@ The checklist may be used throughout the assessment as a progress tracker and as
 |------|--------|----------|
 | Business capabilities documented | ☐ | |
 | Business processes reviewed | ☐ | |
-| Organizational structure understood | ☐ | |
+| Organizational structure documented | ☐ | |
 | Business pain points identified | ☐ | |
 | Strategic dependencies documented | ☐ | |
 
@@ -92,7 +92,7 @@ The checklist may be used throughout the assessment as a progress tracker and as
 | Azure environment reviewed | ☐ | |
 | AWS environment reviewed | ☐ | |
 | Landing zones assessed | ☐ | |
-| Governance model reviewed | ☐ | |
+| Cloud governance model reviewed | ☐ | |
 | Cloud networking documented | ☐ | |
 
 ---
@@ -126,7 +126,7 @@ The checklist may be used throughout the assessment as a progress tracker and as
 | Item | Status | Comments |
 |------|--------|----------|
 | Architecture standards reviewed | ☐ | |
-| Existing principles assessed | ☐ | |
+| Existing architecture principles assessed | ☐ | |
 | Governance processes documented | ☐ | |
 | Decision authorities identified | ☐ | |
 | Architecture compliance evaluated | ☐ | |
@@ -135,41 +135,63 @@ The checklist may be used throughout the assessment as a progress tracker and as
 
 # Deliverables Validation
 
-| Item | Status | Comments |
-|------|--------|----------|
-| Current State Architecture completed | ☐ | |
-| Architecture Assessment Report completed | ☐ | |
-| Capability Assessment completed | ☐ | |
-| Risk and Constraint Register completed | ☐ | |
-| Improvement Opportunities Register completed | ☐ | |
-| Stakeholder Assessment Summary completed | ☐ | |
+Verify that all Current State deliverables have been completed, reviewed, and are ready for governance approval.
+
+| Deliverable | Status | Comments |
+|-------------|--------|----------|
+| Current State Architecture completed and reviewed | ☐ | |
+| Architecture Assessment Report completed and reviewed | ☐ | |
+| Capability Assessment completed and reviewed | ☐ | |
+| Risk and Constraint Register completed and reviewed | ☐ | |
+| Improvement Opportunities Register completed and reviewed | ☐ | |
+| Stakeholder Assessment Summary completed and reviewed | ☐ | |
 
 ---
 
-# Quality Review
+# Quality Validation
 
 | Item | Status | Comments |
 |------|--------|----------|
 | Assessment evidence validated | ☐ | |
 | Findings reviewed with stakeholders | ☐ | |
 | Architecture documentation is complete | ☐ | |
-| Deliverables follow ENAF standards | ☐ | |
-| Traceability confirmed | ☐ | |
+| Deliverables comply with ENAF standards | ☐ | |
+| Traceability between evidence and findings confirmed | ☐ | |
+| Architectural baseline validated | ☐ | |
 
 ---
 
 # Decision Gate Readiness
 
-The Current State stage is considered ready for **DG-CSA-01 Current State Decision Gate** when the following conditions have been satisfied.
+The Current State stage is considered ready for **CST-DG-01** when the following conditions have been satisfied.
 
 | Requirement | Status |
 |-------------|--------|
-| Assessment completed | ☐ |
-| Findings validated | ☐ |
-| Deliverables approved | ☐ |
-| Risks documented | ☐ |
-| Stakeholder review completed | ☐ |
-| Architecture baseline approved | ☐ |
+| Assessment activities completed | ☐ |
+| Assessment findings validated | ☐ |
+| All deliverables completed and reviewed | ☐ |
+| Architectural risks documented | ☐ |
+| Stakeholder validation completed | ☐ |
+| Architecture baseline approved for governance review | ☐ |
+| Approved outputs prepared for release | ☐ |
+| Target State input package verified | ☐ |
+
+---
+
+# Approved Outputs
+
+Following successful approval through **CST-DG-01**, the following outputs become the official outputs of the Current State stage.
+
+| Approved Output | Status |
+|-----------------|--------|
+| CST-OUT-01 Approved Current State Architecture | ☐ |
+| CST-OUT-02 Approved Architecture Assessment Report | ☐ |
+| CST-OUT-03 Approved Capability Assessment | ☐ |
+| CST-OUT-04 Approved Risk and Constraint Register | ☐ |
+| CST-OUT-05 Approved Improvement Opportunities Register | ☐ |
+| CST-OUT-06 Approved Stakeholder Assessment Summary | ☐ |
+
+These outputs become mandatory inputs for the Target State stage.
 
 ---
 
@@ -178,9 +200,9 @@ The Current State stage is considered ready for **DG-CSA-01 Current State Decisi
 | Item | Status |
 |------|--------|
 | Current State Activities | ☐ Complete |
-| Deliverables | ☐ Approved |
-| Governance Review | ☐ Completed |
-| Decision Gate | ☐ Approved |
+| Current State Deliverables | ☐ Approved |
+| CST-DG-01 Approved | ☐ Yes |
+| Approved Outputs Released | ☐ Yes |
 | Ready for Target State | ☐ Yes |
 
 ---
@@ -198,6 +220,8 @@ The Current State stage is considered ready for **DG-CSA-01 Current State Decisi
 
 # Summary
 
-This checklist provides a structured validation of the Current State stage and ensures that all assessment activities, deliverables, governance requirements, and quality standards have been completed before progressing to the Target State stage.
+This checklist provides a structured governance mechanism for validating the successful completion of the Current State stage.
 
-Successful completion of this checklist supports approval through **DG-CSA-01 Current State Decision Gate** and confirms that the organization has established a trusted architectural baseline for the remainder of the ENAF lifecycle.
+It confirms that all assessment activities have been completed, architectural evidence has been validated, deliverables meet ENAF quality standards, and governance requirements have been satisfied.
+
+Successful approval through **CST-DG-01 Current State Decision Gate** formally authorizes the release of the approved Current State outputs. These outputs establish the trusted architectural baseline of the enterprise and become the mandatory inputs for the Target State stage, ensuring complete governance, traceability, and continuity throughout the ENAF lifecycle.
