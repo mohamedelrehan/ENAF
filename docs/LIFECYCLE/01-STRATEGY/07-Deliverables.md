@@ -1,18 +1,20 @@
 # Deliverables
 
-The Strategy stage produces the foundational artifacts that guide all subsequent architecture activities within the Enterprise Network Architecture Framework (ENAF).
+The Strategy stage produces the foundational deliverables that establish the business direction for the Enterprise Network Architecture Framework (ENAF).
 
-These deliverables capture the business context, strategic direction, organizational priorities, and governance decisions required before progressing to the Current State stage.
+These deliverables define the business context, strategic direction, transformation objectives, governance decisions, and organizational priorities that guide all subsequent lifecycle stages.
 
-Each deliverable should be reviewed, approved where required, and maintained as a controlled project artifact.
+During the Strategy stage, these deliverables are developed, reviewed, and refined. Following successful governance approval through the Strategy Decision Gate, they become the official approved outputs of the Strategy stage and are released for use throughout the remainder of the ENAF lifecycle.
 
 ---
 
-## Purpose
+# Purpose
 
-The purpose of the Strategy deliverables is to document the agreed business direction and provide a common reference for business stakeholders, architects, project teams, and governance bodies.
+The purpose of the Strategy deliverables is to document the agreed business direction and provide a common reference for business stakeholders, enterprise architects, project teams, and governance bodies.
 
-The deliverables produced during this stage become key inputs for all remaining ENAF lifecycle stages.
+These deliverables capture the information required to understand why the organization is transforming and establish the business foundation for all future architecture activities.
+
+Following successful approval through **STR-DG-01 Strategy Decision Gate**, these deliverables become the approved Strategy outputs that serve as mandatory inputs for the Current State stage and all subsequent lifecycle stages.
 
 ---
 
@@ -96,7 +98,7 @@ Defines the measurable outcomes that the transformation is expected to achieve.
 - Expected business value
 - Target completion dates
 
-Objectives should be business-focused rather than technology-focused.
+Objectives should remain business-focused rather than technology-focused.
 
 ---
 
@@ -104,7 +106,7 @@ Objectives should be business-focused rather than technology-focused.
 
 ### Purpose
 
-Defines the boundaries of the initiative.
+Defines the boundaries of the transformation initiative.
 
 ### Typical Contents
 
@@ -117,7 +119,7 @@ Defines the boundaries of the initiative.
 - Constraints
 - Dependencies
 
-A well-defined scope reduces the risk of uncontrolled project expansion.
+A clearly defined scope reduces the risk of uncontrolled expansion during later lifecycle stages.
 
 ---
 
@@ -136,7 +138,7 @@ Documents everyone involved in or affected by the transformation.
 - Decision authority
 - Communication requirements
 
-This deliverable supports governance and stakeholder engagement throughout the lifecycle.
+This deliverable supports governance, collaboration, and stakeholder engagement throughout the transformation lifecycle.
 
 ---
 
@@ -144,18 +146,18 @@ This deliverable supports governance and stakeholder engagement throughout the l
 
 ### Purpose
 
-Documents the financial context of the initiative.
+Documents the financial context within which the transformation must operate.
 
 ### Typical Contents
 
 - Budget assumptions
 - Investment objectives
-- Cost optimization targets
+- Cost optimisation targets
 - Funding model
 - Procurement considerations
 - Financial risks
 
-The objective is not to create a detailed business case but to understand the financial boundaries within which the architecture must operate.
+The objective is not to create a detailed business case, but to define the financial boundaries that influence architectural decision making.
 
 ---
 
@@ -163,7 +165,7 @@ The objective is not to create a detailed business case but to understand the fi
 
 ### Purpose
 
-Evaluates the organization's ability to execute the transformation.
+Evaluates the organization's ability to execute the transformation successfully.
 
 ### Typical Contents
 
@@ -174,7 +176,7 @@ Evaluates the organization's ability to execute the transformation.
 - External partner requirements
 - Change readiness
 
-This assessment helps identify capability gaps before implementation begins.
+This assessment identifies capability gaps that may affect later implementation activities.
 
 ---
 
@@ -182,7 +184,7 @@ This assessment helps identify capability gaps before implementation begins.
 
 ### Purpose
 
-Identifies the strategic risks and constraints that may affect the initiative.
+Identifies the strategic risks and constraints that may affect the transformation.
 
 ### Typical Contents
 
@@ -192,9 +194,9 @@ Identifies the strategic risks and constraints that may affect the initiative.
 - Compliance risks
 - Resource limitations
 - Assumptions
-- Mitigation recommendations
+- Initial mitigation recommendations
 
-This register will evolve throughout the lifecycle.
+This register establishes the initial risk baseline and evolves throughout the ENAF lifecycle.
 
 ---
 
@@ -202,22 +204,22 @@ This register will evolve throughout the lifecycle.
 
 ### Purpose
 
-Provides a concise summary of the Strategy stage and serves as the formal handover to the Current State stage.
+Provides a concise executive summary of the Strategy stage and serves as the formal handover into the Current State stage.
 
 ### Typical Contents
 
 - Executive summary
 - Business vision
 - Business drivers
-- Objectives
+- Business objectives
 - Scope
 - Stakeholders
 - Financial considerations
 - Risks
-- Readiness assessment
-- Key decisions
+- Organizational readiness
+- Key governance decisions
 
-This document provides a single reference point for executive stakeholders and the architecture team.
+This document provides executive stakeholders and the Enterprise Architecture team with a single consolidated reference for the approved strategy.
 
 ---
 
@@ -228,42 +230,67 @@ All Strategy deliverables should be:
 - Complete
 - Accurate
 - Current
+- Reviewed by appropriate stakeholders
 - Approved where required
 - Traceable to business objectives
-- Accessible to relevant stakeholders
+- Accessible to authorized stakeholders
 - Version controlled
 
-Deliverables should be maintained throughout the lifecycle as new information becomes available.
+Deliverables should be maintained throughout the lifecycle as additional information becomes available.
+
+---
+
+# Approved Strategy Outputs
+
+Following successful approval through **STR-DG-01 Strategy Decision Gate**, the Strategy deliverables become the official outputs of the Strategy stage.
+
+These approved outputs are governance-controlled artefacts and represent the formal business foundation for the remainder of the ENAF lifecycle.
+
+| Approved Output | Produced From | Purpose |
+|-----------------|---------------|---------|
+| STR-OUT-01 Approved Business Context Document | DEL-STR-01 | Provides the approved business context for the transformation. |
+| STR-OUT-02 Approved Business Drivers Register | DEL-STR-02 | Defines the approved business drivers requiring transformation. |
+| STR-OUT-03 Approved Business Objectives Document | DEL-STR-03 | Defines the approved business objectives and success measures. |
+| STR-OUT-04 Approved Scope Statement | DEL-STR-04 | Establishes the approved transformation boundaries. |
+| STR-OUT-05 Approved Stakeholder Register | DEL-STR-05 | Identifies the approved stakeholder community and governance responsibilities. |
+| STR-OUT-06 Approved Financial Assessment | DEL-STR-06 | Defines the approved financial assumptions and investment constraints. |
+| STR-OUT-07 Approved Organizational Readiness Assessment | DEL-STR-07 | Confirms organizational readiness to execute the transformation. |
+| STR-OUT-08 Approved Initial Risk & Constraints Register | DEL-STR-08 | Captures the approved strategic risks, assumptions, and constraints. |
+| STR-OUT-09 Approved Strategy Summary | DEL-STR-09 | Provides the approved executive summary of the Strategy stage. |
+
+These approved outputs become the mandatory business inputs for the Current State stage and provide strategic guidance for every subsequent stage of the ENAF lifecycle.
 
 ---
 
 # Relationship to Other Lifecycle Stages
 
-The Strategy deliverables become inputs for the following stages:
+Following successful approval through **STR-DG-01**, the approved Strategy outputs become mandatory inputs for the remaining ENAF lifecycle stages.
 
-| Lifecycle Stage | Primary Deliverables Used |
-|-----------------|---------------------------|
-| Current State | All Strategy Deliverables |
-| Target State | Business Objectives, Scope, Business Drivers |
-| Architecture | Business Context, Scope, Risks |
-| Roadmap | Objectives, Financial Assessment, Readiness Assessment |
-| Implementation | Scope, Risks, Financial Assessment |
+| Lifecycle Stage | Primary Approved Strategy Outputs Used |
+|-----------------|------------------------------------------|
+| Current State | All Approved Strategy Outputs |
+| Target State | Business Objectives, Business Drivers, Scope Statement, Risk & Constraints Register |
+| Architecture | Business Context, Business Objectives, Scope Statement, Risk & Constraints Register |
+| Roadmap | Business Objectives, Financial Assessment, Organizational Readiness Assessment |
+| Implementation | Scope Statement, Financial Assessment, Risk & Constraints Register |
 | Operations | Business Objectives, Success Measures |
+| Governance | Strategy Summary, Stakeholder Register |
+| Optimization | Business Objectives, Success Measures |
 
-Maintaining continuity between stages ensures that architectural decisions remain aligned with the original business intent.
+Maintaining traceability between lifecycle stages ensures that every architectural decision remains aligned with the approved business strategy.
 
 ---
 
-## Summary
+# Summary
 
 The Strategy stage produces a structured set of deliverables that establish the business foundation for the ENAF lifecycle.
 
-These artifacts document the organization's strategic direction, define the transformation scope, identify stakeholders, assess readiness, and capture the information required for future architectural work.
+These deliverables define the organization's business context, transformation drivers, strategic objectives, governance model, organizational readiness, financial considerations, and transformation scope.
 
-Collectively, these deliverables provide the evidence that the Strategy stage has been successfully completed and create the foundation for the Current State assessment.
+Following successful approval through **STR-DG-01 Strategy Decision Gate**, these deliverables become the official approved outputs of the Strategy stage. These governance-controlled outputs provide the business direction, strategic context, and transformation objectives that guide all remaining ENAF lifecycle stages, beginning with the Current State Assessment.
 
 ---
 
-## Next Step
+# Next Step
 
-Continue with **08-Decision-Gate.md** to define the governance criteria that must be satisfied before the Strategy stage can be formally approved and the project progresses to the Current State stage.
+Continue with **08-Decision-Gate.md** to review the governance criteria used to approve the Strategy stage and formally release the approved Strategy outputs to the Current State stage.
