@@ -1,274 +1,307 @@
 # Governance Model
 
-## Introduction
+## Purpose
 
-Enterprise Architecture Governance is the mechanism that ensures architectural decisions are aligned with business strategy, enterprise principles, organizational standards, and long-term transformation objectives.
+The Enterprise Network Architecture Framework (ENAF) establishes a governance model that ensures enterprise transformation remains aligned with business strategy, architectural principles, organisational policies, and operational objectives throughout the entire lifecycle.
 
-Within the Enterprise Network Architecture Framework (ENAF), governance is not a single approval activity performed at the end of a project. Instead, it is a continuous process that guides architectural decision-making throughout the entire transformation lifecycle.
+Governance within ENAF is not a single review or approval process. It is a continuous capability that provides direction, oversight, accountability, and decision-making from strategic planning through to operational optimisation.
 
-Effective governance enables organizations to deliver consistent, secure, scalable, and maintainable solutions while balancing business priorities, technology evolution, operational requirements, risk, and compliance.
-
-The objective of governance is not to slow delivery through excessive control. Its purpose is to enable better architectural decisions, reduce implementation risk, encourage reuse of proven solutions, and continuously improve enterprise architecture maturity.
+The governance model ensures that every transformation initiative delivers measurable business value while maintaining architectural integrity, operational excellence, security, and compliance.
 
 ---
 
-# Purpose
+# Why Governance Matters
 
-The purpose of this document is to define how architectural governance is applied throughout the Enterprise Network Architecture Framework.
+Enterprise transformation involves numerous stakeholders, technologies, programmes, projects, and operational teams.
 
-It explains how architectural decisions are evaluated, approved, governed, and continuously improved while ensuring alignment with enterprise strategy and business objectives.
+Without effective governance, organisations commonly experience:
 
-This document provides guidance for:
+- Projects delivering inconsistent architectures.
+- Technology decisions driven by short-term priorities.
+- Lack of alignment with business strategy.
+- Duplicate or conflicting solutions.
+- Increased technical debt.
+- Poor operational handover.
+- Security and compliance risks.
+- Uncontrolled architectural exceptions.
+- Limited visibility of transformation progress.
 
-- Enterprise Architects
-- Solution Architects
-- Domain Architects
-- Project Managers
-- Transformation Teams
-- Architecture Review Boards
-- Technology Leaders
-- Business Stakeholders
+Governance provides the structure needed to ensure that enterprise decisions remain aligned, transparent, and accountable.
 
 ---
 
 # Governance Objectives
 
-Enterprise Architecture Governance within ENAF aims to achieve the following objectives:
+The ENAF Governance Model aims to:
 
-- Align architecture with business strategy.
-- Ensure consistency across transformation initiatives.
-- Promote the reuse of proven architectural solutions.
-- Reduce architectural and operational risk.
-- Maintain compliance with enterprise policies and regulatory requirements.
-- Improve decision-making through structured governance.
-- Enable continuous improvement of enterprise architecture knowledge.
-- Protect long-term technology investments.
-
-Governance should always support business delivery while maintaining architectural integrity.
+- Align transformation with business strategy.
+- Protect architectural integrity.
+- Support informed decision-making.
+- Ensure compliance with enterprise standards.
+- Manage architectural risk.
+- Enable controlled innovation.
+- Monitor transformation progress.
+- Ensure operational readiness.
+- Measure business outcomes.
+- Promote continuous improvement.
 
 ---
 
 # Governance Principles
 
-Every governance activity within ENAF follows a common set of principles.
+The governance model is built upon the following principles:
 
-## Business Alignment
-
-Every architectural decision must support an approved business objective or strategic outcome.
-
----
-
-## Transparency
-
-Architectural decisions should be documented, traceable, and understandable by all relevant stakeholders.
-
----
-
-## Accountability
-
-Every architectural decision must have a clearly identified owner who is responsible for its implementation and long-term sustainability.
+- Business value before technology.
+- Strategy before architecture.
+- Architecture before delivery.
+- Governance throughout the lifecycle.
+- Transparent decision-making.
+- Accountability at every level.
+- Evidence-based decisions.
+- Risk-aware transformation.
+- Continuous compliance.
+- Continuous improvement.
 
 ---
 
-## Consistency
+# Governance Across the Lifecycle
 
-Similar business problems should be solved using consistent architectural approaches wherever practical.
+Governance is applied throughout every ENAF lifecycle stage.
 
----
+| Lifecycle Stage | Governance Focus |
+|-----------------|------------------|
+| Strategy | Strategic alignment, investment priorities, transformation objectives |
+| Current State | Assessment validation, risk identification, baseline approval |
+| Target State | Future-state approval, capability validation |
+| Architecture | Architecture reviews, standards, design assurance |
+| Roadmap | Programme prioritisation, dependency management, investment governance |
+| Implementation | Programme governance, project oversight, architecture compliance |
+| Operations | Service governance, operational performance, change management |
+| Governance | Policy management, compliance, decision oversight |
+| Optimisation | Performance reviews, benefits realisation, continuous improvement |
 
-## Reuse
-
-Existing Enterprise Standards, Reference Architectures, and Architecture Building Blocks should always be evaluated before creating new solutions.
-
----
-
-## Risk-Based Decision Making
-
-Governance should focus effort where business impact and architectural risk are greatest.
-
-Higher-risk initiatives require deeper governance than low-risk initiatives.
-
----
-
-## Continuous Improvement
-
-Governance should evolve as organizational knowledge, business priorities, and technology capabilities mature.
+Governance therefore remains active throughout the entire enterprise transformation lifecycle.
 
 ---
 
-# Governance Throughout the ENAF Lifecycle
+# Governance Structure
 
-Governance is applied across every stage of the transformation lifecycle.
+ENAF defines governance at multiple organisational levels.
 
 ```text
-Strategy
-      │
-      ▼
-Current State
-      │
-      ▼
-Target State
-      │
-      ▼
-Architecture
-      │
-      ▼
-Roadmap
-      │
-      ▼
-Implementation
-      │
-      ▼
-Operations
-      │
-      ▼
-Optimization
+Executive Leadership
+        │
+        ▼
+Enterprise Governance Board
+        │
+        ▼
+Enterprise Architecture Board
+        │
+        ▼
+Programme Governance
+        │
+        ▼
+Project Governance
+        │
+        ▼
+Operational Governance
 ```
 
-Each stage produces architectural outputs that require appropriate governance before progressing to the next stage.
-
-The governance effort applied at each stage should be proportional to the complexity, business impact, and risk of the transformation.
+Each level has different responsibilities while supporting the same strategic objectives.
 
 ---
 
-# Governance Roles and Responsibilities
+# Governance Roles
 
-Enterprise Architecture Governance is a collaborative responsibility shared across business and technology teams.
+## Executive Leadership
 
-| Role | Primary Responsibility |
-|------|------------------------|
-| Executive Sponsor | Provides business direction and strategic sponsorship. |
-| Business Owner | Defines business objectives and approves business outcomes. |
-| Enterprise Architect | Ensures alignment with enterprise architecture principles and strategy. |
-| Domain Architect | Governs architecture within a specific technology domain. |
-| Solution Architect | Produces solution architecture aligned with enterprise standards. |
-| Project Manager | Coordinates delivery and governance activities. |
-| Operations Team | Validates operational readiness and long-term supportability. |
-| Architecture Review Board | Reviews and approves significant architectural decisions. |
+Provides strategic direction, investment approval, and organisational priorities.
 
-Governance is most effective when responsibilities are clearly defined and understood by all stakeholders.
+Responsibilities include:
+
+- Business strategy
+- Executive sponsorship
+- Funding approval
+- Strategic oversight
+
+---
+
+## Enterprise Governance Board
+
+Provides enterprise-wide governance across transformation initiatives.
+
+Responsibilities include:
+
+- Strategic alignment
+- Portfolio oversight
+- Enterprise priorities
+- Benefits realisation
+- Risk oversight
+
+---
+
+## Enterprise Architecture Board
+
+Protects architectural integrity across the organisation.
+
+Responsibilities include:
+
+- Architecture principles
+- Standards approval
+- Architecture reviews
+- Exception management
+- Technology direction
+
+---
+
+## Programme Governance
+
+Ensures transformation programmes remain aligned with approved architectures and business objectives.
+
+Responsibilities include:
+
+- Programme oversight
+- Dependency management
+- Delivery governance
+- Benefits tracking
+- Escalation management
+
+---
+
+## Project Governance
+
+Ensures projects implement approved architectures and comply with enterprise standards.
+
+Responsibilities include:
+
+- Project reviews
+- Architecture compliance
+- Risk management
+- Quality assurance
+- Delivery reporting
+
+---
+
+## Operational Governance
+
+Ensures delivered services continue to meet business requirements.
+
+Responsibilities include:
+
+- Operational performance
+- Service quality
+- Change governance
+- Incident reviews
+- Operational reporting
 
 ---
 
 # Governance Decision Gates
 
-Each major lifecycle stage concludes with a governance decision gate.
+Major decisions should pass through defined governance checkpoints.
 
-The purpose of a Decision Gate is to determine whether the initiative is sufficiently complete and aligned with enterprise objectives before progressing.
+Typical decision gates include:
 
-Typical Decision Gates include:
+1. Strategy Approval
+2. Current State Validation
+3. Target State Approval
+4. Architecture Approval
+5. Roadmap Approval
+6. Programme Approval
+7. Implementation Readiness
+8. Operational Readiness
+9. Benefits Review
 
-| Decision Gate | Purpose |
-|--------------|---------|
-| Strategy Approval | Confirm business alignment and strategic justification. |
-| Current State Review | Validate understanding of the existing environment. |
-| Target State Approval | Confirm future architecture direction. |
-| Architecture Review | Validate solution quality and enterprise alignment. |
-| Roadmap Approval | Confirm implementation sequencing and dependencies. |
-| Implementation Readiness | Verify readiness for delivery. |
-| Operational Acceptance | Confirm operational supportability and business readiness. |
-| Post-Implementation Review | Evaluate business outcomes and capture lessons learned. |
-
-Decision Gates should provide confidence rather than unnecessary bureaucracy.
+Each gate confirms that agreed criteria have been satisfied before progressing.
 
 ---
 
-# Architecture Review Process
+# Governance Artefacts
 
-Architecture Reviews provide independent assessment of significant architectural decisions.
+Typical governance outputs include:
 
-Reviews should focus on questions such as:
+- Architecture Principles
+- Architecture Standards
+- Decision Records (ADRs)
+- Risk Registers
+- Exception Registers
+- Programme Charters
+- Project Charters
+- Architecture Compliance Assessments
+- Operational Readiness Assessments
+- Benefits Realisation Reports
 
-- Does the architecture support the business objectives?
-- Is the proposed solution aligned with enterprise principles?
-- Are existing Enterprise Standards being reused?
-- Are security, resilience, and operational requirements addressed?
-- Are implementation risks acceptable?
-- Is the architecture maintainable and scalable?
-
-The outcome of a review may include:
-
-- Approved
-- Approved with Conditions
-- Rework Required
-- Rejected
-
-Review findings should always be documented to maintain architectural traceability.
+These artefacts provide transparency and traceability throughout the lifecycle.
 
 ---
 
-# Managing Enterprise Architecture Knowledge
+# Governance and Traceability
 
-Governance extends beyond project delivery.
-
-One of the primary responsibilities of governance is to continuously improve the organization's architectural knowledge.
-
-Following successful implementation and operational validation, architectural solutions should be evaluated for inclusion within the Enterprise Architecture Knowledge Model (EAKM).
-
-Potential outcomes include:
+Governance maintains complete traceability between strategy and delivery.
 
 ```text
-Validated Solution
+Business Strategy
         │
         ▼
-Reference Architecture
+Business Objectives
         │
         ▼
-Enterprise Standard
+Transformation Initiatives
         │
         ▼
-Architecture Building Blocks
+Programmes
+        │
+        ▼
+Projects
+        │
+        ▼
+Architecture
+        │
+        ▼
+Implementation
+        │
+        ▼
+Operations
+        │
+        ▼
+Business Outcomes
 ```
 
-Governance ensures that only proven and validated architectural practices become reusable enterprise assets.
-
-This continuous evolution enables future transformation initiatives to benefit from previous experience while maintaining consistency across the enterprise.
+Every governance decision should support an approved business objective.
 
 ---
 
-# Exceptions and Risk Acceptance
+# Measuring Governance Success
 
-Not every transformation can fully comply with Enterprise Standards.
+Governance effectiveness should be evaluated using measurable indicators such as:
 
-Where justified, architectural exceptions may be approved following formal review.
+- Strategic alignment.
+- Architecture compliance.
+- Programme performance.
+- Project success.
+- Operational readiness.
+- Risk reduction.
+- Security compliance.
+- Standards adoption.
+- Benefits realisation.
+- Stakeholder satisfaction.
 
-Every exception should include:
-
-- Business justification
-- Risk assessment
-- Mitigation plan
-- Expected duration
-- Review date
-- Approval authority
-
-Exceptions should remain temporary wherever possible and should be periodically reviewed to determine whether alignment with Enterprise Standards can be achieved.
-
----
-
-# Continuous Governance and Improvement
-
-Enterprise Architecture Governance is an ongoing capability rather than a project activity.
-
-Governance should continuously evaluate:
-
-- Business strategy changes
-- Technology evolution
-- Emerging risks
-- Operational experience
-- Regulatory changes
-- Lessons learned
-- Enterprise Standards
-- Reference Architectures
-- Architecture Building Blocks
-
-The objective is to ensure that enterprise architecture remains aligned with changing business needs while continuously improving organizational capability.
+Governance should demonstrate value rather than create unnecessary administrative overhead.
 
 ---
 
 # Summary
 
-Enterprise Architecture Governance provides the structure that enables organizations to deliver consistent, secure, scalable, and business-aligned architecture.
+The ENAF Governance Model establishes governance as a continuous enterprise capability rather than a standalone review process.
 
-Within ENAF, governance is integrated throughout the entire transformation lifecycle rather than being treated as a final approval step. Every architectural decision is expected to be traceable, governed, and aligned with enterprise objectives.
+By embedding governance throughout every stage of the lifecycle, ENAF ensures that enterprise transformation remains strategically aligned, architecturally consistent, operationally sustainable, and focused on delivering measurable business value.
 
-By combining governance with continuous knowledge evolution, ENAF enables organizations to transform successful project experience into reusable enterprise capability, ensuring that every transformation strengthens the organization's architecture, improves future delivery, and increases long-term business value.
+Governance within ENAF provides the structure, accountability, and decision-making required to transform business strategy into successful enterprise outcomes while maintaining complete traceability from strategic objectives to operational results.
+
+---
+
+# Related Documents
+
+- `03-Guiding-Principles.md`
+- `04-Architecture-Lifecycle.md`
+- `docs/LIFECYCLE/08-GOVERNANCE/README.md`
