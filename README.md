@@ -204,4 +204,4 @@ See **LICENSE**.
 
 **Mohamed Elrehan**
 
-**Jana Abdalla**
+**Jana Elrehan**
